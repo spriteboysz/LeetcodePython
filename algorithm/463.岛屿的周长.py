@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-01-08 15:12:23
-LastEditTime: 2022-01-08 15:28:52
+LastEditTime: 2022-01-08 15:37:07
 Description: 
 FilePath: 463.岛屿的周长.py
 '''
@@ -36,8 +36,8 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    # print(s.islandPerimeter(
-    #     [[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1, 0, 0]]))
-    # print(s.islandPerimeter([[1]]))
-    # print(s.islandPerimeter([[1, 0]]))
+    print(s.islandPerimeter(
+        [[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1, 0, 0]]))
+    print(s.islandPerimeter([[1]]))
+    print(s.islandPerimeter([[1, 0]]))
     print(s.islandPerimeter([[0, 1]]))
