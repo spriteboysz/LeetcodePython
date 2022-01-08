@@ -13,15 +13,18 @@ FilePath: 387.字符串中的第一个唯一字符.py
 #
 
 # @lc code=start
-from collections import Counter
+
 
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        t = Counter.values(s)
-        print(t)
+        for v in sorted(list(set(s)), key=lambda el: s.index(el)):
+            if s.count(v) == 1:
+                return s.index(v)
+        else:
+            return -1
 # @lc code=end
+
 
 if __name__ == '__main__':
     s = Solution()
-    s.firstUniqChar("leetcode")
-    
+    print(s.firstUniqChar("dddccdbba"))
