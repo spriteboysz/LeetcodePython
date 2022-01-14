@@ -18,7 +18,28 @@ from typing import List
 
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
-        pass
-        
+        diff = [-1] * len(nums)
+        for i in range(len(nums) - 1):
+            diff[i] = nums[i + 1] - nums[i]
+        ran = []
+        start, end = "", ""
+        print(diff)
+        for i in range(len(nums)):
+            if diff[i] != 1:
+                ran.append(str(nums[i]))
+            else:
+                if i == 0 or diff[i - 1] != 1:
+                    start = str(nums[i])
+                elif i == len(nums) - 1 or diff[i + 1] != 1:
+                    end = str(nums[i])
+                    ran.append(start + "->" + end)
+                    start, end = "", ""
+
+        return ran
+
 # @lc code=end
 
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.summaryRanges([0,1,2,4,5,7]))
