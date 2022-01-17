@@ -20,18 +20,16 @@ from collections import Counter
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         for item in ["!", "?", "'", ",", ";", "."]:
-            paragraph = paragraph.replace(item, "")
-        for item in banned:
-            paragraph = paragraph.replace(item, "")
-            
-        lst = paragraph.lower().split()
-        sorted(Counter(lst))
-        
+            paragraph = paragraph.replace(item, " ")
+        words = paragraph.lower().split()
+        lst = list(set(words) - set(banned))
+        count = list(map(lambda el: words.count(el), lst))
+        return lst[count.index(max(count))]
 
-        
+
 # @lc code=end
-
 if __name__ == '__main__':
     s = Solution()
-    m = s.mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"])
+    m = s.mostCommonWord(
+        "a, a, a, a, b,b,b,c, c", ["a"])
     print(m)
