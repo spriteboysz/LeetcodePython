@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-01-21 00:01:29
-LastEditTime: 2022-01-21 00:22:36
+LastEditTime: 2022-01-21 00:23:48
 Description: 
 FilePath: 1021.删除最外层的括号.py
 '''
@@ -18,7 +18,7 @@ FilePath: 1021.删除最外层的括号.py
 
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
-        primitive = []
+        primitive = ""
         start, count = 0, 0
         for i, item in enumerate(s):
             if item == "(":
@@ -26,9 +26,9 @@ class Solution:
             elif item == ")":
                 count -= 1
             if count == 0:
-                primitive.append(s[start + 1:i])
+                primitive += s[start + 1:i]
                 start = i + 1      
-        return "".join(primitive)
+        return primitive
 
 
 # @lc code=end
