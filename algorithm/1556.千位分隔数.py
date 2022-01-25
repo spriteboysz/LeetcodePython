@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-01-25 00:09:29
-LastEditTime: 2022-01-25 00:18:30
+LastEditTime: 2022-01-25 22:18:46
 Description: 
 FilePath: 1556.千位分隔数.py
 '''
@@ -14,17 +14,22 @@ FilePath: 1556.千位分隔数.py
 #
 
 # @lc code=start
+
+
 class Solution:
     def thousandSeparator(self, n: int) -> str:
-        length = len(str(n))
-        if length <= 3:
-            return str(n)
-        else:
-            start = length % 3
-            print(str(n)[start:])
+        s = str(n)
+        init = len(s) % 3
+        num = s[:init]
+        for i, item in enumerate(s[init:]):
+            if i % 3 == 0:
+                num += "."
+            num += item
+        return num.lstrip(".")
+
 # @lc code=end
 
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.thousandSeparator(1234))
+    print(s.thousandSeparator(12))
