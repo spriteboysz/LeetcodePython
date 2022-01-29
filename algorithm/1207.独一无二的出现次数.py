@@ -18,6 +18,8 @@ from typing import List
 
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
-        pass
+        count = []
+        for item in set(arr):
+            count.append(arr.count(item))
+        return len(count) == len(set(count))
 # @lc code=end
-
