@@ -14,7 +14,6 @@ FilePath: 2027.转换字符串的最少操作次数.py
 #
 
 # @lc code=start
-from json.tool import main
 
 
 class Solution:
