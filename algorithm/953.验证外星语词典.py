@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-01-19 23:08:36
-LastEditTime: 2022-01-19 23:12:53
+LastEditTime: 2022-01-30 23:51:33
 Description: 
 FilePath: 953.验证外星语词典.py
 '''
@@ -14,14 +14,20 @@ FilePath: 953.验证外星语词典.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
-        sorted(words, key= lambda el: order.index(el))
+        sequence = list(sorted(words, key=lambda el: tuple(
+            order.index(letter) for letter in el)))
+        return words == sequence
 # @lc code=end
+
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.isAlienSorted(["word","world","row"], "worldabcefghijkmnpqstuvxyz"))
-    
-
+    print(s.isAlienSorted(["word", "world", "row"],
+          "worldabcefghijkmnpqstuvxyz"))
+    print(s.isAlienSorted(words=["hello", "leetcode"],
+          order="hlabcdefgijkmnopqrstuvwxyz"))
