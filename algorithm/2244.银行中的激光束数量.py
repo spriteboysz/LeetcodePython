@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-02-08 22:16:03
-LastEditTime: 2022-02-08 22:25:08
+LastEditTime: 2022-02-08 22:26:30
 Description: 
 FilePath: 2244.银行中的激光束数量.py
 '''
@@ -32,4 +32,6 @@ class Solution:
 
 
 if __name__ == "__main__":
-    pass
+    s = Solution()
+    print(s.numberOfBeams(bank=["011001", "000000", "010100", "001000"]))
+    print(s.numberOfBeams(bank=["000", "111", "000"]))
