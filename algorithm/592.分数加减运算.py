@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-02-10 23:45:37
-LastEditTime: 2022-02-11 00:08:57
+LastEditTime: 2022-02-11 00:11:18
 Description: 
 FilePath: 592.分数加减运算.py
 '''
@@ -21,8 +21,7 @@ from functools import reduce
 class Solution:
     def fractionAddition(self, expression: str) -> str:
         expression = expression.replace("-", "+-").lstrip("+").split("+")
-        expression = list(
-            map(lambda el: list(map(int, el.split("/"))), expression))
+        expression = map(lambda el: list(map(int, el.split("/"))), expression)
         fraction = reduce(lambda a, b: [a[0] * b[1] + b[0]
                                         * a[1], a[1] * b[1]], expression)
         return "/".join(map(lambda el: str(el//gcd(*fraction)), fraction))
