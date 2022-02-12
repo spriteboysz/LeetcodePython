@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-02-09 22:32:30
-LastEditTime: 2022-02-09 22:34:40
+LastEditTime: 2022-02-12 17:55:19
 Description: 
 FilePath: 1641.统计字典序元音字符串的数目.py
 '''
@@ -14,8 +14,17 @@ FilePath: 1641.统计字典序元音字符串的数目.py
 #
 
 # @lc code=start
+from itertools import combinations_with_replacement
+from itertools import combinations
+
+
 class Solution:
     def countVowelStrings(self, n: int) -> int:
-        pass
+        # * python内置全排列工具
+        return len(list(combinations_with_replacement("aeiou", n)))
 # @lc code=end
 
+
+if __name__ == "__main__":
+    s = Solution()
+    print(s.countVowelStrings(2))
