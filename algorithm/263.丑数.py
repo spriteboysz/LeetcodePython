@@ -13,23 +13,18 @@ FilePath: 263.丑数.py
 #
 
 # @lc code=start
+
+
 class Solution:
     def isUgly(self, n: int) -> bool:
         if n <= 0:
             return False
         if n == 1:
             return True
-        
-        while n != 1:
-            for i in range(2, n + 1):
-                if n % i == 0:
-                    if i != 2 and i != 3 and i != 5:
-                        return False
-                    else:
-                        n = n // i
-                        break
-        return True
-
+        for element in [2, 3, 5]:
+            while n % element == 0:
+                n //= element
+        return n == 1
 
 
 # @lc code=end
@@ -40,5 +35,3 @@ if __name__ == '__main__':
     print(6, s.isUgly(6))
     print(8, s.isUgly(8))
     print(14, s.isUgly(14))
-    
-
