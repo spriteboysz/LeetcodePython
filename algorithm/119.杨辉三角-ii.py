@@ -2,14 +2,15 @@
 # coding=utf-8
 '''
 Author: Deean
-Date: 2021-10-01 19:55:09
-Description: 杨辉三角
-FilePath: 118.杨辉三角.py
+Date: 2022-02-14 23:29:59
+LastEditTime: 2022-02-14 23:36:38
+Description: 
+FilePath: 119.杨辉三角-ii.py
 '''
 #
-# @lc app=leetcode.cn id=118 lang=python3
+# @lc app=leetcode.cn id=119 lang=python3
 #
-# [118] 杨辉三角
+# [119] 杨辉三角 II
 #
 
 # @lc code=start
@@ -17,17 +18,17 @@ from typing import List
 
 
 class Solution:
-    def generate(self, numRows: int) -> List[List[int]]:
+    def getRow(self, rowIndex: int) -> List[int]:
         triangle = [[1]]
-        for _ in range(2, numRows + 1):
+        for _ in range(2, rowIndex + 2):
             row = []
             for j in range(1, len(triangle[-1])):
                 row += [triangle[-1][j - 1] + triangle[-1][j]]
             triangle.append([1] + row + [1])
-        return triangle
+        return triangle[-1]
 # @lc code=end
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = Solution()
-    print(s.generate(5))
+    print(s.getRow(6))
