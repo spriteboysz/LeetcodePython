@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:22:52
-LastEditTime: 2022-01-26 23:28:16
+LastEditTime: 2022-02-18 22:23:02
 Description: 
 FilePath: 1331.数组序号转换.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1331 lang=python3
 #
@@ -14,17 +14,15 @@ FilePath: 1331.数组序号转换.py
 #
 
 # @lc code=start
-from json.tool import main
 from typing import List
 
 
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
-        serial = []
-        sequence = sorted(set(arr))
-        for item in arr:
-            serial.append(sequence.index(item) + 1)
-        return serial
+        serial = {}
+        for k, v in enumerate(sorted(set(arr))):
+            serial[v] = k + 1
+        return [serial[i] for i in arr]
 
 
 # @lc code=end
