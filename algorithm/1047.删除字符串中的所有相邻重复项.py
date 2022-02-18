@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 22:04:58
-LastEditTime: 2022-01-28 22:23:41
+LastEditTime: 2022-02-18 22:05:09
 Description: 
 FilePath: 1047.删除字符串中的所有相邻重复项.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1047 lang=python3
 #
@@ -18,16 +18,17 @@ FilePath: 1047.删除字符串中的所有相邻重复项.py
 
 class Solution:
     def removeDuplicates(self, s: str) -> str:
-        s = list(s)
-        while True:
-            for i in range(len(s) - 1):
-                if s[i] == s[i + 1]:
-                    s.pop(i + 1)
-                    s.pop(i)
-                    break
+        stack = []
+        for letter in s:
+            if stack == []:
+                stack.append(letter)
+            elif stack[-1] == letter:
+                stack.pop()
             else:
-                break
-        return "".join(s)
+                stack.append(letter)
+        return "".join(stack)
+
+
 # @lc code=end
 
 
