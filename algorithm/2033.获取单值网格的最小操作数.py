@@ -20,8 +20,8 @@ from typing import List
 class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
         lst = []
-        for i in grid:
-            lst.extend(i)
+        for row in grid:
+            lst.extend(row)
         lst.sort()
 
         mid = lst[len(lst) // 2]
