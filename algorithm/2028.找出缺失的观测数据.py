@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 23:52:43
-LastEditTime: 2022-02-09 00:02:17
+LastEditTime: 2022-02-20 20:42:59
 Description: 
 FilePath: 2028.找出缺失的观测数据.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2028 lang=python3
 #
@@ -19,12 +19,15 @@ from typing import List
 
 class Solution:
     def missingRolls(self, rolls: List[int], mean: int, n: int) -> List[int]:
-        total = mean * (len(rolls) + n) - sum(rolls)
-        print(total)
-        missing = [total // n] * n
-        print(missing)
-        
-        
+        div, mod = divmod(mean * (len(rolls) + n) - sum(rolls), n)
+        if div < 1 or div > 6:
+            return []
+        elif div == 6 and mod != 0:
+            return []
+        else:
+            return [div] * (n - mod) + [div + 1] * mod
+
+
 # @lc code=end
 
 
