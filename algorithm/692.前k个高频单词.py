@@ -24,7 +24,7 @@ class Solution:
         for word in words:
             counts[word] += 1
         counts = sorted(list(counts.items()), key=lambda el: (-el[1], el[0]))
-        return [word[0] for word in counts][:k]
+        return [word[0] for i, word in enumerate(counts) if i < k]
 
 
 # @lc code=end
