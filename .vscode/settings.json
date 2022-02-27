@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "nums"
-    ]
+    ],
+    "python.analysis.completeFunctionParens": true
 }
