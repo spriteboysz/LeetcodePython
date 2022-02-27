@@ -32,7 +32,7 @@ class Solution:
             for j in range(i + 1, len(points)):
                 dis2.append(distance2(points[i], points[j]))
         a, b, c, d, ac, bd = sorted(dis2)
-        return a == b == c == d and ac == bd and a + c == ac
+        return a != 0 and a == b == c == d and ac == bd and a + c == ac
 
 
 # @lc code=end
