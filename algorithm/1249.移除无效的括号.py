@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-05 00:02:52
-LastEditTime: 2022-03-05 00:20:14
+LastEditTime: 2022-03-05 00:21:21
 Description: 
 FilePath: 1249.移除无效的括号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1249 lang=python3
 #
@@ -29,8 +29,9 @@ class Solution:
         if count == 0:
             return valid
         else:
-            valid = valid[::-1].replace("(", "", count)
-            return valid[::-1]
+            return valid[::-1].replace("(", "", count)[::-1]
+
+
 # @lc code=end
 
 if __name__ == "__main__":
@@ -41,4 +42,3 @@ if __name__ == "__main__":
     print(ans)
     ans = solution.minRemoveToMakeValid("))((")
     print(ans)
-
