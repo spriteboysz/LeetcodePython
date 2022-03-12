@@ -3,7 +3,7 @@
 """
 Author: Deean
 Date: 2022-02-26 17:14:05
-LastEditTime: 2022-02-26 17:36:39
+LastEditTime: 2022-03-11 23:07:24
 Description: 
 FilePath: 443.压缩字符串.py
 """
@@ -38,4 +38,10 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.compress(["a", "a", "b", "b", "c", "c", "c"])
+    print(ans)
+    ans = solution.compress(["a"])
+    print(ans)
+    ans = solution.compress(
+        ["a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"]
+    )
     print(ans)
