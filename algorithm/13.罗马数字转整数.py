@@ -3,7 +3,7 @@
 '''
 Author: Deean
 Date: 2022-03-17 23:16:35
-LastEditTime: 2022-03-17 23:17:33
+LastEditTime: 2022-03-17 23:32:10
 Description: 
 FilePath: 13.罗马数字转整数.py
 '''
@@ -31,6 +31,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-
-    s = Solution()
-    print(s.romanToInt("LVIII"))
+    solution = Solution()
+    print(solution.romanToInt("LVIII"))
