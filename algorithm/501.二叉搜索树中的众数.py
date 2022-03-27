@@ -15,6 +15,7 @@ FilePath: 501.二叉搜索树中的众数.py
 
 # @lc code=start
 from typing import List
+from collections import defaultdict
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -26,9 +27,20 @@ class TreeNode:
 
 class Solution:
     def findMode(self, root: TreeNode) -> List[int]:
-        value = []
-        if not root:
-            pass
+        def dfs(node):
+            if not node:
+                return
+            dfs(node.left)
+            self.valuecount[node.val] += 1
+            dfs(node.right)
+
+        self.valuecount = defaultdict(int)
+        dfs(root)
+        maxvalue = []
+        _, maxcount = max(self.valuecount.items(), key=lambda el: el[1])
+        for k, v in filter(lambda el: el[1] == maxcount, self.valuecount.items()):
+            maxvalue.append(k)
+        return maxvalue
 
 
 # @lc code=end
