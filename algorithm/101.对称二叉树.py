@@ -24,8 +24,17 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        if not root:
-            return
+        def dfs(p, q):
+            if not p and not q:
+                return True
+            elif not p or not q:
+                return False
+            elif p.val != q.val:
+                return False
+            else:
+                return dfs(p.left, q.right) and dfs(p.right, q.left)
+
+        return dfs(root.left, root.right)
 
 
 # @lc code=end
