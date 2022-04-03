@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-16 00:07:56
 LastEditTime: 2022-02-16 00:21:47
-Description: 
+Description:
 FilePath: 1.两数之和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1 lang=python3
 #
