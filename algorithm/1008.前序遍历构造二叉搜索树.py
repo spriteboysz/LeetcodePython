@@ -31,12 +31,13 @@ class Solution:
                 return TreeNode(preorder[0])
             elif len(preorder) == 0:
                 return None
-            root = TreeNode(preorder[0])
-            root.left = maketree([i for i in preorder if i < preorder[0]])
-            root.right = maketree([i for i in preorder if i > preorder[0]])
-            return root
+            node = TreeNode(preorder[0])
+            node.left = maketree([i for i in preorder if i < preorder[0]])
+            node.right = maketree([i for i in preorder if i > preorder[0]])
+            return node
 
-        return maketree(preorder)
+        root = maketree(preorder)
+        return root
 
 
 # @lc code=end
