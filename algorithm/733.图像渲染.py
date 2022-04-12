@@ -31,7 +31,6 @@ class Solution:
                 image[r][c] = newColor
                 for x, y in directions:
                     dfs(r + x, c + y)
-
         dfs(sr, sc)
         return image
 
