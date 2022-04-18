@@ -2,5 +2,9 @@
     "cSpell.words": [
         "rtype",
         "strs"
-    ]
+    ],
+    "python.autoComplete.extraPaths": [
+    
+    ],
+    "python.defaultInterpreterPath": "python3"
 }
