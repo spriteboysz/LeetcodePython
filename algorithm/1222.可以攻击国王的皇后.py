@@ -24,7 +24,9 @@ class Solution:
         result = []
         # 从国王出发
         # 判断国王的竖直方向，水平方向，对角线方向是否有黑皇后
-        directions = [(1, 0), (1, 1), (0, 1), (-1, -1), (1, -1), (0, -1), (-1, 1), (-1, 0)]
+        directions = [
+            (i, j) for i in range(-1, 2) for j in range(-1, 2) if i != 0 or j != 0
+        ]
         for i, j in directions:
             x, y = king
             while 0 <= x < 8 and 0 <= y < 8:
