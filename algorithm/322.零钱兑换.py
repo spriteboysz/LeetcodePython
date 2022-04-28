@@ -14,18 +14,18 @@ FilePath: 322.零钱兑换.py
 #
 
 # @lc code=start
+from math import inf
 from typing import List
 
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        count = 0
-        for coin in sorted(coins, reverse=True):
-            div, amount = divmod(amount, coin)
-            count += div
-            if amount == 0:
-                return count
-        return -1
+        dp = [0] + [inf] * amount
+        for i in range(1, amount + 1):
+            for coin in filter(lambda coin: i - coin >= 0, coins):
+                dp[i] = min(dp[i], dp[i - coin] + 1)
+
+        return -1 if dp[amount] == inf else dp[amount]
 
 
 # @lc code=end
