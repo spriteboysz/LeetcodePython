@@ -3,15 +3,6 @@
 """
 Author: Deean
 Date: 2022-05-01 22:45:56
-LastEditTime: 2022-05-01 22:51:19
-Description: 
-FilePath: 剑指 Offer II 075. 数组相对排序.py
-"""
-#! /usr/bin/env python
-# coding=utf-8
-"""
-Author: Deean
-Date: 2022-05-01 22:45:56
 LastEditTime: 2022-05-01 22:48:37
 Description: 
 FilePath: 剑指 Offer II 075. 数组相对排序.py
