@@ -1,14 +1,5 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
-Author: Deean
-Date: 2022-05-02 15:17:09
-LastEditTime: 2022-05-02 15:28:21
-Description: 
-FilePath: 面试题 03.06. 动物收容所.py
-'''
-#! /usr/bin/env python
-# coding=utf-8
 """
 Author: Deean
 Date: 2022-05-02 15:17:09
@@ -26,10 +17,10 @@ class AnimalShelf:
         self.cat, self.dog, self.count = deque(), deque(), 1
 
     def enqueue(self, animal: List[int]) -> None:
-        if animal[0] == 0:
-            self.cat.append((self.count, animal[1]))
+        if animal[1] == 0:
+            self.cat.append((self.count, animal[0]))
         else:
-            self.dog.append((self.count, animal[1]))
+            self.dog.append((self.count, animal[0]))
         self.count += 1
 
     def dequeueAny(self) -> List[int]:
