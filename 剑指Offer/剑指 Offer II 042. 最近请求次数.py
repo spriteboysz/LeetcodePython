@@ -1,14 +1,5 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
-Author: Deean
-Date: 2022-05-16 23:20:35
-LastEditTime: 2022-05-16 23:25:34
-Description: 
-FilePath: 剑指 Offer II 042. 最近请求次数.py
-'''
-#! /usr/bin/env python
-# coding=utf-8
 """
 Author: Deean
 Date: 2022-05-16 23:20:35
