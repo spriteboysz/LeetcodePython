@@ -18,7 +18,6 @@ class Solution:
             if item.isdigit() or item[0] == "-" and item[1:].isdigit():
                 stack.append(int(item))
             else:
-                print(stack)
                 a, b = stack.pop(), stack.pop()
                 if item == "+":
                     stack.append(a + b)
