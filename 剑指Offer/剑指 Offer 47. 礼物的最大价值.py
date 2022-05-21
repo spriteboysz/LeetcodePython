@@ -1,14 +1,5 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
-Author: Deean
-Date: 2022-05-21 21:51:04
-LastEditTime: 2022-05-21 21:56:21
-Description: 
-FilePath: 剑指 Offer 47. 礼物的最大价值.py
-'''
-#! /usr/bin/env python
-# coding=utf-8
 """
 Author: Deean
 Date: 2022-05-21 21:51:04
@@ -24,7 +15,6 @@ class Solution:
     def maxValue(self, grid: List[List[int]]) -> int:
         n, m = len(grid), len(grid[0])
         value = [[0] * m for _ in range(n)]
-        value[0][0] = grid[0][0]
         for i in range(n):
             for j in range(m):
                 if i == 0 and j == 0:
