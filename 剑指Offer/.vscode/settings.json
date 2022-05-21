@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "inorder"
-    ]
+    ],
+    "files.autoSave": "onWindowChange"
 }

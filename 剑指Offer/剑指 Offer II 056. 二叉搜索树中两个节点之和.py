@@ -2,10 +2,10 @@
 # coding=utf-8
 """
 Author: Deean
-Date: 2022-05-21 22:48:53
-LastEditTime: 2022-05-21 22:48:54
+Date: 2022-05-21 23:08:04
+LastEditTime: 2022-05-21 23:08:05
 Description: 
-FilePath: 剑指 Offer II 052. 展平二叉搜索树.py
+FilePath: 剑指 Offer II 056. 二叉搜索树中两个节点之和.py
 """
 
 # Definition for a binary tree node.
@@ -17,20 +17,18 @@ class TreeNode:
 
 
 class Solution:
-    def increasingBST(self, root: TreeNode) -> TreeNode:
+    def findTarget(self, root: TreeNode, k: int) -> bool:
         def dfs(node):
             if not node:
                 return
             dfs(node.left)
-            nodes.append(node)
+            values.append(node.val)
             dfs(node.right)
 
-        nodes = []
+        values = []
         dfs(root)
 
-        for i in range(len(nodes) - 1):
-            nodes[i].left = None
-            nodes[i].right = nodes[i + 1]
-        nodes[-1].left, nodes[-1].right = None, None
-
-        return nodes[0]
+        for i, num in enumerate(values):
+            if k - num in values[:i] + values[i + 1:]:
+                return True
+        return False
