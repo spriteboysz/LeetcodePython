@@ -4,7 +4,7 @@
 Author: Deean
 Date: 2022-02-04 15:51:02
 LastEditTime: 2022-02-04 15:57:52
-Description: 
+Description:
 FilePath: 100160.url化.py
 '''
 #
@@ -18,13 +18,8 @@ FilePath: 100160.url化.py
 
 class Solution:
     def replaceSpaces(self, S: str, length: int) -> str:
-        url = ""
-        if len(S.strip()) < length:
-            url += "%20" * (length - len(S.strip()))
-        for item in S.strip():
-            if item == " ":
-                url += "%20"
-            else:
-                url += item
-        return url
+        n = len(S.rstrip())
+        return S.rstrip().replace(' ', '%20') + (length - n) * '%20'
+
+
 # @lc code=end
