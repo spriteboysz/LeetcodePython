@@ -4,7 +4,7 @@
 Author: Deean
 Date: 2022-02-04 14:13:06
 LastEditTime: 2022-02-04 14:14:12
-Description: 
+Description:
 FilePath: 100322.和为s的两个数字.py
 '''
 #
@@ -15,11 +15,23 @@ FilePath: 100322.和为s的两个数字.py
 
 # @lc code=start
 from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for num in nums:
-            if target - num in nums:
-                return [num, target - num]
-            
-# @lc code=end
+        i, j = 0, len(nums) - 1
+        while i < j:
+            s = nums[i] + nums[j]
+            if s > target:
+                j -= 1
+            elif s < target:
+                i += 1
+            else:
+                return [nums[i], nums[j]]
+        return []
 
+if __name__ == '__main__':
+    solution = Solution()
+    ans = solution.twoSum(nums=[10, 26, 30, 31, 47, 60], target=40)
+    print(ans)
+
+# @lc code=end
