@@ -18,13 +18,16 @@ FilePath: 100295.数值的整数次方.py
 
 class Solution:
     def myPow(self, x: float, n: int) -> float:
+        if x == 0:
+            return 0
         if n < 0:
-            x = 1 / x
+            x, n = 1 / x, -n
         power = 1
-        for _ in range(abs(n)):
-            power *= x
-            if abs(power - power * x) < 0.0000001:
-                break
+        while n:
+            if n & 1:
+                power *= x
+            x *= x
+            n //= 2
         return power
 # @lc code=end
 
