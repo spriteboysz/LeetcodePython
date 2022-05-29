@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/377.组合总和Ⅳ.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/402.移掉 K 位数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/458.可怜的小猪.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1432.改变一个整数能得到的最大差值.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/397.整数替换.py" beforeDir="false" afterPath="$PROJECT_DIR$/397.整数替换.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../剑指Offer/剑指 Offer 16. 数值的整数次方.py" beforeDir="false" afterPath="$PROJECT_DIR$/../剑指Offer/剑指 Offer 16. 数值的整数次方.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../面试题/面试题 16.24. 数对和.py" beforeDir="false" afterPath="$PROJECT_DIR$/../面试题/面试题 16.24. 数对和.py" afterDir="false" />
     </list>
@@ -40,9 +37,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.402.移掉 K 位数字">
-    <configuration name="2248.多个数组求交集" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1432.改变一个整数能得到的最大差值">
+    <configuration name="1432.改变一个整数能得到的最大差值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2248.多个数组求交集.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1432.改变一个整数能得到的最大差值.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1432.改变一个整数能得到的最大差值" />
         <item itemvalue="Python.402.移掉 K 位数字" />
         <item itemvalue="Python.397.整数替换" />
         <item itemvalue="Python.377.组合总和Ⅳ" />
         <item itemvalue="Python.458.可怜的小猪" />
-        <item itemvalue="Python.2248.多个数组求交集" />
       </list>
     </recent_temporary>
   </component>
