@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="20220060322">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/494.目标和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/611.有效三角形的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/622.设计循环队列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/477.汉明距离总和.py" beforeDir="false" afterPath="$PROJECT_DIR$/477.汉明距离总和.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +49,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "Ignore Files Support"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RunManager" selected="Python.611.有效三角形的个数">
@@ -220,14 +223,7 @@
       <option name="project" value="LOCAL" />
       <updated>1654265140855</updated>
     </task>
-    <task id="LOCAL-00007" summary="20220060322">
-      <created>1654268300513</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654268300513</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +239,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2022052916" />
     <MESSAGE value="2022052917" />
     <MESSAGE value="2022052921" />
