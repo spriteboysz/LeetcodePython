@@ -4,22 +4,23 @@
 Author: Deean
 Date: 2022-02-26 22:41:00
 LastEditTime: 2022-02-26 22:44:49
-Description: 
+Description:
 FilePath: 477.汉明距离总和.py
 """
-#
-# @lc app=leetcode.cn id=477 lang=python3
-#
-# [477] 汉明距离总和
-#
 
-# @lc code=start
 from typing import List
 
 
 class Solution:
     def totalHammingDistance(self, nums: List[int]) -> int:
-        pass
+        s_nums = [bin(num)[2:].rjust(32, "0") for num in nums]
+        count = 0
+        for item in zip(*s_nums):
+            count += item.count("1") * item.count("0")
+        return count
 
 
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    ans = solution.totalHammingDistance(nums=[4, 14, 2])
+    print(ans)
