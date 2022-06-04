@@ -14,12 +14,12 @@ class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
 
-        def dfs(i, j):
+        def dfs(x: int, y: int) -> int:
             area = 1
-            grid[i][j] = 0
-            for x, y in [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]:
-                if 0 <= x < m and 0 <= y < n and grid[x][y]:
-                    area += dfs(x, y)
+            grid[x][y] = 0
+            for dx, dy in [(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)]:
+                if 0 <= dx < m and 0 <= dy < n and grid[dx][dy]:
+                    area += dfs(dx, dy)
             return area
 
         maximum = 0
