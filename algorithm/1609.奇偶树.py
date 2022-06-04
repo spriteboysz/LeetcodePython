@@ -7,16 +7,12 @@ LastEditTime: 2022-04-01 00:04:03
 Description:
 FilePath: 1609.奇偶树.py
 """
-#
-# @lc app=leetcode.cn id=1609 lang=python3
-#
-# [1609] 奇偶树
-#
+
 
 from collections import deque
-# @lc code=start
 # Definition for a binary tree node.
 from typing import Optional
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -55,6 +51,3 @@ class Solution:
                     return False
             level += 1
         return True
-
-
-
