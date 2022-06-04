@@ -4,7 +4,7 @@
 Author: Deean
 Date: 2022-03-31 23:58:13
 LastEditTime: 2022-04-01 00:04:03
-Description: 
+Description:
 FilePath: 1609.奇偶树.py
 """
 #
@@ -13,11 +13,10 @@ FilePath: 1609.奇偶树.py
 # [1609] 奇偶树
 #
 
+from collections import deque
 # @lc code=start
 # Definition for a binary tree node.
 from typing import Optional
-from collections import deque
-
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -31,8 +30,7 @@ class Solution:
         if not root:
             return
 
-        level, queue = [], deque()
-        queue.append(root)
+        level, queue = 0, deque([root])
         while queue:
             curlevel = []
             for _ in range(len(queue)):
@@ -42,14 +40,21 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            if len(level) % 2:
+            if level % 2:
                 curlevel = curlevel[::-1]
-            level.append(curlevel)
-        
-        for i, curlevel in enumerate(level):
-            if i % 2 == 0:
-                pass
+                for item in curlevel:
+                    if item % 2 == 1:
+                        return False
+            else:
+                for item in curlevel:
+                    if item % 2 == 0:
+                        return False
+
+            for i in range(len(curlevel) - 1):
+                if curlevel[i + 1] - curlevel[i] <= 0:
+                    return False
+            level += 1
+        return True
 
 
 
-# @lc code=end
