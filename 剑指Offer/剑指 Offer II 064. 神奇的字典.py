@@ -36,4 +36,5 @@ class MagicDictionary:
                     count += 1
                 else:
                     return False
-        return True if count else False
+        return bool(count)
+        # return True if count else False
