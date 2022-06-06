@@ -38,5 +38,5 @@ if __name__ == '__main__':
     solution = Solution()
     ans = solution.updateMatrix(mat=[[0, 0, 0], [0, 1, 0], [0, 0, 0]])
     print(ans)
-    ans = solution.updateMatrix(mat = [[0,0,0],[0,1,0],[1,1,1]])
+    ans = solution.updateMatrix(mat=[[0, 0, 0], [0, 1, 0], [1, 1, 1]])
     print(ans)
