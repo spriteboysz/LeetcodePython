@@ -13,9 +13,6 @@ class Solution:
     def calculate(self, s: str) -> int:
         factor = s.replace(" ", "").replace("-", "+-").split("+")
         print(factor)
-        stack = []
-
-
 
 if __name__ == '__main__':
     solution = Solution()
