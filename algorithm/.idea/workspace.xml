@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061216">
-      <change afterPath="$PROJECT_DIR$/1775.通过最少操作次数使数组的和相等.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1797.设计一个验证系统.py" afterDir="false" />
+    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061217">
+      <change afterPath="$PROJECT_DIR$/1801.积压订单中的订单总数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1775.通过最少操作次数使数组的和相等">
+  <component name="RunManager" selected="Python.1801.积压订单中的订单总数">
     <configuration name="1314.矩阵区域和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="416.分割等和子集" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1801.积压订单中的订单总数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\05_代码仓库\LeetcodeSolution\algorithm\416.分割等和子集.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1801.积压订单中的订单总数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1801.积压订单中的订单总数" />
         <item itemvalue="Python.1775.通过最少操作次数使数组的和相等" />
         <item itemvalue="Python.1785.构成特定和需要添加的最少元素" />
         <item itemvalue="Python.1781.所有子字符串美丽值之和" />
         <item itemvalue="Python.1314.矩阵区域和" />
-        <item itemvalue="Python.416.分割等和子集" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655022062008</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2022061217">
+      <created>1655024439537</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655024439537</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +349,8 @@
     <MESSAGE value="2022061122" />
     <MESSAGE value="2022061215" />
     <MESSAGE value="2022061216" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022061216" />
+    <MESSAGE value="2022061217" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022061217" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
