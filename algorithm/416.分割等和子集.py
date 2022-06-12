@@ -5,7 +5,7 @@ Author: Deean
 Date: 2022-06-11 23:25
 LastEditTime: 2022-06-11 23:25
 Description:
-FilePath: 416. 分割等和子集.py
+FilePath: 416.分割等和子集.py
 """
 
 from typing import List
