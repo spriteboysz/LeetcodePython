@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061222">
-      <change afterPath="$PROJECT_DIR$/1814.统计一个数组中好对子的数目.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1861.旋转盒子.py" afterDir="false" />
+    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061323">
+      <change afterPath="$PROJECT_DIR$/1003.检查替换后的词是否有效.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1006.笨阶乘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1014.最佳观光组合.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +59,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1861.旋转盒子">
-    <configuration name="1801.积压订单中的订单总数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1014.最佳观光组合">
+    <configuration name="1003.检查替换后的词是否有效" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1801.积压订单中的订单总数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1003.检查替换后的词是否有效.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1802.有界数组中指定下标处的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1006.笨阶乘" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1802.有界数组中指定下标处的最大值.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1006.笨阶乘.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1813.句子相似性 III" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1014.最佳观光组合" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1813.句子相似性 III.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1014.最佳观光组合.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1014.最佳观光组合" />
+        <item itemvalue="Python.1006.笨阶乘" />
+        <item itemvalue="Python.1003.检查替换后的词是否有效" />
         <item itemvalue="Python.1861.旋转盒子" />
         <item itemvalue="Python.1814.统计一个数组中好对子的数目" />
-        <item itemvalue="Python.1813.句子相似性 III" />
-        <item itemvalue="Python.1802.有界数组中指定下标处的最大值" />
-        <item itemvalue="Python.1801.积压订单中的订单总数" />
       </list>
     </recent_temporary>
   </component>
