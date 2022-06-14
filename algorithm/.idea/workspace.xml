@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061400">
-      <change afterPath="$PROJECT_DIR$/2299.强密码检验器 II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2303.计算应缴税款总额.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061423" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655135995030</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2022061423">
+      <created>1655220780583</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655220780583</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +377,8 @@
     <MESSAGE value="2022061217" />
     <MESSAGE value="2022061222" />
     <MESSAGE value="2022061400" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022061400" />
+    <MESSAGE value="2022061423" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022061423" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
