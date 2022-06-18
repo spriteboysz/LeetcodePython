@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061723">
-      <change afterPath="$PROJECT_DIR$/1391.检查网格中是否存在有效路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1472.设计浏览器历史记录.py" afterDir="false" />
+    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061811">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1472.设计浏览器历史记录.py" beforeDir="false" afterPath="$PROJECT_DIR$/1472.设计浏览器历史记录.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655478198611</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2022061811">
+      <created>1655523750618</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655523750618</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +441,8 @@
     <MESSAGE value="2022061523" />
     <MESSAGE value="2022061623" />
     <MESSAGE value="2022061723" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022061723" />
+    <MESSAGE value="2022061811" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022061811" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

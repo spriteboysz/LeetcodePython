@@ -28,3 +28,5 @@ class BrowserHistory:
     def forward(self, steps: int) -> str:
         self.position = min(self.position + steps, len(self.stack) - 1)
         return self.stack[self.position]
+
+
