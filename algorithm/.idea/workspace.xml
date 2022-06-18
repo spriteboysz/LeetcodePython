@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061623">
-      <change afterPath="$PROJECT_DIR$/1339.分裂二叉树的最大乘积.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1343.大小为 K 且平均值大于等于阈值的子数组数目.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1358.包含所有三种字符的子字符串数目.py" afterDir="false" />
+    <list default="true" id="ffc22531-662c-41ab-bb5b-e794b881afc3" name="变更" comment="2022061723">
+      <change afterPath="$PROJECT_DIR$/1391.检查网格中是否存在有效路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1472.设计浏览器历史记录.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1358.包含所有三种字符的子字符串数目">
+  <component name="RunManager" selected="Python.1391.检查网格中是否存在有效路径">
     <configuration name="131.分割回文串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1498.满足条件的子序列数目" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1391.检查网格中是否存在有效路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1498.满足条件的子序列数目.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1391.检查网格中是否存在有效路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1391.检查网格中是否存在有效路径" />
         <item itemvalue="Python.1358.包含所有三种字符的子字符串数目" />
         <item itemvalue="Python.1343.大小为 K 且平均值大于等于阈值的子数组数目" />
         <item itemvalue="Python.516.最长回文子序列" />
         <item itemvalue="Python.131.分割回文串" />
-        <item itemvalue="Python.1498.满足条件的子序列数目" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655393275459</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2022061723">
+      <created>1655478198611</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655478198611</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +434,8 @@
     <MESSAGE value="2022061522" />
     <MESSAGE value="2022061523" />
     <MESSAGE value="2022061623" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022061623" />
+    <MESSAGE value="2022061723" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022061723" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
