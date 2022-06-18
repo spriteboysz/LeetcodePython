@@ -4,7 +4,7 @@
 Author: Deean
 Date: 2022-04-09 22:55:56
 LastEditTime: 2022-04-09 23:03:08
-Description: 
+Description:
 FilePath: 1026.节点与其祖先之间的最大差值.py
 """
 #
@@ -17,6 +17,8 @@ FilePath: 1026.节点与其祖先之间的最大差值.py
 from typing import Optional
 
 # Definition for a binary tree node.
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -26,7 +28,19 @@ class TreeNode:
 
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
-        pass
+
+        def dfs(node, maximum, minimum):
+            nonlocal  maxvalue
+            if not node:
+                maxvalue = max(maximum - minimum, maxvalue)
+            else:
+                maximum, minimum = max(maximum, node.val), min(minimum, node.val)
+                dfs(node.left, maximum, minimum)
+                dfs(node.right, maximum, minimum)
+
+        maxvalue = 0
+        dfs(root, 0, 100001)
+        return maxvalue
 
 
 # @lc code=end
