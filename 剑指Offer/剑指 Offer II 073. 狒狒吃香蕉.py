@@ -17,7 +17,7 @@ class Solution:
         def check(k):
             return sum([ceil(num / k) for num in piles]) <= h
 
-        left, right = min(1, sum(piles) // h), max(piles)
+        left, right = max(1, sum(piles) // h), max(piles)
         while left < right:
             mid = left + (right - left) // 2
             if check(mid):
@@ -29,9 +29,11 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.minEatingSpeed(piles=[3, 6, 7, 11], h=8)
-    print(ans)
-    ans = solution.minEatingSpeed(piles=[30, 11, 23, 4, 20], h=6)
-    print(ans)
-    ans = solution.minEatingSpeed(piles=[30, 11, 23, 4, 20], h=5)
+    # ans = solution.minEatingSpeed(piles=[3, 6, 7, 11], h=8)
+    # print(ans)
+    # ans = solution.minEatingSpeed(piles=[30, 11, 23, 4, 20], h=6)
+    # print(ans)
+    # ans = solution.minEatingSpeed(piles=[30, 11, 23, 4, 20], h=5)
+    # print(ans)
+    ans = solution.minEatingSpeed([312884470], 968709470)
     print(ans)
