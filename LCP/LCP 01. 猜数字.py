@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 15:59:53
 LastEditTime: 2022-02-04 16:00:52
-Description: 
+Description:
 FilePath: 100107.猜数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100107 lang=python3
 #
@@ -15,6 +15,8 @@ FilePath: 100107.猜数字.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def game(self, guess: List[int], answer: List[int]) -> int:
         count = 0
@@ -23,4 +25,3 @@ class Solution:
                 count += 1
         return count
 # @lc code=end
-
