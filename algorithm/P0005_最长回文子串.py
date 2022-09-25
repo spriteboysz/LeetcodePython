@@ -7,6 +7,8 @@ LastEditTime: 2022-03-22 22:49:46
 Description: 
 FilePath: 5.最长回文子串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=5 lang=python3
 #
@@ -18,7 +20,7 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         for j in range(len(s) - 1, 0, -1):
             for i in range(len(s) - j):
-                cur = s[i : i + j + 1]
+                cur = s[i: i + j + 1]
                 if cur == cur[::-1]:
                     return cur
         return s[0]
