@@ -7,13 +7,8 @@ LastEditTime: 2022-03-02 22:53:42
 Description: 
 FilePath: P0002_两数相加.py
 """
-#
-# @lc app=leetcode.cn id=2 lang=python3
-#
-# [2] 两数相加
-#
 
-# @lc code=start
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -36,5 +31,3 @@ class Solution:
             cur.val = cur.val % 10
         return head
 
-
-# @lc code=end
