@@ -1,21 +1,16 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 16:49:55
 LastEditTime: 2022-02-12 17:01:16
-Description: 
+Description:
 FilePath: 1828.统计一个圆中点的数目.py
-'''
-#
-# @lc app=leetcode.cn id=1828 lang=python3
-#
-# [1828] 统计一个圆中点的数目
-#
+"""
 
 from collections import Counter
-# @lc code=start
 from typing import List
+
 
 class Solution:
     def countPoints(self, points: List[List[int]], queries: List[List[int]]) -> List[int]:
@@ -27,12 +22,10 @@ class Solution:
                     counts[i] += v
         return counts
 
-# @lc code=end
-
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.countPoints(points=[[1, 3], [3, 3], [5, 3], [
-          2, 2]], queries=[[2, 3, 1], [4, 3, 1], [1, 1, 2]]))
-    print(s.countPoints(points=[[1, 1], [2, 2], [3, 3], [4, 4], [
-          5, 5]], queries=[[1, 2, 2], [2, 2, 2], [4, 3, 2], [4, 3, 3]]))
+    print(s.countPoints(points=[[1, 3], [3, 3], [5, 3], [2, 2]],
+                        queries=[[2, 3, 1], [4, 3, 1], [1, 1, 2]]))
+    print(s.countPoints(points=[[1, 1], [2, 2], [3, 3], [4, 4], [5, 5]],
+                        queries=[[1, 2, 2], [2, 2, 2], [4, 3, 2], [4, 3, 3]]))

@@ -7,15 +7,10 @@ LastEditTime: 2022-03-14 21:44:51
 Description: 
 FilePath: 535.tiny-url-的加密与解密.py
 """
-#
-# @lc app=leetcode.cn id=535 lang=python3
-#
-# [535] TinyURL 的加密与解密
-#
 
 from random import sample
-# @lc code=start
 from string import ascii_letters, digits
+
 
 class Codec:
     def __init__(self):
@@ -37,7 +32,7 @@ class Codec:
         return self.url_dict[shortUrl.replace("http://tinyurl.com/", "")]
 
 
-# Your Codec object will be instantiated and called as such:
-# codec = Codec()
-# codec.decode(codec.encode(url))
-# @lc code=end
+if __name__ == '__main__':
+    url = "https://leetcode.com/problems/design-tinyurl"
+    codec = Codec()
+    print(codec.decode(codec.encode(url)))

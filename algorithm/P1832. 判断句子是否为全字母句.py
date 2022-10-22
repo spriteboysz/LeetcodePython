@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 16:36:45
-Description: 
+Description:
 FilePath: 1832.判断句子是否为全字母句.py
-'''
+"""
+
+
 #
 # @lc app=leetcode.cn id=1832 lang=python3
 #
@@ -19,11 +21,11 @@ class Solution:
             if sentence.count(chr(char)) == 0:
                 return False
         return True
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
     r = s.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")
     print(r)
-    
-
