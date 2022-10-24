@@ -33,25 +33,24 @@ class TreeNode:
             values.pop()
         return '[' + ','.join(values) + ']'
 
-
-def create(data=""):
-    if not data:
-        return []
-    values = data[1:-1].split(',')
-    root = TreeNode(int(values[0]))
-    queue = deque([root])
-    i = 1
-    while queue:
-        node = queue.popleft()
-        if i < len(values) and values[i] != 'null':
-            node.left = TreeNode(int(values[i]))
-            queue.append(node.left)
-        i += 1
-        if i < len(values) and values[i] != 'null':
-            node.right = TreeNode(int(values[i]))
-            queue.append(node.right)
-        i += 1
-    return root
+    def create(self, data=""):
+        if not data:
+            return []
+        values = data[1:-1].split(',')
+        root = TreeNode(int(values[0]))
+        queue = deque([root])
+        i = 1
+        while queue:
+            node = queue.popleft()
+            if i < len(values) and values[i] != 'null':
+                node.left = TreeNode(int(values[i]))
+                queue.append(node.left)
+            i += 1
+            if i < len(values) and values[i] != 'null':
+                node.right = TreeNode(int(values[i]))
+                queue.append(node.right)
+            i += 1
+        return root
 
 
 if __name__ == '__main__':
