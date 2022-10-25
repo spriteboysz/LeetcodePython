@@ -16,6 +16,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    root = TreeNode().create("[7,13,11]")
+    root = TreeNode.create("[7,13,11]")
     solution = Solution().reverseOddLevels(root)
     print(solution)

@@ -33,7 +33,8 @@ class TreeNode:
             values.pop()
         return '[' + ','.join(values) + ']'
 
-    def create(self, data=""):
+    @classmethod
+    def create(cls, data=""):
         if not data:
             return []
         values = data[1:-1].split(',')
@@ -55,5 +56,5 @@ class TreeNode:
 
 if __name__ == '__main__':
     root = "[4,8,5,0,1,null,6]"
-    tree = create(root)
+    tree = TreeNode.create(root)
     print(tree)
