@@ -11,11 +11,10 @@ FilePath: 剑指 Offer 62. 圆圈中最后剩下的数字.py
 
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
-        start, lst = 0, list(range(n))
-        while len(lst) > 1:
-            start = (start + m - 1) % len(lst)
-            lst.pop(start)
-        return lst[0]
+        x = 0
+        for i in range(2, n + 1):
+            x = (x + m) % i
+        return x
 
 
 if __name__ == "__main__":
