@@ -7,13 +7,7 @@ LastEditTime: 2022-04-01 22:16:14
 Description: 
 FilePath: 15.三数之和.py
 """
-#
-# @lc app=leetcode.cn id=15 lang=python3
-#
-# [15] 三数之和
-#
 
-# @lc code=start
 from typing import List
 
 
@@ -22,12 +16,10 @@ class Solution:
         result = set()
         for i in range(len(nums) - 2):
             for j in range(i + 1, len(nums) - 1):
-                if (c := 0 - (a := nums[i]) - (b := nums[j])) in nums[j + 1 :]:
+                if (c := 0 - (a := nums[i]) - (b := nums[j])) in nums[j + 1:]:
                     result.add(tuple(sorted([a, b, c])))
         return list(map(list, result))
 
-
-# @lc code=end
 
 if __name__ == "__main__":
     solution = Solution()

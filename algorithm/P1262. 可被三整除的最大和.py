@@ -19,14 +19,17 @@ from typing import List
 
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
-        total = sum(nums)
-        if total % 3 == 0:
-            return total
-        else:
-            return total - min(filter(lambda el: el % 3 == total % 3, nums))
+        t0, t1, t2 = 0, float('-inf'), float('-inf')  # 已遍历的除以3余数为0、1、2的最大和
+        for num in nums:
+            idx = num % 3
+            if idx == 0:
+                t0, t1, t2 = t0 + num, t1 + num, t2 + num
+            elif idx == 1:
+                t0, t1, t2 = max(t0, t2 + num), max(t1, t0 + num), max(t2, t1 + num)
+            elif idx == 2:
+                t0, t1, t2 = max(t0, t1 + num), max(t1, t2 + num), max(t2, t0 + num)
+        return t0
 
-
-# @lc code=end
 
 if __name__ == "__main__":
     solution = Solution()
