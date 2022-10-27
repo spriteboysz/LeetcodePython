@@ -7,18 +7,14 @@ LastEditTime: 2022-04-04 23:32:24
 Description: 
 FilePath: 24.两两交换链表中的节点.py
 """
+from common.ListNode import ListNode
+
+
 #
 # @lc app=leetcode.cn id=24 lang=python3
 #
 # [24] 两两交换链表中的节点
 #
-
-# @lc code=start
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
 
 
 class Solution:
@@ -42,5 +38,3 @@ class Solution:
         nodes[-1].next = None
         return nodes[0]
 
-
-# @lc code=end
