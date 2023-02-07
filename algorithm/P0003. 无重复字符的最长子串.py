@@ -13,7 +13,7 @@ FilePath: 3.无重复字符的最长子串.py
 # [3] 无重复字符的最长子串
 #
 
-# @lc code=start
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         maximum = 1 if s else 0
