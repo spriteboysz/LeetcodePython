@@ -24,7 +24,6 @@ def func():
             for col, suffix in enumerate(language):
                 if file.endswith(suffix):
                     row = int(re.findall(r'P(\d+)', file)[0]) - 1
-                    # record[row].append(col + 2)
                     record[col][row] = '√'
                     break
 
@@ -32,8 +31,6 @@ def func():
     wb = app.books.open(r'D:\02_CODE\Leetcode之路.xlsx')
     for col, v in record.items():
         wb.sheets['Sheet1'].range(chr(ord("B") + col) + "3").options(transpose=True).value = v
-        # for col in cols:
-        # wb.sheets['Sheet1'].range(row, col).value = '√'
 
     wb.save()
     wb.close()
