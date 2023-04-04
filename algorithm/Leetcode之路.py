@@ -24,13 +24,13 @@ def func():
             for col, suffix in enumerate(language):
                 if file.endswith(suffix):
                     row = int(re.findall(r'P(\d+)', file)[0]) - 1
-                    record[col][row] = '√'
+                    record[str(col)][row] = '√'
                     break
 
     app = xw.App(visible=True, add_book=False)
     wb = app.books.open(r'D:\02_CODE\Leetcode之路.xlsx')
     for col, v in record.items():
-        wb.sheets['Sheet1'].range(chr(ord("B") + col) + "3").options(transpose=True).value = v
+        wb.sheets['Sheet1'].range(chr(ord("B") + int(col)) + "3").options(transpose=True).value = v
 
     wb.save()
     wb.close()
