@@ -13,17 +13,17 @@ from collections import defaultdict
 
 import xlwings as xw
 
-language = ["java", "py", "rb", "cpp", "c", "go", "js", "cs"]
+language = ["java", "py", "rb", "cpp", "c", "go", "js", "cs", "rs", "kt"]
 path = r'D:\02_CODE'
 
 
 def func():
     record = defaultdict(lambda: [""] * 8000)
     for root, dirs, files in os.walk(path):
-        for file in filter(lambda f: f.startswith("P"), files):
+        for file in filter(lambda f: f.startswith("P") or f.startswith("p"), files):
             for col, suffix in enumerate(language):
                 if file.endswith(suffix):
-                    row = int(re.findall(r'P(\d+)', file)[0]) - 1
+                    row = int(re.findall(r'[Pp](\d+)', file)[0]) - 1
                     record[str(col)][row] = '√'
                     break
 
