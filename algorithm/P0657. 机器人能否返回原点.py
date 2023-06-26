@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-15 23:44:29
 LastEditTime: 2022-01-15 23:47:06
-Description: 
+Description:
 FilePath: 657.机器人能否返回原点.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=657 lang=python3
 #

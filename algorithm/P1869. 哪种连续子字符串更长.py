@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 16:27:24
 LastEditTime: 2022-01-23 16:37:33
-Description: 
+Description:
 FilePath: 1869.哪种连续子字符串更长.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1869 lang=python3
 #

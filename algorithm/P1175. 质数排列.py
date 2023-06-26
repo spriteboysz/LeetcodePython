@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 22:09:42
 LastEditTime: 2022-02-07 22:17:56
-Description: 
+Description:
 FilePath: 1175.质数排列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1175 lang=python3
 #

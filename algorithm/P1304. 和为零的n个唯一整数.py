@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:47:21
 LastEditTime: 2022-01-26 23:51:02
-Description: 
+Description:
 FilePath: 1304.和为零的n个唯一整数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1304 lang=python3
 #

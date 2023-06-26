@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-20 23:09:52
 LastEditTime: 2022-01-20 23:35:15
-Description: 
+Description:
 FilePath: 1005.k-次取反后最大化的数组和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1005 lang=python3
 #

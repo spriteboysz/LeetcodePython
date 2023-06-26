@@ -48,5 +48,6 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.originalDigits("owoztneoer")
+    print(ans)
     ans = solution.originalDigits("fviefuro")
     print(ans)

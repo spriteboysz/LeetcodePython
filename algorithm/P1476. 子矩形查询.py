@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:33:23
 LastEditTime: 2022-02-15 22:41:50
-Description: 
+Description:
 FilePath: 1476.子矩形查询.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1476 lang=python3
 #

@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 16:01:58
-Description: 
+Description:
 FilePath: 412.fizz-buzz.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=412 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:28:32
 LastEditTime: 2022-01-25 23:35:25
-Description: 
+Description:
 FilePath: 1422.分割字符串的最大得分.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1422 lang=python3
 #

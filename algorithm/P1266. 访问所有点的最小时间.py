@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:54:33
 LastEditTime: 2022-01-28 00:10:26
-Description: 
+Description:
 FilePath: 1266.访问所有点的最小时间.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1266 lang=python3
 #

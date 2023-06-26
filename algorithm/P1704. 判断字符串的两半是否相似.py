@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 22:20:01
 LastEditTime: 2022-01-23 22:26:27
-Description: 
+Description:
 FilePath: 1704.判断字符串的两半是否相似.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1704 lang=python3
 #

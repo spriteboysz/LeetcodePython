@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 17:44:20
 LastEditTime: 2022-01-23 17:47:17
-Description: 
+Description:
 FilePath: 1773.统计匹配检索规则的物品数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1773 lang=python3
 #

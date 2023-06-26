@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 23:45:50
 LastEditTime: 2022-01-22 23:50:08
-Description: 
+Description:
 FilePath: 1925.统计平方和三元组的数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1925 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 23:00:17
 LastEditTime: 2022-02-03 23:07:28
-Description: 
+Description:
 FilePath: 459.重复的子字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=459 lang=python3
 #

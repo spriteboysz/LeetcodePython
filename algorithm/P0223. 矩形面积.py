@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 23:16:39
 LastEditTime: 2022-02-09 23:22:19
-Description: 
+Description:
 FilePath: 223.矩形面积.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=223 lang=python3
 #

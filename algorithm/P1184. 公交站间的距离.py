@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 21:40:03
 LastEditTime: 2022-01-28 21:43:40
-Description: 
+Description:
 FilePath: 1184.公交站间的距离.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1184 lang=python3
 #

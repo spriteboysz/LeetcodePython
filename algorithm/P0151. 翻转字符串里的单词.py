@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-19 22:52:06
 LastEditTime: 2022-02-19 22:53:02
-Description: 
+Description:
 FilePath: 151.翻转字符串里的单词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=151 lang=python3
 #

@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-25 22:16:46
 LastEditTime: 2022-02-25 22:21:56
-Description: 
+Description:
 FilePath: 921.使括号有效的最少添加.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=921 lang=python3
 #

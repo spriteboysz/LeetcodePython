@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 16:02:49
 LastEditTime: 2022-02-04 16:05:10
-Description: 
+Description:
 FilePath: 2269.元素计数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2269 lang=python3
 #

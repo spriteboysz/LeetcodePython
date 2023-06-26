@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 23:30:35
 LastEditTime: 2022-01-19 23:45:59
-Description: 
+Description:
 FilePath: 989.数组形式的整数加法.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=989 lang=python3
 #

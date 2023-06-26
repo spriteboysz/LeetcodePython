@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-10 22:56:17
 LastEditTime: 2022-01-10 23:04:15
-Description: 
+Description:
 FilePath: 645.错误的集合.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=645 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:57:43
 LastEditTime: 2022-01-22 23:03:08
-Description: 
+Description:
 FilePath: 1957.删除字符使字符串变好.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1957 lang=python3
 #

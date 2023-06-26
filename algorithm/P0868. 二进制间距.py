@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-18 23:22:27
 LastEditTime: 2022-01-18 23:42:14
-Description: 
+Description:
 FilePath: 868.二进制间距.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=868 lang=python3
 #

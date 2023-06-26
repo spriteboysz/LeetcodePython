@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-20 23:47:28
 LastEditTime: 2022-01-20 23:54:18
-Description: 
+Description:
 FilePath: 1018.可被-5-整除的二进制前缀.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1018 lang=python3
 #

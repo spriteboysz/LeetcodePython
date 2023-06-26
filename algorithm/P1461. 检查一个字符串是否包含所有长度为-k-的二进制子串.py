@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 00:06:06
 LastEditTime: 2022-02-12 00:14:22
-Description: 
+Description:
 FilePath: 1461.检查一个字符串是否包含所有长度为-k-的二进制子串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1461 lang=python3
 #

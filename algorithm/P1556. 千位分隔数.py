@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 00:09:29
 LastEditTime: 2022-01-25 22:18:46
-Description: 
+Description:
 FilePath: 1556.千位分隔数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1556 lang=python3
 #

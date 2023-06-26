@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-14 23:02:01
 LastEditTime: 2022-01-14 23:13:59
-Description: 
+Description:
 FilePath: 205.同构字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=205 lang=python3
 #

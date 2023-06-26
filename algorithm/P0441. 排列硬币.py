@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 23:26:11
 Description: 排列硬币
 FilePath: 441.排列硬币.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=441 lang=python3
 #

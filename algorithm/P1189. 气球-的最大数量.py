@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 21:32:29
 LastEditTime: 2022-01-28 21:39:33
-Description: 
+Description:
 FilePath: 1189.气球-的最大数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1189 lang=python3
 #

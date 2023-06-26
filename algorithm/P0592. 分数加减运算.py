@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 23:45:37
 LastEditTime: 2022-02-11 00:11:18
-Description: 
+Description:
 FilePath: 592.分数加减运算.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=592 lang=python3
 #

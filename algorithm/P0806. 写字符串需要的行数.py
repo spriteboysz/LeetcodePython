@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-16 23:47:47
 LastEditTime: 2022-01-16 23:55:03
-Description: 
+Description:
 FilePath: 806.写字符串需要的行数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=806 lang=python3
 #

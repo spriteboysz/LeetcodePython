@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-14 22:49:10
 LastEditTime: 2022-02-14 22:58:51
-Description: 
+Description:
 FilePath: 200.岛屿数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=200 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 16:25:30
 LastEditTime: 2022-02-06 16:29:40
-Description: 
+Description:
 FilePath: 705.设计哈希集合.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=705 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 14:25:24
 LastEditTime: 2022-02-12 15:14:30
-Description: 
+Description:
 FilePath: 640.求解方程.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=640 lang=python3
 #

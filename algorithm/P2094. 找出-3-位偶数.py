@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 22:50:47
 LastEditTime: 2022-01-21 22:56:40
-Description: 
+Description:
 FilePath: 2094.找出-3-位偶数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2094 lang=python3
 #

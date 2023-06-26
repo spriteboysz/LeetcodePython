@@ -11,7 +11,7 @@ class Solution:
             return 0
         elif n == 1 or n == 2:
             return 1
-        t0, t1, t2 = 0, 1, 1
+        t0, t1, t2, t3 = 0, 1, 1, 2
         for i in range(3, n + 1):
             t3 = t2 + t1 + t0
             t0, t1, t2 = t1, t2, t3

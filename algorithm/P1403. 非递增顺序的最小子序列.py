@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 23:25:09
 LastEditTime: 2022-01-30 23:30:48
-Description: 
+Description:
 FilePath: 1403.非递增顺序的最小子序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1403 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 21:42:24
 LastEditTime: 2022-01-22 21:51:38
-Description: 
+Description:
 FilePath: 2032.至少在两个数组中出现的值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2032 lang=python3
 #

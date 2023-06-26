@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 00:06:40
 LastEditTime: 2022-01-27 00:08:16
-Description: 
+Description:
 FilePath: 1071.字符串的最大公因子.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1071 lang=python3
 #

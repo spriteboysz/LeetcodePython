@@ -7,6 +7,8 @@ LastEditTime: 2022-04-04 23:14:28
 Description: 
 FilePath: 19.删除链表的倒数第-n-个结点.py
 """
+
+
 #
 # @lc app=leetcode.cn id=19 lang=python3
 #
@@ -31,7 +33,7 @@ class Solution:
         if n == 1:
             nodes = nodes[:-1]
         else:
-            nodes = nodes[:-n] + nodes[-n + 1 :]
+            nodes = nodes[:-n] + nodes[-n + 1:]
         if not nodes:
             return None
 
@@ -39,6 +41,5 @@ class Solution:
             node.next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

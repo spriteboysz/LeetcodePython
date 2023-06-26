@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 16:23:55
 LastEditTime: 2022-01-23 16:26:15
-Description: 
+Description:
 FilePath: 1876.长度为三且各字符不同的子字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1876 lang=python3
 #

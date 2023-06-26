@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 23:02:12
-Description: 
+Description:
 FilePath: 387.字符串中的第一个唯一字符.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=387 lang=python3
 #

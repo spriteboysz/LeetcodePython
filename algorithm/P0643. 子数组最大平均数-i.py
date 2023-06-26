@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 00:01:56
 LastEditTime: 2022-02-04 00:15:32
 Description:
 FilePath: 643.子数组最大平均数-i.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=643 lang=python3
 #

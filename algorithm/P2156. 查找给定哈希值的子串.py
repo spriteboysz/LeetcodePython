@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 15:59:02
 LastEditTime: 2022-02-12 16:10:07
-Description: 
+Description:
 FilePath: 2156.查找给定哈希值的子串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2156 lang=python3
 #

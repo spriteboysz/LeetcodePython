@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-10 23:05:51
 LastEditTime: 2022-01-10 23:18:59
-Description: 
+Description:
 FilePath: 500.键盘行.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=500 lang=python3
 #

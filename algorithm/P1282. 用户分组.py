@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:07:14
 LastEditTime: 2022-02-15 22:19:29
-Description: 
+Description:
 FilePath: 1282.用户分组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1282 lang=python3
 #

@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-02 22:12:58
 LastEditTime: 2022-03-02 22:15:53
-Description: 
+Description:
 FilePath: 237.删除链表中的节点.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=237 lang=python3
 #

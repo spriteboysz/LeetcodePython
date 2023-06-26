@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 23:10:07
-Description: 
+Description:
 FilePath: 389.找不同.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=389 lang=python3
 #

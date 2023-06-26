@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 16:30:45
 LastEditTime: 2022-02-06 16:36:42
-Description: 
+Description:
 FilePath: 706.设计哈希映射.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=706 lang=python3
 #

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-20 20:47:02
 Description: 
 FilePath: 2034.股票价格波动.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2034 lang=python3
 #
@@ -14,8 +16,6 @@ FilePath: 2034.股票价格波动.py
 #
 
 # @lc code=start
-from sortedcontainers import SortedList,SortedDict
-from sortedcontainers import SortedList
 
 
 class StockPrice:
@@ -35,7 +35,6 @@ class StockPrice:
 
     def minimum(self) -> int:
         return min(self.price.values())
-
 
 # Your StockPrice object will be instantiated and called as such:
 # obj = StockPrice()

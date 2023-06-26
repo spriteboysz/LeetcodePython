@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 22:18:48
 LastEditTime: 2022-02-07 22:28:37
-Description: 
+Description:
 FilePath: 1128.等价多米诺骨牌对的数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1128 lang=python3
 #

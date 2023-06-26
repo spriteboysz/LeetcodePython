@@ -7,6 +7,8 @@ LastEditTime: 2022-02-19 00:03:48
 Description: 
 FilePath: 8.字符串转换整数-atoi.py
 """
+
+
 #
 # @lc app=leetcode.cn id=8 lang=python3
 #
@@ -50,5 +52,6 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.myAtoi("")
+    print(ans)
     ans = solution.myAtoi("   ")
     print(ans)

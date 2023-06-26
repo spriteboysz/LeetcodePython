@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:25:18
 LastEditTime: 2022-01-22 22:31:23
-Description: 
+Description:
 FilePath: 1995.统计特殊四元组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1995 lang=python3
 #

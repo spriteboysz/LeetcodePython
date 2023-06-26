@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:53:12
 LastEditTime: 2022-02-03 21:45:38
-Description: 
+Description:
 FilePath: 374.猜数字大小.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=374 lang=python3
 #
@@ -21,6 +21,9 @@ FilePath: 374.猜数字大小.py
 
 
 class Solution:
+    def guess(self, num):
+        return 0
+
     def guessNumber(self, n: int) -> int:
         left, right = 1, n
         while left < right:

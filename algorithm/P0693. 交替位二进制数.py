@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-16 22:47:37
 LastEditTime: 2022-01-16 22:54:11
-Description: 
+Description:
 FilePath: 693.交替位二进制数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=693 lang=python3
 #

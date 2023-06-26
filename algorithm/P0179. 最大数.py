@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 22:17:36
 LastEditTime: 2022-02-12 22:33:34
-Description: 
+Description:
 FilePath: 179.最大数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=179 lang=python3
 #

@@ -16,6 +16,7 @@ FilePath: 148.排序链表.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -25,7 +26,7 @@ class ListNode:
 
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if head == None or head.next == None:
+        if not head or not head.next:
             return head
         nodes = []
         while head:
@@ -38,6 +39,5 @@ class Solution:
         nodes[-1].next = None
 
         return head
-
 
 # @lc code=end

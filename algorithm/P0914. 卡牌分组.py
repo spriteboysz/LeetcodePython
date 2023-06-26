@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 23:10:10
 LastEditTime: 2022-02-02 23:25:07
-Description: 
+Description:
 FilePath: 914.卡牌分组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=914 lang=python3
 #

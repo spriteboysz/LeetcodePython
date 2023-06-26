@@ -7,5 +7,6 @@
 # @lc code=start
 class Solution:
     def smallestGoodBase(self, n: str) -> str:
+        pass
 # @lc code=end
 

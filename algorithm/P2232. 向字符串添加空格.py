@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:27:58
 LastEditTime: 2022-02-08 22:31:07
-Description: 
+Description:
 FilePath: 2232.向字符串添加空格.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2232 lang=python3
 #

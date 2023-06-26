@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-13 23:10:38
 LastEditTime: 2022-01-13 23:21:15
-Description: 
+Description:
 FilePath: 566.重塑矩阵.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=566 lang=python3
 #

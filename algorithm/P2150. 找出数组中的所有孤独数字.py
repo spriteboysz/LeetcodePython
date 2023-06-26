@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 23:25:45
 LastEditTime: 2022-02-08 23:33:49
 Description:
 FilePath: 2150.找出数组中的所有孤独数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2150 lang=python3
 #

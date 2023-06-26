@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 23:53:18
 LastEditTime: 2022-02-04 00:00:09
-Description: 
+Description:
 FilePath: 628.三个数的最大乘积.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=628 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-15 00:01:27
 LastEditTime: 2022-01-15 00:09:41
-Description: 
+Description:
 FilePath: 290.单词规律.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=290 lang=python3
 #

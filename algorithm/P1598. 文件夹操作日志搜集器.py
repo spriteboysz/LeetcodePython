@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-24 23:44:40
 LastEditTime: 2022-01-24 23:49:51
-Description: 
+Description:
 FilePath: 1598.文件夹操作日志搜集器.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1598 lang=python3
 #

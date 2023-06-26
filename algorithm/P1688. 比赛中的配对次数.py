@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 22:27:50
 LastEditTime: 2022-01-23 22:35:10
-Description: 
+Description:
 FilePath: 1688.比赛中的配对次数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1688 lang=python3
 #

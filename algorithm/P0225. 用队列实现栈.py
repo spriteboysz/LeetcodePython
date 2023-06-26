@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 21:23:44
 LastEditTime: 2022-02-06 21:25:52
-Description: 
+Description:
 FilePath: 225.用队列实现栈.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=225 lang=python3
 #

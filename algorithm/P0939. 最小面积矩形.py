@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-15 22:49:15
 LastEditTime: 2022-03-15 23:09:13
-Description: 
+Description:
 FilePath: 939.最小面积矩形.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=939 lang=python3
 #

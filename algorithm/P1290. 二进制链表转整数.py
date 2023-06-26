@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:20:37
 LastEditTime: 2022-02-07 23:22:44
-Description: 
+Description:
 FilePath: 1290.二进制链表转整数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1290 lang=python3
 #

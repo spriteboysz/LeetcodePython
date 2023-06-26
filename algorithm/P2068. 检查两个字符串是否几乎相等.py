@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 23:24:12
 LastEditTime: 2022-01-21 23:27:27
-Description: 
+Description:
 FilePath: 2068.检查两个字符串是否几乎相等.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2068 lang=python3
 #

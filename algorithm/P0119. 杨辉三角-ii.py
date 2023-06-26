@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-14 23:29:59
 LastEditTime: 2022-02-14 23:36:38
-Description: 
+Description:
 FilePath: 119.杨辉三角-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=119 lang=python3
 #

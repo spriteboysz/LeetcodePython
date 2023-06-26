@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-07 22:26:11
 LastEditTime: 2022-02-03 21:56:01
-Description: 
+Description:
 FilePath: 278.第一个错误的版本.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=278 lang=python3
 #

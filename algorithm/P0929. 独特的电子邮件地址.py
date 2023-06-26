@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 22:53:46
 LastEditTime: 2022-01-19 23:02:28
-Description: 
+Description:
 FilePath: 929.独特的电子邮件地址.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=929 lang=python3
 #

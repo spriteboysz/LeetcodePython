@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 23:57:49
 LastEditTime: 2022-02-02 00:24:02
-Description: 
+Description:
 FilePath: 1275.找出井字棋的获胜者.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1275 lang=python3
 #

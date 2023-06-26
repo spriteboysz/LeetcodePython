@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-24 23:17:49
 LastEditTime: 2022-01-24 23:22:16
-Description: 
+Description:
 FilePath: 1624.两个相同字符之间的最长子字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1624 lang=python3
 #

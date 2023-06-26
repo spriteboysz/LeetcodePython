@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 14:02:52
-Description: 
+Description:
 FilePath: 1491.去掉最低工资和最高工资后的工资平均值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1491 lang=python3
 #

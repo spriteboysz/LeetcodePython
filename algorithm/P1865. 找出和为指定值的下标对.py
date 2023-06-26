@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 15:42:08
 LastEditTime: 2022-02-12 15:56:29
-Description: 
+Description:
 FilePath: 1865.找出和为指定值的下标对.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1865 lang=python3
 #

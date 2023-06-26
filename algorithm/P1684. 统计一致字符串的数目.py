@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 22:36:31
 LastEditTime: 2022-01-23 22:39:47
-Description: 
+Description:
 FilePath: 1684.统计一致字符串的数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1684 lang=python3
 #

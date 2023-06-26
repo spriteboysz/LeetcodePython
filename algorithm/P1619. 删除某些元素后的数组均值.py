@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-24 23:23:30
 LastEditTime: 2022-01-24 23:34:05
-Description: 
+Description:
 FilePath: 1619.删除某些元素后的数组均值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1619 lang=python3
 #

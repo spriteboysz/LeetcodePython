@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 22:56:48
 Description: 反转字符串
 FilePath: 344.反转字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=344 lang=python3
 #

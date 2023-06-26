@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 23:00:27
 LastEditTime: 2022-01-28 23:07:34
-Description: 
+Description:
 FilePath: 744.寻找比目标字母大的最小字母.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=744 lang=python3
 #

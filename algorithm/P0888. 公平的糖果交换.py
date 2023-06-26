@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 00:00:44
 LastEditTime: 2022-01-19 00:17:46
-Description: 
+Description:
 FilePath: 888.公平的糖果交换.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=888 lang=python3
 #

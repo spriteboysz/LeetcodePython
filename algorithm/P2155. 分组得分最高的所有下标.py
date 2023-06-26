@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 15:17:04
 LastEditTime: 2022-02-12 15:29:56
-Description: 
+Description:
 FilePath: 2155.分组得分最高的所有下标.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2155 lang=python3
 #

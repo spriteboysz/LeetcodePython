@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 22:25:26
 LastEditTime: 2022-02-06 22:31:39
-Description: 
+Description:
 FilePath: 1260.二维网格迁移.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1260 lang=python3
 #

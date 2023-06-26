@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 21:36:14
 LastEditTime: 2022-01-22 21:41:25
-Description: 
+Description:
 FilePath: 2037.使每位学生都有座位的最少移动次数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2037 lang=python3
 #

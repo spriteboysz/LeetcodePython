@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 00:09:37
 LastEditTime: 2022-01-26 00:12:22
-Description: 
+Description:
 FilePath: 1394.找出数组中的幸运数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1394 lang=python3
 #

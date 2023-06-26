@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 23:39:32
 LastEditTime: 2022-01-22 23:44:27
-Description: 
+Description:
 FilePath: 1935.可以输入的最大单词数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1935 lang=python3
 #

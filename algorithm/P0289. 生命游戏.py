@@ -28,7 +28,7 @@ class Solution:
             res = []
             for l in range(i - 1, i + 2):
                 for r in range(j - 1, j + 2):
-                    if l >= 0 and l < m and r >= 0 and r < n and (l != i or j != r):
+                    if 0 <= l < m and 0 <= r < n and (l != i or j != r):
                         res.append([l, r])
             return res
 
@@ -39,7 +39,7 @@ class Solution:
                         board[i][j] += 2
         for i in range(m):
             for j in range(n):
-                if board[i][j] > 4 and board[i][j] < 8:
+                if 4 < board[i][j] < 8:
                     board[i][j] = 1
                 else:
                     board[i][j] = 0

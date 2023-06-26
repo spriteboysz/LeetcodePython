@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 16:55:30
 LastEditTime: 2022-01-23 16:58:30
-Description: 
+Description:
 FilePath: 1805.字符串中不同整数的数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1805 lang=python3
 #

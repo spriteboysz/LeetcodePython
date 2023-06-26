@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 22:22:33
 LastEditTime: 2022-02-03 22:31:17
-Description: 
+Description:
 FilePath: 392.判断子序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=392 lang=python3
 #

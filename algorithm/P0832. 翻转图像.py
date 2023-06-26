@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-28 23:58:14
-Description: 
+Description:
 FilePath: 832.翻转图像.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=832 lang=python3
 #

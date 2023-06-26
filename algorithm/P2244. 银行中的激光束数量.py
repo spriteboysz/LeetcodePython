@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:16:03
 LastEditTime: 2022-02-08 22:26:30
-Description: 
+Description:
 FilePath: 2244.银行中的激光束数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2244 lang=python3
 #

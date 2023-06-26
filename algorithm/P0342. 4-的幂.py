@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-21 15:28:05
 Description: 4的幂
 FilePath: 342.4的幂.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=342 lang=python3
 #

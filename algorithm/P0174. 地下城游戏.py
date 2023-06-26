@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-04-17 17:16:42
 LastEditTime: 2022-04-17 17:26:12
-Description: 
+Description:
 FilePath: 174.地下城游戏.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=174 lang=python3
 #

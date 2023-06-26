@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 23:42:14
 LastEditTime: 2022-02-09 23:44:14
-Description: 
+Description:
 FilePath: 73.矩阵置零.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=73 lang=python3
 #

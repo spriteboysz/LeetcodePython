@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-31 00:02:44
 LastEditTime: 2022-01-31 00:13:29
-Description: 
+Description:
 FilePath: 942.增减字符串匹配.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=942 lang=python3
 #

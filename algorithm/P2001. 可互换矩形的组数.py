@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:49:14
 LastEditTime: 2022-02-11 23:55:39
-Description: 
+Description:
 FilePath: 2001.可互换矩形的组数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2001 lang=python3
 #

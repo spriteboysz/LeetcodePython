@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-17 23:14:54
 LastEditTime: 2022-01-17 23:27:06
-Description: 
+Description:
 FilePath: 836.矩形重叠.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=836 lang=python3
 #

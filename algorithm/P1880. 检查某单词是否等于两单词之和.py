@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 16:14:21
 LastEditTime: 2022-01-23 16:21:58
-Description: 
+Description:
 FilePath: 1880.检查某单词是否等于两单词之和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1880 lang=python3
 #

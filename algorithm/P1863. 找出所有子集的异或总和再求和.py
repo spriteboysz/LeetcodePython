@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 23:07:20
 LastEditTime: 2022-02-15 23:12:06
-Description: 
+Description:
 FilePath: 1863.找出所有子集的异或总和再求和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1863 lang=python3
 #

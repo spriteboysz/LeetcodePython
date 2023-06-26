@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:51:24
 LastEditTime: 2022-01-26 23:55:17
-Description: 
+Description:
 FilePath: 1299.将每个元素替换为右侧最大元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1299 lang=python3
 #

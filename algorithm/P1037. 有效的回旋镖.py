@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:21:32
 LastEditTime: 2022-01-29 23:34:07
-Description: 
+Description:
 FilePath: 1037.有效的回旋镖.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1037 lang=python3
 #

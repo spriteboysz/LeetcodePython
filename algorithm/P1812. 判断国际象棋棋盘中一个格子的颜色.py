@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 22:26:05
-Description: 
+Description:
 FilePath: 1812.判断国际象棋棋盘中一个格子的颜色.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1812 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 23:53:28
 LastEditTime: 2022-01-30 23:59:47
-Description: 
+Description:
 FilePath: 944.删列造序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=944 lang=python3
 #

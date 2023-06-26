@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 22:46:37
 LastEditTime: 2022-01-27 22:55:24
-Description: 
+Description:
 FilePath: 1640.能否连接形成数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1640 lang=python3
 #

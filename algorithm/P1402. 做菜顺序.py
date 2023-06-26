@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-04-14 23:26:58
 LastEditTime: 2022-04-14 23:31:15
-Description: 
+Description:
 FilePath: 1402.做菜顺序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1402 lang=python3
 #

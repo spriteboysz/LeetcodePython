@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 21:56:55
 LastEditTime: 2022-02-07 21:59:44
-Description: 
+Description:
 FilePath: 2144.打折购买糖果的最小开销.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2144 lang=python3
 #

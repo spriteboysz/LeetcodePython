@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 15:48:54
 LastEditTime: 2022-02-06 16:14:21
-Description: 
+Description:
 FilePath: 409.最长回文串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=409 lang=python3
 #

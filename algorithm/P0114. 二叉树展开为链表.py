@@ -7,19 +7,14 @@ LastEditTime: 2022-03-30 23:29:12
 Description: 
 FilePath: 114.二叉树展开为链表.py
 """
+from common.TreeNode import TreeNode
+
+
 #
 # @lc app=leetcode.cn id=114 lang=python3
 #
 # [114] 二叉树展开为链表
 #
-
-# @lc code=start
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 class Solution:
@@ -31,16 +26,15 @@ class Solution:
         def dfs(node):
             if not node:
                 return
-            self.nodes.append(node)
+            nodes.append(node)
             dfs(node.left)
             dfs(node.right)
 
-        self.nodes = []
+        nodes = []
         dfs(root)
 
-        for i in range(len(self.nodes) - 1):
-            self.nodes[i].left = None
-            self.nodes[i].right = self.nodes[i + 1]
-
+        for i in range(len(nodes) - 1):
+            nodes[i].left = None
+            nodes[i].right = nodes[i + 1]
 
 # @lc code=end

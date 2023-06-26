@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 17:14:04
 LastEditTime: 2022-02-12 17:34:51
-Description: 
+Description:
 FilePath: 1818.绝对差值和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1818 lang=python3
 #

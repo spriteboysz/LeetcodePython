@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 22:35:32
 LastEditTime: 2022-01-28 22:43:21
-Description: 
+Description:
 FilePath: 821.字符的最短距离.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=821 lang=python3
 #

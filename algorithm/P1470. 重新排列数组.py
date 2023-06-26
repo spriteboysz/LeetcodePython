@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:00:23
 LastEditTime: 2022-01-25 23:04:40
-Description: 
+Description:
 FilePath: 1470.重新排列数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1470 lang=python3
 #

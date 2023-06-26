@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 17:13:17
 LastEditTime: 2022-01-23 17:19:41
-Description: 
+Description:
 FilePath: 1790.仅执行一次字符串交换能否使两个字符串相等.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1790 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:08:12
 LastEditTime: 2022-01-26 23:19:29
-Description: 
+Description:
 FilePath: 1337.矩阵中战斗力最弱的-k-行.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1337 lang=python3
 #

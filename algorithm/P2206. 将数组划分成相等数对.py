@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-30 22:21:46
 LastEditTime: 2022-03-30 22:24:56
-Description: 
+Description:
 FilePath: 2206.将数组划分成相等数对.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2206 lang=python3
 #

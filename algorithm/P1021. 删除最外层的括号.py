@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 00:01:29
 LastEditTime: 2022-01-21 00:23:48
-Description: 
+Description:
 FilePath: 1021.删除最外层的括号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1021 lang=python3
 #

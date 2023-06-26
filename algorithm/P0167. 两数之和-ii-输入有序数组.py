@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-07 22:26:11
 LastEditTime: 2022-02-03 22:17:33
-Description: 
+Description:
 FilePath: 167.两数之和-ii-输入有序数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=167 lang=python3
 #

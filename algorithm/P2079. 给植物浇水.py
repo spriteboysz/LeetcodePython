@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:56:10
 LastEditTime: 2022-02-15 23:06:03
-Description: 
+Description:
 FilePath: 2079.给植物浇水.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2079 lang=python3
 #

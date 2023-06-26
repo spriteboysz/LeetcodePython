@@ -3,6 +3,8 @@
 #
 # [437] 路径总和 III
 #
+from common.TreeNode import TreeNode
+
 
 # @lc code=start
 # Definition for a binary tree node.
@@ -13,5 +15,6 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: TreeNode, targetSum: int) -> int:
+        pass
 # @lc code=end
 

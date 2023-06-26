@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 17:01:05
 LastEditTime: 2022-01-23 17:09:47
-Description: 
+Description:
 FilePath: 1796.字符串中第二大的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1796 lang=python3
 #

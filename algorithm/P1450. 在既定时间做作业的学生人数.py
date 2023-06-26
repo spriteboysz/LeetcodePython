@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 23:15:36
 LastEditTime: 2022-01-30 23:21:05
-Description: 
+Description:
 FilePath: 1450.在既定时间做作业的学生人数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1450 lang=python3
 #

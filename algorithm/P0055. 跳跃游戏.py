@@ -15,7 +15,7 @@ class Solution:
     def canJump(self, nums: List[int]) -> bool:
         maximum = 0
         for i, jump in enumerate(nums):
-            if maximum >= i and i + jump > maximum:
+            if i <= maximum < i + jump:
                 maximum = i + jump
         return maximum >= len(nums) - 1
 
@@ -24,5 +24,5 @@ if __name__ == '__main__':
     solution = Solution()
     ans = solution.canJump(nums=[3, 2, 1, 0, 4])
     print(ans)
-    ans = solution.canJump(nums = [2,3,1,1,4])
+    ans = solution.canJump(nums=[2, 3, 1, 1, 4])
     print(ans)

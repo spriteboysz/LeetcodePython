@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-14 22:32:54
 LastEditTime: 2022-01-14 22:54:04
-Description: 
+Description:
 FilePath: 203.移除链表元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=203 lang=python3
 #

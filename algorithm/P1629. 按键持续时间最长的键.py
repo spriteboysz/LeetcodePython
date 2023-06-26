@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:50:26
 LastEditTime: 2022-01-30 22:58:12
-Description: 
+Description:
 FilePath: 1629.按键持续时间最长的键.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1629 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:21:06
 LastEditTime: 2022-01-22 22:24:19
-Description: 
+Description:
 FilePath: 2000.反转单词前缀.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2000 lang=python3
 #

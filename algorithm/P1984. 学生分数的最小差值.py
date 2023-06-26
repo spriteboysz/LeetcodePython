@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:42:37
 LastEditTime: 2022-01-22 22:48:47
-Description: 
+Description:
 FilePath: 1984.学生分数的最小差值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1984 lang=python3
 #

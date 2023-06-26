@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:23:13
 LastEditTime: 2022-02-15 22:31:31
-Description: 
+Description:
 FilePath: 1769.移动所有球到每个盒子所需的最小操作数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1769 lang=python3
 #

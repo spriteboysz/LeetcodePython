@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-05 23:40:11
 LastEditTime: 2022-02-05 23:45:30
-Description: 
+Description:
 FilePath: 49.字母异位词分组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=49 lang=python3
 #

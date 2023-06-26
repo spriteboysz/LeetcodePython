@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 21:24:22
 LastEditTime: 2022-02-09 21:37:16
-Description: 
+Description:
 FilePath: 1881.插入后的最大值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1881 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 23:07:46
 LastEditTime: 2022-01-28 23:10:36
-Description: 
+Description:
 FilePath: 724.寻找数组的中心下标.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=724 lang=python3
 #

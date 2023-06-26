@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-14 23:37:56
 LastEditTime: 2022-02-14 23:46:18
-Description: 
+Description:
 FilePath: 121.买卖股票的最佳时机.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=121 lang=python3
 #

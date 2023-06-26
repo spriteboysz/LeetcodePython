@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:51:09
 LastEditTime: 2022-01-25 23:57:16
-Description: 
+Description:
 FilePath: 1408.数组中的字符串匹配.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1408 lang=python3
 #

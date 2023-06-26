@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 23:09:14
-Description: 
+Description:
 FilePath: 1662.检查两个字符串数组是否相等.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1662 lang=python3
 #

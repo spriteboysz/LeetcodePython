@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 22:49:06
-Description: 
+Description:
 FilePath: 1736.替换隐藏数字得到的最晚时间.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1736 lang=python3
 #

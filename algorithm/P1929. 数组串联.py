@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 23:44:45
 LastEditTime: 2022-01-22 23:45:15
-Description: 
+Description:
 FilePath: 1929.数组串联.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1929 lang=python3
 #

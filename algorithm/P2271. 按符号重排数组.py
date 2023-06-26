@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:03:43
 LastEditTime: 2022-02-08 22:06:50
-Description: 
+Description:
 FilePath: 2271.按符号重排数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2271 lang=python3
 #

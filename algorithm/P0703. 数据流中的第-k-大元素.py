@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 16:19:50
 LastEditTime: 2022-02-06 16:23:02
-Description: 
+Description:
 FilePath: 703.数据流中的第-k-大元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=703 lang=python3
 #
@@ -26,7 +26,7 @@ class KthLargest:
     def add(self, val: int) -> int:
         self.nums.append(val)
         self.nums.sort()
-        return self.nums[-(self.k)]
+        return self.nums[-self.k]
 
 
 # Your KthLargest object will be instantiated and called as such:

@@ -16,6 +16,9 @@ FilePath: 1008.前序遍历构造二叉搜索树.py
 # @lc code=start
 from typing import List, Optional
 
+from common.TreeNode import TreeNode
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -26,18 +29,17 @@ from typing import List, Optional
 
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> Optional[TreeNode]:
-        def maketree(preorder):
+        def create(preorder):
             if len(preorder) == 1:
                 return TreeNode(preorder[0])
             elif len(preorder) == 0:
                 return None
             node = TreeNode(preorder[0])
-            node.left = maketree([i for i in preorder if i < preorder[0]])
-            node.right = maketree([i for i in preorder if i > preorder[0]])
+            node.left = create([i for i in preorder if i < preorder[0]])
+            node.right = create([i for i in preorder if i > preorder[0]])
             return node
 
-        root = maketree(preorder)
+        root = create(preorder)
         return root
-
 
 # @lc code=end

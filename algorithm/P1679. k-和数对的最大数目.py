@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:10:00
 LastEditTime: 2022-02-11 23:16:42
-Description: 
+Description:
 FilePath: 1679.k-和数对的最大数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1679 lang=python3
 #

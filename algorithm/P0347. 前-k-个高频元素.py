@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:57:21
 LastEditTime: 2022-02-10 23:01:25
-Description: 
+Description:
 FilePath: 347.前-k-个高频元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=347 lang=python3
 #

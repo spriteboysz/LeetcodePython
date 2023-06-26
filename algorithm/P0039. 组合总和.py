@@ -17,6 +17,7 @@ from itertools import combinations_with_replacement
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         combination = []

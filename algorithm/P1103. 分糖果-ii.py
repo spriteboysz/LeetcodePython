@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:06:44
 LastEditTime: 2022-02-07 23:18:39
-Description: 
+Description:
 FilePath: 1103.分糖果-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1103 lang=python3
 #
@@ -19,6 +19,7 @@ from typing import List
 
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
+        length = 0
         for i in range(1, candies):
             if i * i + i > candies * 2:
                 length = i - 1

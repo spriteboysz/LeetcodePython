@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:02:46
 LastEditTime: 2022-01-26 23:04:40
-Description: 
+Description:
 FilePath: 1346.检查整数及其两倍数是否存在.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1346 lang=python3
 #

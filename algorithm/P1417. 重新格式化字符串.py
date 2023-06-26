@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:37:13
 LastEditTime: 2022-01-25 23:48:32
-Description: 
+Description:
 FilePath: 1417.重新格式化字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1417 lang=python3
 #

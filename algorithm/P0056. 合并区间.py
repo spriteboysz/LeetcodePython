@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-05 23:49:34
 LastEditTime: 2022-02-06 00:09:51
-Description: 
+Description:
 FilePath: 56.合并区间.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=56 lang=python3
 #
@@ -24,6 +24,7 @@ class Solution:
             section[interval[0]:interval[1] + 1] = [1] * \
                 (interval[1] - interval[0] + 1)
         block = []
+        start = 1
         for i in range(1, len(section) - 1):
             if section[i - 1] == 0 and section[i] == 1:
                 start = i

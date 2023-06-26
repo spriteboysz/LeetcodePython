@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:16:37
 LastEditTime: 2022-01-25 23:20:49
-Description: 
+Description:
 FilePath: 1441.用栈操作构建数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1441 lang=python3
 #

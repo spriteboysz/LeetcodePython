@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-17 23:40:39
 LastEditTime: 2022-01-17 23:51:56
-Description: 
+Description:
 FilePath: 859.亲密字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=859 lang=python3
 #

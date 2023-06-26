@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 23:32:54
 LastEditTime: 2022-01-21 23:45:10
-Description: 
+Description:
 FilePath: 2062.统计字符串中的元音子字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2062 lang=python3
 #

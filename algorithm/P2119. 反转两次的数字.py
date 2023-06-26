@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 22:02:45
 LastEditTime: 2022-01-21 22:03:41
-Description: 
+Description:
 FilePath: 2119.反转两次的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2119 lang=python3
 #

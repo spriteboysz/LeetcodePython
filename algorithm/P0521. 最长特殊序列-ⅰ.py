@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 23:35:13
 LastEditTime: 2022-02-03 23:38:50
-Description: 
+Description:
 FilePath: 521.最长特殊序列-ⅰ.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=521 lang=python3
 #

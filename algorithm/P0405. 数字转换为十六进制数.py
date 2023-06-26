@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 22:39:16
 LastEditTime: 2022-02-03 22:56:07
-Description: 
+Description:
 FilePath: 405.数字转换为十六进制数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=405 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 17:04:55
 LastEditTime: 2022-02-12 17:10:25
-Description: 
+Description:
 FilePath: 1833.雪糕的最大数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1833 lang=python3
 #

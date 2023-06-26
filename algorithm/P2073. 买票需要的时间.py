@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:12:46
 LastEditTime: 2022-02-01 22:17:17
-Description: 
+Description:
 FilePath: 2073.买票需要的时间.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2073 lang=python3
 #

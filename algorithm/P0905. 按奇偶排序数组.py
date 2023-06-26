@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 22:24:25
-Description: 
+Description:
 FilePath: 905.按奇偶排序数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=905 lang=python3
 #

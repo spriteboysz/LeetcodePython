@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 21:58:01
 LastEditTime: 2022-02-03 22:03:47
-Description: 
+Description:
 FilePath: 35.搜索插入位置.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=35 lang=python3
 #

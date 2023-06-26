@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 22:29:33
 LastEditTime: 2022-02-02 22:47:55
-Description: 
+Description:
 FilePath: 941.有效的山脉数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=941 lang=python3
 #

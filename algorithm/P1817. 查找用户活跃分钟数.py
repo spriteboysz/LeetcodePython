@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:32:38
 LastEditTime: 2022-02-11 23:39:41
-Description: 
+Description:
 FilePath: 1817.查找用户活跃分钟数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1817 lang=python3
 #

@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-28 23:50:48
 LastEditTime: 2022-02-28 23:53:48
-Description: 
+Description:
 FilePath: 1452.收藏清单.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1452 lang=python3
 #

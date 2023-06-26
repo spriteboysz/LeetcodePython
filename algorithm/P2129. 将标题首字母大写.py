@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 21:43:53
 LastEditTime: 2022-02-04 21:48:34
-Description: 
+Description:
 FilePath: 2235.将标题首字母大写.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2235 lang=python3
 #

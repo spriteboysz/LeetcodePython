@@ -31,6 +31,8 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.minSteps("leetcode", "practice")
+    print(ans)
     ans = solution.minSteps("anagram", "mangaar")
+    print(ans)
     ans = solution.minSteps("friend", "family")
     print(ans)

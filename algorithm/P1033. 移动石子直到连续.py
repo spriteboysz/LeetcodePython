@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:06:56
 LastEditTime: 2022-02-10 22:12:16
-Description: 
+Description:
 FilePath: 1033.移动石子直到连续.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1033 lang=python3
 #

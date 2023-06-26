@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 21:52:40
 LastEditTime: 2022-02-08 22:02:06
-Description: 
+Description:
 FilePath: 2284.重排数字的最小值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2284 lang=python3
 #

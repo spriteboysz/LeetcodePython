@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 15:26:17
 Description: 一周中的第几天
 FilePath: 1185.一周中的第几天.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1185 lang=python3
 #

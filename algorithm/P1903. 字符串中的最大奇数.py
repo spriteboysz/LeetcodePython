@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 23:55:09
 LastEditTime: 2022-01-23 00:00:27
-Description: 
+Description:
 FilePath: 1903.字符串中的最大奇数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1903 lang=python3
 #

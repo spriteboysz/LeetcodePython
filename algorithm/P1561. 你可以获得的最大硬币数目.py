@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:00:24
 LastEditTime: 2022-02-15 22:05:57
-Description: 
+Description:
 FilePath: 1561.你可以获得的最大硬币数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1561 lang=python3
 #

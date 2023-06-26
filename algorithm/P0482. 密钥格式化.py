@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 00:00:45
 LastEditTime: 2022-01-29 00:06:32
-Description: 
+Description:
 FilePath: 482.密钥格式化.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=482 lang=python3
 #

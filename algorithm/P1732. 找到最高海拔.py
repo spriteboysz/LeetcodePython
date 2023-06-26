@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 22:41:04
-Description: 
+Description:
 FilePath: 1732.找到最高海拔.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1732 lang=python3
 #

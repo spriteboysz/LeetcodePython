@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-13 23:04:45
 LastEditTime: 2022-01-13 23:08:12
 Description: 数组拆分I
 FilePath: 561.数组拆分-i.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=561 lang=python3
 #

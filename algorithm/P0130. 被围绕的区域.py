@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-04-25 23:50:01
 LastEditTime: 2022-04-25 23:58:52
-Description: 
+Description:
 FilePath: 130.被围绕的区域.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=130 lang=python3
 #
@@ -54,7 +54,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.solve(
+    solution.solve(
         board=[
             ["X", "X", "X", "X"],
             ["X", "O", "O", "X"],
@@ -62,4 +62,3 @@ if __name__ == "__main__":
             ["X", "O", "X", "X"],
         ]
     )
-    print(ans)

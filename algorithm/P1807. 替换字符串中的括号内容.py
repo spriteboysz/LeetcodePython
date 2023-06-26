@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 22:16:24
 LastEditTime: 2022-02-09 22:26:03
-Description: 
+Description:
 FilePath: 1807.替换字符串中的括号内容.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1807 lang=python3
 #

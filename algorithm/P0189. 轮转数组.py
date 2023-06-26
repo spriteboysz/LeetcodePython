@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-14 23:03:35
 LastEditTime: 2022-02-14 23:13:32
-Description: 
+Description:
 FilePath: 189.轮转数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=189 lang=python3
 #
@@ -35,6 +35,4 @@ if __name__ == "__main__":
         print("=== *{:02d} INPUT* ===".format(i + 1))
         print(args)
         print("=== *DEBUG* ===")
-        answer = solution.rotate([1, 2], 3)
-        print("=== *{:02d} OUTPUT* ===".format(i + 1))
-        print(answer)
+        solution.rotate([1, 2], 3)

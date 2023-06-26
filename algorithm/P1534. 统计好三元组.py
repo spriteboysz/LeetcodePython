@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 22:22:54
 LastEditTime: 2022-01-25 22:29:18
-Description: 
+Description:
 FilePath: 1534.统计好三元组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1534 lang=python3
 #

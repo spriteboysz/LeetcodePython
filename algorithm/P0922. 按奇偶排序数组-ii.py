@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 22:29:47
 LastEditTime: 2022-01-19 22:48:17
-Description: 
+Description:
 FilePath: 922.按奇偶排序数组-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=922 lang=python3
 #

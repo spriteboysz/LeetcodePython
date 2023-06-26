@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 22:40:21
 LastEditTime: 2022-02-06 23:13:15
-Description: 
+Description:
 FilePath: 1560.圆形赛道上经过次数最多的扇区.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1560 lang=python3
 #

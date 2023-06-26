@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 15:38:52
 LastEditTime: 2022-02-06 15:46:18
-Description: 
+Description:
 FilePath: 155.最小栈.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=155 lang=python3
 #
@@ -22,7 +22,7 @@ class MinStack:
         self.stack = []
 
     def push(self, val: int) -> None:
-        if self.stack == []:
+        if not self.stack:
             self.stack.append((val, val))
         else:
             self.stack.append((val, min(val, self.stack[-1][1])))

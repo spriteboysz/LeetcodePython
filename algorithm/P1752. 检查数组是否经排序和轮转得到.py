@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:59:18
 LastEditTime: 2022-02-01 23:23:35
-Description: 
+Description:
 FilePath: 1752.检查数组是否经排序和轮转得到.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1752 lang=python3
 #

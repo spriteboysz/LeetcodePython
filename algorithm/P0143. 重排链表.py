@@ -16,11 +16,7 @@ FilePath: 143.重排链表.py
 # @lc code=start
 from collections import deque
 
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from common.ListNode import ListNode
 
 
 class Solution:
@@ -32,7 +28,6 @@ class Solution:
         while cur:
             queue.append(cur)
             cur = cur.next
-        cur = head
         while queue:
             nodes.append(queue.popleft())
             if queue:
@@ -41,7 +36,6 @@ class Solution:
         for i in range(len(nodes) - 1):
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
-        # return head
-
+        print(str(head))
 
 # @lc code=end

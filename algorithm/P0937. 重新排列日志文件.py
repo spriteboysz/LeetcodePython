@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 22:33:26
 LastEditTime: 2022-02-07 22:44:42
-Description: 
+Description:
 FilePath: 937.重新排列日志文件.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=937 lang=python3
 #

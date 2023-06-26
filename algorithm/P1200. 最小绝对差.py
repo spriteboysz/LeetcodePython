@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:04:37
 LastEditTime: 2022-01-29 23:14:44
-Description: 
+Description:
 FilePath: 1200.最小绝对差.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1200 lang=python3
 #

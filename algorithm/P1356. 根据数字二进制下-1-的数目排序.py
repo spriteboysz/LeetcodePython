@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 22:51:39
 LastEditTime: 2022-01-26 22:54:12
-Description: 
+Description:
 FilePath: 1356.根据数字二进制下-1-的数目排序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1356 lang=python3
 #

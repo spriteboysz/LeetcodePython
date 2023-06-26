@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 21:39:35
 LastEditTime: 2022-02-09 21:42:18
-Description: 
+Description:
 FilePath: 1877.数组中最大数对和的最小值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1877 lang=python3
 #

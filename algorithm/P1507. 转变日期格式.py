@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 14:06:52
 Description: 转变日期格式
 FilePath: 1507.转变日期格式.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1507 lang=python3
 #

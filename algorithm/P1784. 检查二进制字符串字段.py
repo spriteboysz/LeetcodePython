@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 17:29:25
 LastEditTime: 2022-01-23 17:40:48
-Description: 
+Description:
 FilePath: 1784.检查二进制字符串字段.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1784 lang=python3
 #

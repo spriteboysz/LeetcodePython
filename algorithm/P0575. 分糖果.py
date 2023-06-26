@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-13 23:26:06
 LastEditTime: 2022-01-13 23:34:45
-Description: 
+Description:
 FilePath: 575.分糖果.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=575 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:14:21
 LastEditTime: 2022-01-30 22:18:29
-Description: 
+Description:
 FilePath: 1827.最少操作使数组递增.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1827 lang=python3
 #

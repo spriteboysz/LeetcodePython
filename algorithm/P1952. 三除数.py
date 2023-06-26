@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 15:52:31
 Description: 三除数
 FilePath: 1952.三除数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1952 lang=python3
 #

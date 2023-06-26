@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-13 22:02:21
 LastEditTime: 2022-02-13 22:25:00
-Description: 
+Description:
 FilePath: 264.丑数-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=264 lang=python3
 #

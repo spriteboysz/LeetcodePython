@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 22:15:22
 LastEditTime: 2022-01-29 22:22:05
-Description: 
+Description:
 FilePath: 1588.所有奇数长度子数组的和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1588 lang=python3
 #

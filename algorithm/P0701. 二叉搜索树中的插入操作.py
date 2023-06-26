@@ -7,6 +7,9 @@ LastEditTime: 2022-04-06 22:58:40
 Description: 
 FilePath: 701.二叉搜索树中的插入操作.py
 """
+from common.TreeNode import TreeNode
+
+
 #
 # @lc app=leetcode.cn id=701 lang=python3
 #

@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-01 19:55:09
 Description: 杨辉三角
 FilePath: 118.杨辉三角.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=118 lang=python3
 #

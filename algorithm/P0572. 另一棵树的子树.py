@@ -7,6 +7,9 @@ LastEditTime: 2022-04-11 23:18:49
 Description: 
 FilePath: 572.另一棵树的子树.py
 """
+from common.TreeNode import TreeNode
+
+
 #
 # @lc app=leetcode.cn id=572 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:05:37
 LastEditTime: 2022-01-26 23:07:27
-Description: 
+Description:
 FilePath: 1342.将数字变成-0-的操作次数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1342 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:34:26
 LastEditTime: 2022-01-30 22:40:37
-Description: 
+Description:
 FilePath: 1700.无法吃午餐的学生数量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1700 lang=python3
 #

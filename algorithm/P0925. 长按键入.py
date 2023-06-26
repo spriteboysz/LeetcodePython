@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 22:53:55
 LastEditTime: 2022-02-02 23:07:51
-Description: 
+Description:
 FilePath: 925.长按键入.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=925 lang=python3
 #

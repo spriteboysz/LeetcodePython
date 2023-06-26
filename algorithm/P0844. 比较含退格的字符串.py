@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-17 23:30:18
 LastEditTime: 2022-01-17 23:34:25
-Description: 
+Description:
 FilePath: 844.比较含退格的字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=844 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:59:55
 LastEditTime: 2022-01-30 23:10:12
-Description: 
+Description:
 FilePath: 1576.替换所有的问号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1576 lang=python3
 #

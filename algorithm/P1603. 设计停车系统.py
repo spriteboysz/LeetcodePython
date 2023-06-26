@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-24 23:38:11
 LastEditTime: 2022-01-24 23:43:43
-Description: 
+Description:
 FilePath: 1603.设计停车系统.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1603 lang=python3
 #

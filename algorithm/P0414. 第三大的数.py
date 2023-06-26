@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 23:16:45
 Description: 第三大的数
 FilePath: 414.第三大的数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=414 lang=python3
 #

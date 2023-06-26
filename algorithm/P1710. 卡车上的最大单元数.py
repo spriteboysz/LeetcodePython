@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:30:16
 LastEditTime: 2022-01-30 22:33:25
-Description: 
+Description:
 FilePath: 1710.卡车上的最大单元数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1710 lang=python3
 #

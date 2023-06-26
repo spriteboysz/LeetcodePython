@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-11 22:47:43
 LastEditTime: 2022-01-11 23:02:19
-Description: 
+Description:
 FilePath: 345.反转字符串中的元音字母.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=345 lang=python3
 #

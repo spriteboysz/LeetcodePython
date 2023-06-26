@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-18 23:43:45
 LastEditTime: 2022-03-19 13:48:59
-Description: 
+Description:
 FilePath: 470.用-rand-7-实现-rand-10.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=470 lang=python3
 #

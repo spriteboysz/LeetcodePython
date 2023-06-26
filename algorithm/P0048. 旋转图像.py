@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 15:33:28
 LastEditTime: 2022-02-12 15:40:38
-Description: 
+Description:
 FilePath: 48.旋转图像.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=48 lang=python3
 #

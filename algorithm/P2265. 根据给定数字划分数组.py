@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:07:43
 LastEditTime: 2022-02-08 22:11:09
-Description: 
+Description:
 FilePath: 2265.根据给定数字划分数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2265 lang=python3
 #

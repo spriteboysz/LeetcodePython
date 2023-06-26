@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 16:38:54
 LastEditTime: 2022-01-23 16:46:03
-Description: 
+Description:
 FilePath: 1854.人口最多的年份.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1854 lang=python3
 #

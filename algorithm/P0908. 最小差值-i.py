@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 23:27:04
 LastEditTime: 2022-02-02 23:31:51
-Description: 
+Description:
 FilePath: 908.最小差值-i.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=908 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 23:12:21
 LastEditTime: 2022-01-21 23:14:56
-Description: 
+Description:
 FilePath: 2078.两栋颜色不同且距离最远的房子.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2078 lang=python3
 #

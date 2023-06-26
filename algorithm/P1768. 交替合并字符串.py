@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-23 17:48:58
 LastEditTime: 2022-01-23 18:00:19
-Description: 
+Description:
 FilePath: 1768.交替合并字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1768 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-18 23:47:24
 LastEditTime: 2022-01-18 23:56:08
-Description: 
+Description:
 FilePath: 884.两句话中的不常见单词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=884 lang=python3
 #

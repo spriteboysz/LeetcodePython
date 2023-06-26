@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-14 22:08:50
 LastEditTime: 2022-01-14 22:29:15
-Description: 
+Description:
 FilePath: 190.颠倒二进制位.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=190 lang=python3
 #

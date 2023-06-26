@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:05:55
 LastEditTime: 2022-02-11 23:08:35
-Description: 
+Description:
 FilePath: 1680.连接连续二进制数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1680 lang=python3
 #

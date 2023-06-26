@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-01 20:04:17
 Description: 丑数
 FilePath: 263.丑数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=263 lang=python3
 #

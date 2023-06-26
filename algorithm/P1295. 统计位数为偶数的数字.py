@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:56:52
 LastEditTime: 2022-01-26 23:58:40
-Description: 
+Description:
 FilePath: 1295.统计位数为偶数的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1295 lang=python3
 #

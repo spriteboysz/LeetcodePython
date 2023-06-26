@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-14 23:52:23
 LastEditTime: 2022-01-15 00:00:12
-Description: 
+Description:
 FilePath: 242.有效的字母异位词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=242 lang=python3
 #

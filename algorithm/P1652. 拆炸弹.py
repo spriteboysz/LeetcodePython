@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 22:02:17
 LastEditTime: 2022-01-29 22:13:00
-Description: 
+Description:
 FilePath: 1652.拆炸弹.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1652 lang=python3
 #

@@ -19,6 +19,7 @@ from typing import List
 
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
+        r, c = -1, -1
         for i in range(len(board)):
             for j in range(len(board[0])):
                 if board[i][j] == "R":

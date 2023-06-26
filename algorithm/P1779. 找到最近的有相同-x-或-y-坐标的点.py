@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:42:01
 LastEditTime: 2022-02-01 22:54:02
-Description: 
+Description:
 FilePath: 1779.找到最近的有相同-x-或-y-坐标的点.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1779 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 21:24:12
 LastEditTime: 2022-02-03 21:32:20
-Description: 
+Description:
 FilePath: 704.二分查找.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=704 lang=python3
 #

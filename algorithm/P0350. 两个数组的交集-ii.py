@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-15 22:00:16
 LastEditTime: 2022-01-15 22:26:40
-Description: 
+Description:
 FilePath: 350.两个数组的交集-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=350 lang=python3
 #

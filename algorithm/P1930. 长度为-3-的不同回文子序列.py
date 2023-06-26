@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:41:45
 LastEditTime: 2022-02-11 23:47:57
-Description: 
+Description:
 FilePath: 1930.长度为-3-的不同回文子序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1930 lang=python3
 #

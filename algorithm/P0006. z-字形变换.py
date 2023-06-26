@@ -7,6 +7,8 @@ LastEditTime: 2022-04-16 22:29:34
 Description: 
 FilePath: 6.z-字形变换.py
 """
+
+
 #
 # @lc app=leetcode.cn id=6 lang=python3
 #

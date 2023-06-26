@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 23:13:16
 LastEditTime: 2022-01-22 23:31:45
-Description: 
+Description:
 FilePath: 1945.字符串转化后的各位数字之和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1945 lang=python3
 #

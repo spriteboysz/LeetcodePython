@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:58:52
 LastEditTime: 2022-02-12 00:02:27
-Description: 
+Description:
 FilePath: 187.重复的dna序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=187 lang=python3
 #

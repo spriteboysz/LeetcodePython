@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 23:07:23
 LastEditTime: 2022-01-21 23:09:56
-Description: 
+Description:
 FilePath: 2085.统计出现过一次的公共字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2085 lang=python3
 #

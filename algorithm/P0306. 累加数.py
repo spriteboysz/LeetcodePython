@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 23:08:58
 LastEditTime: 2022-02-12 23:11:37
-Description: 
+Description:
 FilePath: 306.累加数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=306 lang=python3
 #

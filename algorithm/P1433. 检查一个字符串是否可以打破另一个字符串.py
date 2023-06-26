@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-01 00:03:58
 LastEditTime: 2022-03-01 22:45:11
-Description: 
+Description:
 FilePath: 1433.检查一个字符串是否可以打破另一个字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1433 lang=python3
 #

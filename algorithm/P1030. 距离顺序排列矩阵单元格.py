@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 22:13:27
 LastEditTime: 2022-02-02 22:24:44
-Description: 
+Description:
 FilePath: 1030.距离顺序排列矩阵单元格.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1030 lang=python3
 #

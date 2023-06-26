@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:27:02
 LastEditTime: 2022-02-10 22:32:06
-Description: 
+Description:
 FilePath: 229.求众数-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=229 lang=python3
 #

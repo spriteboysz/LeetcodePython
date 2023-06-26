@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:30:19
 LastEditTime: 2022-01-29 23:35:31
-Description: 
+Description:
 FilePath: 1025.除数博弈.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1025 lang=python3
 #

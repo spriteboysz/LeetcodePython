@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 21:21:44
 LastEditTime: 2022-02-01 21:33:42
-Description: 
+Description:
 FilePath: 504.七进制数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=504 lang=python3
 #

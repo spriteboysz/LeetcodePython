@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-10 23:58:35
 LastEditTime: 2022-01-11 00:04:47
-Description: 
+Description:
 FilePath: 165.比较版本号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=165 lang=python3
 #

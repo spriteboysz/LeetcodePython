@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-14 23:14:36
 LastEditTime: 2022-02-14 23:22:54
-Description: 
+Description:
 FilePath: 318.最大单词长度乘积.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=318 lang=python3
 #

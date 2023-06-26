@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 21:52:31
 LastEditTime: 2022-02-02 22:03:14
-Description: 
+Description:
 FilePath: 1217.玩筹码.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1217 lang=python3
 #

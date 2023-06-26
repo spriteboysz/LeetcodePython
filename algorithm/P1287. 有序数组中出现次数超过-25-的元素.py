@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:49:06
 LastEditTime: 2022-01-27 23:52:30
-Description: 
+Description:
 FilePath: 1287.有序数组中出现次数超过-25-的元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1287 lang=python3
 #

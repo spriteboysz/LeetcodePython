@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 22:38:52
-Description: 
+Description:
 FilePath: 977.有序数组的平方.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=977 lang=python3
 #

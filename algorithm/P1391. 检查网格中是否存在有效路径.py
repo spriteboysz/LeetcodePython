@@ -24,8 +24,8 @@ class Solution:
             if x == n - 1 and y == m - 1:
                 return True
             for dx, dy in direction[grid[x][y]]:
-                if 0 <= x + dx < n and 0 <= y + dy < m and \
-                        flag[x + dx][dy + y] == 0 and (-dx, -dy) in direction[grid[x + dx][y + dy]]:
+                if n > x + dx >= 0 == flag[x + dx][dy + y] and 0 <= y + dy < m and (-dx, -dy) in direction[
+                    grid[x + dx][y + dy]]:
                     if dfs(x + dx, y + dy):
                         return True
             return False

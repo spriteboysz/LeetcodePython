@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-13 16:57:15
 LastEditTime: 2022-02-13 17:36:05
-Description: 
+Description:
 FilePath: 202.快乐数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=202 lang=python3
 #

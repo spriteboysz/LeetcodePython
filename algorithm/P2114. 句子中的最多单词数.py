@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 22:04:55
 LastEditTime: 2022-01-21 22:08:33
-Description: 
+Description:
 FilePath: 2114.句子中的最多单词数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2114 lang=python3
 #

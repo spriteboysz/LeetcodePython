@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:39:04
 LastEditTime: 2022-02-08 22:43:22
-Description: 
+Description:
 FilePath: 2212.从数组中移除最大值和最小值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2212 lang=python3
 #

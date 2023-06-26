@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 23:19:20
 LastEditTime: 2022-02-06 23:24:31
-Description: 
+Description:
 FilePath: 1656.设计有序流.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1656 lang=python3
 #

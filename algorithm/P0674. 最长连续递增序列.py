@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-16 22:24:02
 LastEditTime: 2022-01-16 22:39:30
-Description: 
+Description:
 FilePath: 674.最长连续递增序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=674 lang=python3
 #

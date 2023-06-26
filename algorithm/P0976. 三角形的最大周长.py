@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 22:30:24
 LastEditTime: 2022-02-07 22:31:50
-Description: 
+Description:
 FilePath: 976.三角形的最大周长.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=976 lang=python3
 #

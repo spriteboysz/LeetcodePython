@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 22:08:09
 LastEditTime: 2022-02-12 22:15:33
-Description: 
+Description:
 FilePath: 75.颜色分类.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=75 lang=python3
 #

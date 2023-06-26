@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 23:43:23
 LastEditTime: 2022-02-03 23:50:03
-Description: 
+Description:
 FilePath: 598.范围求和-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=598 lang=python3
 #

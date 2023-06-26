@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 22:05:21
 LastEditTime: 2022-02-02 22:11:24
-Description: 
+Description:
 FilePath: 1089.复写零.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1089 lang=python3
 #

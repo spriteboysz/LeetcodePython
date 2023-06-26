@@ -7,6 +7,9 @@ LastEditTime: 2022-04-05 22:11:39
 Description: 
 FilePath: 297.二叉树的序列化与反序列化.py
 """
+from common.TreeNode import TreeNode
+
+
 #
 # @lc app=leetcode.cn id=297 lang=python3
 #

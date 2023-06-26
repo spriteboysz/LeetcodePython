@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-11 23:24:26
 LastEditTime: 2022-01-11 23:26:26
-Description: 
+Description:
 FilePath: 551.学生出勤记录-i.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=551 lang=python3
 #

@@ -27,7 +27,7 @@ class Solution:
         for x, y in guards:
             for i, j in move:
                 dx, dy = x + i, y + j
-                while 0 <= dx < m and 0 <= dy < n and matrix[dx][dy] == 0:
+                while m > dx >= 0 == matrix[dx][dy] and 0 <= dy < n:
                     visited.add((dx, dy))
                     dx, dy = dx + i, dy + j
         return m * n - len(visited) - len(guards) - len(walls)

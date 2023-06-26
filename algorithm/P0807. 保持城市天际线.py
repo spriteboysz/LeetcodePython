@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-15 22:44:14
 LastEditTime: 2022-02-15 22:50:09
-Description: 
+Description:
 FilePath: 807.保持城市天际线.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=807 lang=python3
 #

@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-28 22:58:22
 LastEditTime: 2022-02-28 23:07:59
-Description: 
+Description:
 FilePath: 1525.字符串的好分割数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1525 lang=python3
 #

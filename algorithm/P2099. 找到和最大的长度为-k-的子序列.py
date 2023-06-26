@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 22:28:06
 LastEditTime: 2022-01-21 22:46:24
-Description: 
+Description:
 FilePath: 2099.找到和最大的长度为-k-的子序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2099 lang=python3
 #

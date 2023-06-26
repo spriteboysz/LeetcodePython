@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-05 23:32:53
 LastEditTime: 2022-02-05 23:35:45
-Description: 
+Description:
 FilePath: 1230.绝对值表达式的最大值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1230 lang=python3
 #

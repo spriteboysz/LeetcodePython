@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-21 22:12:37
 LastEditTime: 2022-01-21 22:25:42
-Description: 
+Description:
 FilePath: 2103.环和杆.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2103 lang=python3
 #

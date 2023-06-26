@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 23:58:51
 LastEditTime: 2022-01-28 23:59:33
-Description: 
+Description:
 FilePath: 476.数字的补数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=476 lang=python3
 #

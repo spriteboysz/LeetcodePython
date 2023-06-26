@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 21:52:37
 LastEditTime: 2022-01-22 22:03:45
-Description: 
+Description:
 FilePath: 2022.将一维数组转变成二维数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2022 lang=python3
 #
@@ -14,7 +14,6 @@ FilePath: 2022.将一维数组转变成二维数组.py
 #
 
 # @lc code=start
-from copyreg import constructor
 from typing import List
 
 
@@ -29,6 +28,7 @@ class Solution:
             return matrix
         else:
             return []
+
 
 # @lc code=end
 

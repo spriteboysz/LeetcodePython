@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:41:41
 LastEditTime: 2022-01-26 23:46:39
-Description: 
+Description:
 FilePath: 1309.解码字母到整数映射.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1309 lang=python3
 #

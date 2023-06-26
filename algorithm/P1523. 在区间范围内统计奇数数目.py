@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 22:32:15
 LastEditTime: 2022-01-29 22:34:08
-Description: 
+Description:
 FilePath: 1523.在区间范围内统计奇数数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1523 lang=python3
 #

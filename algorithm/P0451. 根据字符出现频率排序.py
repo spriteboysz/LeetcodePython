@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:46:30
 LastEditTime: 2022-02-10 22:59:34
-Description: 
+Description:
 FilePath: 451.根据字符出现频率排序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=451 lang=python3
 #

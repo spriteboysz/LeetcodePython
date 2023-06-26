@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:44:23
 LastEditTime: 2022-02-08 22:51:28
-Description: 
+Description:
 FilePath: 2179.每一个查询的最大美丽值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2179 lang=python3
 #

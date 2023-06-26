@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 21:59:40
 LastEditTime: 2022-02-10 22:03:23
-Description: 
+Description:
 FilePath: 1447.最简分数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1447 lang=python3
 #

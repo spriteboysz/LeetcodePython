@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-16 00:07:56
 LastEditTime: 2022-03-01 23:45:40
-Description: 
+Description:
 FilePath: 2047.句子中的有效单词数.py
-'''
+"""
 
 #
 # @lc app=leetcode.cn id=2047 lang=python3

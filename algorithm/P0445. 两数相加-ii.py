@@ -7,6 +7,9 @@ LastEditTime: 2022-04-17 10:49:48
 Description: 
 FilePath: 445.两数相加-ii.py
 """
+from common.ListNode import ListNode
+
+
 #
 # @lc app=leetcode.cn id=445 lang=python3
 #
@@ -47,7 +50,7 @@ class Solution:
             nodes = nodes[::-1]
         print(nodes)
         cur = head = ListNode(-1)
-        #cur = head 
+
         for node in nodes:
             temp = ListNode(node) 
             cur.next = temp 

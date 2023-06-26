@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 21:45:01
 LastEditTime: 2022-02-01 21:49:06
-Description: 
+Description:
 FilePath: 169.多数元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=169 lang=python3
 #

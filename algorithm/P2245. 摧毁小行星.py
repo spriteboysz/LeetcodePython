@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 22:12:30
 LastEditTime: 2022-02-08 22:15:30
-Description: 
+Description:
 FilePath: 2245.摧毁小行星.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2245 lang=python3
 #

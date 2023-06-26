@@ -16,6 +16,9 @@ FilePath: 108.将有序数组转换为二叉搜索树.py
 # @lc code=start
 from typing import Optional, List
 
+from common.TreeNode import TreeNode
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -26,16 +29,16 @@ from typing import Optional, List
 
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
-        def maketree(nums):
+        def create(nums):
             if not nums:
                 return
             index = (len(nums) - 1) // 2
             node = TreeNode(nums[index])
-            node.left = maketree(nums[:index])
-            node.right = maketree(nums[index + 1 :])
+            node.left = create(nums[:index])
+            node.right = create(nums[index + 1 :])
             return node
 
-        root = maketree(nums)
+        root = create(nums)
         print(type(root))
         return root
 

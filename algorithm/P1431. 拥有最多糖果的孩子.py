@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:25:36
 LastEditTime: 2022-01-25 23:27:20
-Description: 
+Description:
 FilePath: 1431.拥有最多糖果的孩子.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1431 lang=python3
 #

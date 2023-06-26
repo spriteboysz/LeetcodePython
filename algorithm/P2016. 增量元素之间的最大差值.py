@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:05:51
 LastEditTime: 2022-01-22 22:13:27
-Description: 
+Description:
 FilePath: 2016.增量元素之间的最大差值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2016 lang=python3
 #

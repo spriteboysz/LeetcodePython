@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:15:26
 LastEditTime: 2022-01-29 23:21:18
-Description: 
+Description:
 FilePath: 1046.最后一块石头的重量.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1046 lang=python3
 #

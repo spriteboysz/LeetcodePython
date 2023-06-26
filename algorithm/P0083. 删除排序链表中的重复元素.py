@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-14 21:49:00
 LastEditTime: 2022-01-14 22:43:47
-Description: 
+Description:
 FilePath: 83.删除排序链表中的重复元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=83 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 21:43:53
 LastEditTime: 2022-02-09 22:15:02
-Description: 
+Description:
 FilePath: 1845.座位预约管理系统.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1845 lang=python3
 #

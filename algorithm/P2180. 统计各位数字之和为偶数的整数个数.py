@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-01 23:34:38
 LastEditTime: 2022-03-01 23:37:19
-Description: 
+Description:
 FilePath: 6012.统计各位数字之和为偶数的整数个数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=6012 lang=python3
 #

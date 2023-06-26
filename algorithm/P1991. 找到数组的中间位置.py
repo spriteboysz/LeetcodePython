@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:32:24
 LastEditTime: 2022-01-22 22:39:01
-Description: 
+Description:
 FilePath: 1991.找到数组的中间位置.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1991 lang=python3
 #

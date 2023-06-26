@@ -14,7 +14,8 @@ FilePath: 94.二叉树的中序遍历.py
 #
 
 # @lc code=start
-from typing import Optional
+from typing import Optional, List
+
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -30,10 +31,9 @@ class Solution:
             return []
         else:
             return (
-                self.inorderTraversal(root.left)
-                + [root.val]
-                + self.inorderTraversal(root.right)
+                    self.inorderTraversal(root.left)
+                    + [root.val]
+                    + self.inorderTraversal(root.right)
             )
-
 
 # @lc code=end

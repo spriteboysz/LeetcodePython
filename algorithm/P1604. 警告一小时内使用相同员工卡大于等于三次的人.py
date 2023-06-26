@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 18:13:57
 LastEditTime: 2022-02-12 18:50:59
-Description: 
+Description:
 FilePath: 1604.警告一小时内使用相同员工卡大于等于三次的人.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1604 lang=python3
 #

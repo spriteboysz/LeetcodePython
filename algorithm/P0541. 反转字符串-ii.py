@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-13 22:46:02
 LastEditTime: 2022-01-13 22:59:07
-Description: 
+Description:
 FilePath: 541.反转字符串-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=541 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 22:46:16
 LastEditTime: 2022-01-26 22:50:42
-Description: 
+Description:
 FilePath: 1365.有多少小于当前数字的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1365 lang=python3
 #

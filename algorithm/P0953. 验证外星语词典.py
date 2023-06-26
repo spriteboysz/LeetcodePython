@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 23:08:36
 LastEditTime: 2022-01-30 23:51:33
-Description: 
+Description:
 FilePath: 953.验证外星语词典.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=953 lang=python3
 #

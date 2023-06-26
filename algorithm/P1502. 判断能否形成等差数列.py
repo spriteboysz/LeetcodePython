@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 23:25:46
-Description: 
+Description:
 FilePath: 1502.判断能否形成等差数列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1502 lang=python3
 #

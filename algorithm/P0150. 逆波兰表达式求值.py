@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 23:50:50
 LastEditTime: 2022-02-10 00:05:15
-Description: 
+Description:
 FilePath: 150.逆波兰表达式求值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=150 lang=python3
 #

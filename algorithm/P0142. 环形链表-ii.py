@@ -7,6 +7,9 @@ LastEditTime: 2022-04-19 23:08:17
 Description: 
 FilePath: 142.环形链表-ii.py
 """
+from common.ListNode import ListNode
+
+
 #
 # @lc app=leetcode.cn id=142 lang=python3
 #
@@ -26,7 +29,7 @@ class Solution:
         slow, fast = head, head
         while True:
             if not fast or not fast.next:
-                return None
+                return fast
             slow, fast = slow.next, fast.next.next
             if slow == fast:
                 break
@@ -34,6 +37,5 @@ class Solution:
         while slow != fast:
             fast, slow = fast.next, slow.next
         return fast
-
 
 # @lc code=end

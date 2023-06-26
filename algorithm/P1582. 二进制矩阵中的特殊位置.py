@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 22:56:30
 LastEditTime: 2022-01-27 23:05:01
-Description: 
+Description:
 FilePath: 1582.二进制矩阵中的特殊位置.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1582 lang=python3
 #

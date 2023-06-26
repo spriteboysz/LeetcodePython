@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 22:38:15
 LastEditTime: 2022-01-26 22:41:47
-Description: 
+Description:
 FilePath: 1380.矩阵中的幸运数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1380 lang=python3
 #

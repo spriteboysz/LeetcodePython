@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 23:15:24
-Description: 
+Description:
 FilePath: 1550.存在连续三个奇数的数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1550 lang=python3
 #

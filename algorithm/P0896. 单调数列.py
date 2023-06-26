@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 21:57:15
-Description: 
+Description:
 FilePath: 896.单调数列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=896 lang=python3
 #

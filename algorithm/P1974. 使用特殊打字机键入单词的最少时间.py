@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:20:44
 LastEditTime: 2022-02-01 22:29:07
-Description: 
+Description:
 FilePath: 1974.使用特殊打字机键入单词的最少时间.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1974 lang=python3
 #

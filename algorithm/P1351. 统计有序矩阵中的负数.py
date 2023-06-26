@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 22:59:13
 LastEditTime: 2022-01-26 23:00:48
-Description: 
+Description:
 FilePath: 1351.统计有序矩阵中的负数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1351 lang=python3
 #

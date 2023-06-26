@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-27 23:21:04
 Description: 字符串相加
 FilePath: 415.字符串相加.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=415 lang=python3
 #

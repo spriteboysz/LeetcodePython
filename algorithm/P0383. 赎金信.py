@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-26 23:18:06
 Description: 赎金信
 FilePath: 383.赎金信.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=383 lang=python3
 #

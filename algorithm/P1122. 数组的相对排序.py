@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 21:59:46
 LastEditTime: 2022-01-28 22:02:33
-Description: 
+Description:
 FilePath: 1122.数组的相对排序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1122 lang=python3
 #

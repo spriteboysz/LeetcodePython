@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 22:59:47
 LastEditTime: 2022-02-09 23:04:27
-Description: 
+Description:
 FilePath: 2063.所有子字符串中的元音.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2063 lang=python3
 #

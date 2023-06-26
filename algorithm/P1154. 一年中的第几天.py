@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 15:00:33
 Description: 一年中的第几天
 FilePath: 1154.一年中的第几天.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1154 lang=python3
 #

@@ -7,6 +7,8 @@ LastEditTime: 2022-03-19 14:24:32
 Description: 
 FilePath: 1379.找出克隆二叉树中的相同节点.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1379 lang=python3
 #
@@ -24,7 +26,7 @@ class TreeNode:
 
 class Solution:
     def getTargetCopy(
-        self, original: TreeNode, cloned: TreeNode, target: TreeNode
+            self, original: TreeNode, cloned: TreeNode, target: TreeNode
     ) -> TreeNode:
 
         self.targetcopy = TreeNode()
@@ -42,6 +44,5 @@ class Solution:
 
         dfs(cloned)
         return self.targetcopy
-
 
 # @lc code=end

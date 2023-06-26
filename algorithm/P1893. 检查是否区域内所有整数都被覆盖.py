@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:29:51
 LastEditTime: 2022-02-01 22:39:01
-Description: 
+Description:
 FilePath: 1893.检查是否区域内所有整数都被覆盖.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1893 lang=python3
 #

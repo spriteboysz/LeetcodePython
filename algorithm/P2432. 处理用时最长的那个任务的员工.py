@@ -13,8 +13,8 @@ class Solution:
     def hardestWorker(self, n: int, logs: List[List[int]]) -> int:
         worker = []
         cur = 0
-        for id, end in logs:
-            worker.append([id, end - cur])
+        for index, end in logs:
+            worker.append([index, end - cur])
             cur = end
         worker.sort(key=lambda el: (-el[1], el[0]))
         return worker[0][0]

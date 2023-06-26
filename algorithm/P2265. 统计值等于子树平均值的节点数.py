@@ -7,12 +7,13 @@ FileName: algorithm/P2265. 统计值等于子树平均值的节点数.py
 Description: 
 """
 from typing import Optional
-from common import TreeNode
+
+from common.TreeNode import TreeNode
 
 
-# class Solution:
-#     def averageOfSubtree(self, root: Optional[TreeNode]) -> int:
-#         pass
+class Solution:
+    def averageOfSubtree(self, root: Optional[TreeNode]) -> int:
+        pass
 
 
 if __name__ == '__main__':
@@ -20,4 +21,3 @@ if __name__ == '__main__':
     print(type(root))
     ret = Solution().averageOfSubtree(root)
     print(root)
-

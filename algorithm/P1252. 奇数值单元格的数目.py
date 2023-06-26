@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 21:46:46
 LastEditTime: 2022-02-06 22:19:37
-Description: 
+Description:
 FilePath: 1252.奇数值单元格的数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1252 lang=python3
 #

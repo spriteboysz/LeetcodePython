@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-16 23:12:18
 LastEditTime: 2022-01-16 23:23:38
-Description: 
+Description:
 FilePath: 747.至少是其他数字两倍的最大数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=747 lang=python3
 #

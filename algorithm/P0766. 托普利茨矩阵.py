@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 22:45:46
 LastEditTime: 2022-01-28 22:47:59
-Description: 
+Description:
 FilePath: 766.托普利茨矩阵.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=766 lang=python3
 #

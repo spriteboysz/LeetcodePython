@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 23:48:02
 LastEditTime: 2022-02-01 23:55:35
-Description: 
+Description:
 FilePath: 1370.上升下降字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1370 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-03 22:20:11
 LastEditTime: 2022-02-15 21:58:32
-Description: 
+Description:
 FilePath: 303.区域和检索-数组不可变.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=303 lang=python3
 #

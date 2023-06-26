@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-20 22:48:46
 LastEditTime: 2022-01-20 23:05:28
-Description: 
+Description:
 FilePath: 1002.查找共用字符.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1002 lang=python3
 #

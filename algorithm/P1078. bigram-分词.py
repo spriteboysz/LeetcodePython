@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 00:02:03
 LastEditTime: 2022-01-27 00:06:05
-Description: 
+Description:
 FilePath: 1078.bigram-分词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1078 lang=python3
 #

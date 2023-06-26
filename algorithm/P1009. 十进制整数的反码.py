@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-20 23:36:04
 LastEditTime: 2022-01-20 23:42:49
-Description: 
+Description:
 FilePath: 1009.十进制整数的反码.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1009 lang=python3
 #

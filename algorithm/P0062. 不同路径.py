@@ -7,6 +7,8 @@ LastEditTime: 2022-02-18 23:43:09
 Description: 
 FilePath: 62.不同路径.py
 """
+
+
 #
 # @lc app=leetcode.cn id=62 lang=python3
 #
@@ -31,7 +33,8 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.uniquePaths(3, 7)
+    print(ans)
     ans = solution.uniquePaths(3, 2)
+    print(ans)
     ans = solution.uniquePaths(3, 3)
     print(ans)
-    

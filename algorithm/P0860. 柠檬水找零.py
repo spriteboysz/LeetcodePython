@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-18 22:45:38
 LastEditTime: 2022-01-18 23:17:17
-Description: 
+Description:
 FilePath: 860.柠檬水找零.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=860 lang=python3
 #

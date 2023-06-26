@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:07:07
 LastEditTime: 2022-01-27 23:12:49
-Description: 
+Description:
 FilePath: 1572.矩阵对角线元素的和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1572 lang=python3
 #

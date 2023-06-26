@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:14:38
 LastEditTime: 2022-01-22 22:16:52
-Description: 
+Description:
 FilePath: 2011.执行操作后的变量值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2011 lang=python3
 #

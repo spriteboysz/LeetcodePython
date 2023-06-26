@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 21:54:11
 LastEditTime: 2022-01-29 21:56:09
-Description: 
+Description:
 FilePath: 1791.找出星型图的中心节点.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1791 lang=python3
 #

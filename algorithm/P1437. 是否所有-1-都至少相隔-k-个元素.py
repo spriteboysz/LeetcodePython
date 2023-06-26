@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 22:36:05
 LastEditTime: 2022-01-29 22:48:24
-Description: 
+Description:
 FilePath: 1437.是否所有-1-都至少相隔-k-个元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1437 lang=python3
 #

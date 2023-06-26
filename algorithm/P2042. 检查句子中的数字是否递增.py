@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 21:25:57
 LastEditTime: 2022-01-22 21:31:15
-Description: 
+Description:
 FilePath: 2042.检查句子中的数字是否递增.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2042 lang=python3
 #

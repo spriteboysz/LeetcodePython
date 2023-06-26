@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-05 16:07:25
-Description: 
+Description:
 FilePath: 485.最大连续-1-的个数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=485 lang=python3
 #

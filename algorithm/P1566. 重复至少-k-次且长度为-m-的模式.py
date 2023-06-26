@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 23:24:58
 LastEditTime: 2022-02-01 23:39:19
 Description:
 FilePath: 1566.重复至少-k-次且长度为-m-的模式.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1566 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-08 14:39:43
 LastEditTime: 2022-01-08 14:57:35
-Description: 
+Description:
 FilePath: 461.汉明距离.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=461 lang=python3
 #

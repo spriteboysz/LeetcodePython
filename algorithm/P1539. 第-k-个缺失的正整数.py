@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:14:51
 LastEditTime: 2022-01-27 23:17:32
-Description: 
+Description:
 FilePath: 1539.第-k-个缺失的正整数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1539 lang=python3
 #

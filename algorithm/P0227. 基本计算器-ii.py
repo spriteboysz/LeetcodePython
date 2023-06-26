@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 23:21:14
 LastEditTime: 2022-02-13 15:58:51
-Description: 
+Description:
 FilePath: 227.基本计算器-ii.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=227 lang=python3
 #

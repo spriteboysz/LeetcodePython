@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:35:11
 LastEditTime: 2022-01-26 23:37:24
-Description: 
+Description:
 FilePath: 1317.将整数转换为两个无零整数的和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1317 lang=python3
 #

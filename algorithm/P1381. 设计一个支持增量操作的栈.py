@@ -7,6 +7,8 @@ LastEditTime: 2022-04-22 23:22:03
 Description: 
 FilePath: 1381.设计一个支持增量操作的栈.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1381 lang=python3
 #
@@ -43,4 +45,3 @@ class CustomStack:
 
 if __name__ == "__main__":
     nums = [1, 2, 3, 4, 5]
-    nums[-2:-1] + [2, 2]

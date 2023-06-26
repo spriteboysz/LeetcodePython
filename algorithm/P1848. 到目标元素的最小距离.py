@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:06:12
 LastEditTime: 2022-01-30 22:10:33
-Description: 
+Description:
 FilePath: 1848.到目标元素的最小距离.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1848 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-29 23:36:22
 LastEditTime: 2022-01-29 23:49:48
-Description: 
+Description:
 FilePath: 1013.将数组分成和相等的三个部分.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1013 lang=python3
 #

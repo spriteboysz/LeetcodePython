@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 22:49:40
 LastEditTime: 2022-02-09 22:58:04
-Description: 
+Description:
 FilePath: 2043.简易银行系统.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2043 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-01 22:07:58
 LastEditTime: 2022-02-01 22:09:26
-Description: 
+Description:
 FilePath: 28.实现-str-str.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=28 lang=python3
 #

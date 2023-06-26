@@ -25,11 +25,11 @@ class Codec:
         while tiny in self.url_dict:
             tiny = self.getKey()
         self.url_dict[tiny] = longUrl
-        return "http://tinyurl.com/" + tiny
+        return "https://tinyurl.com/" + tiny
 
     def decode(self, shortUrl: str) -> str:
         """Decodes a shortened URL to its original URL."""
-        return self.url_dict[shortUrl.replace("http://tinyurl.com/", "")]
+        return self.url_dict[shortUrl.replace("https://tinyurl.com/", "")]
 
 
 if __name__ == '__main__':

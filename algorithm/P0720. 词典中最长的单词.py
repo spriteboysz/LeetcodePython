@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 23:13:11
 LastEditTime: 2022-01-28 23:20:11
-Description: 
+Description:
 FilePath: 720.词典中最长的单词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=720 lang=python3
 #

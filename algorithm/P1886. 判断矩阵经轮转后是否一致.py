@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 23:32:58
 LastEditTime: 2022-02-06 23:34:59
-Description: 
+Description:
 FilePath: 1886.判断矩阵经轮转后是否一致.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1886 lang=python3
 #

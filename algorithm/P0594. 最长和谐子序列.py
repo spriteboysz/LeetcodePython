@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-13 23:38:45
 LastEditTime: 2022-01-14 00:01:21
-Description: 
+Description:
 FilePath: 594.最长和谐子序列.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=594 lang=python3
 #

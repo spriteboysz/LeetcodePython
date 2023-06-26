@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-07 22:26:11
 LastEditTime: 2022-01-11 23:39:33
-Description: 
+Description:
 FilePath: 537.复数乘法.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=537 lang=python3
 #

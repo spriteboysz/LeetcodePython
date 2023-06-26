@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-09 22:34:48
 LastEditTime: 2022-02-09 22:41:19
-Description: 
+Description:
 FilePath: 1839.所有元音按顺序排布的最长子字符串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1839 lang=python3
 #

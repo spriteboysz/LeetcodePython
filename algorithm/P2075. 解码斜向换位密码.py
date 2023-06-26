@@ -7,6 +7,8 @@ LastEditTime: 2022-02-20 20:29:57
 Description: 
 FilePath: 2075.解码斜向换位密码.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2075 lang=python3
 #
@@ -14,7 +16,6 @@ FilePath: 2075.解码斜向换位密码.py
 #
 
 # @lc code=start
-from base64 import encode
 
 
 class Solution:
@@ -24,8 +25,8 @@ class Solution:
         n = len(encodedText) // rows
         encoded = []
         for i in range(0, len(encodedText), n):
-            cur = encodedText[i : i + n]
-            cur = cur[(i // n) :] + cur[: (i // n)]
+            cur = encodedText[i: i + n]
+            cur = cur[(i // n):] + cur[: (i // n)]
             encoded.append(cur)
         decode = []
         for item in zip(*encoded):

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-17 23:55:00
 LastEditTime: 2022-01-18 00:00:50
-Description: 
+Description:
 FilePath: 867.转置矩阵.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=867 lang=python3
 #

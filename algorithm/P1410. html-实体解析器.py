@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-04-22 23:03:04
 LastEditTime: 2022-04-22 23:14:34
-Description: 
+Description:
 FilePath: 1410.html-实体解析器.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1410 lang=python3
 #

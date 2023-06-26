@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-28 22:48:27
-Description: 
+Description:
 FilePath: 824.山羊拉丁文.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=824 lang=python3
 #

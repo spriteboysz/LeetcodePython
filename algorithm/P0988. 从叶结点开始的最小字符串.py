@@ -18,6 +18,7 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -29,7 +30,7 @@ class TreeNode:
 class Solution:
     def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
         if not root:
-            return
+            return ""
         paths, queue = [], deque()
         queue.append((root, ascii_lowercase[root.val]))
         while queue:
@@ -41,6 +42,5 @@ class Solution:
             if node.right:
                 queue.append((node.right, path + ascii_lowercase[node.right.val]))
         return sorted(paths)[0]
-
 
 # @lc code=end

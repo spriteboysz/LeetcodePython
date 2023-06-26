@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:20:40
 LastEditTime: 2022-01-30 22:24:18
-Description: 
+Description:
 FilePath: 1758.生成交替二进制字符串的最少操作数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1758 lang=python3
 #

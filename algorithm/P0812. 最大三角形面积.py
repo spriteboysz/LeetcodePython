@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-02 23:35:05
 LastEditTime: 2022-02-02 23:42:28
-Description: 
+Description:
 FilePath: 812.最大三角形面积.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=812 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 22:42:32
 LastEditTime: 2022-01-26 22:44:59
-Description: 
+Description:
 FilePath: 1385.两个数组间的距离值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1385 lang=python3
 #

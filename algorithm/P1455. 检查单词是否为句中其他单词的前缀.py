@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:12:12
 LastEditTime: 2022-01-25 23:13:54
-Description: 
+Description:
 FilePath: 1455.检查单词是否为句中其他单词的前缀.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1455 lang=python3
 #

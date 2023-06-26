@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 22:33:55
 LastEditTime: 2022-01-25 22:39:28
-Description: 
+Description:
 FilePath: 1518.换酒问题.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1518 lang=python3
 #

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-23 23:01:18
 Description: 
 FilePath: 670.最大交换.py
 """
+
+
 #
 # @lc app=leetcode.cn id=670 lang=python3
 #
@@ -17,13 +19,13 @@ FilePath: 670.最大交换.py
 class Solution:
     def maximumSwap(self, num: int) -> int:
         num = list(map(int, str(num)))
-        lastindex = [None] * 10
+        last = [None] * 10
         for i in range(len(num)):
-            lastindex[num[i]] = i
+            last[num[i]] = i
         for k in range(len(num)):
             for v in range(9, num[k], -1):
-                if lastindex[v] is not None and lastindex[v] > k:
-                    num[lastindex[v]], num[k] = num[k], num[lastindex[v]]
+                if last[v] is not None and last[v] > k:
+                    num[last[v]], num[k] = num[k], num[last[v]]
                     return int("".join(map(str, num)))
         return int("".join(map(str, num)))
 

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-15 22:54:08
 LastEditTime: 2022-01-15 23:05:59
-Description: 
+Description:
 FilePath: 599.两个列表的最小索引总和.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=599 lang=python3
 #

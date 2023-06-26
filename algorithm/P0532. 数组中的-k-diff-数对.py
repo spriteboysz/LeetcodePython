@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-12 22:34:58
 LastEditTime: 2022-02-12 22:41:16
-Description: 
+Description:
 FilePath: 532.数组中的-k-diff-数对.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=532 lang=python3
 #

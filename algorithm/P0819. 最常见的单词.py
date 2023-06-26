@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-09-28 23:13:48
-Description: 
+Description:
 FilePath: 819.最常见的单词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=819 lang=python3
 #

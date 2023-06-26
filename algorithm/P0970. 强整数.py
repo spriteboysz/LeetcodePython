@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-05 17:45:41
 LastEditTime: 2022-03-05 17:58:17
-Description: 
+Description:
 FilePath: 970.强整数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=970 lang=python3
 #

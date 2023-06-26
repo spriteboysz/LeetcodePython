@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 22:31:54
-Description: 
+Description:
 FilePath: 1822.数组元素积的符号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1822 lang=python3
 #

@@ -3,9 +3,9 @@
 #
 # [207] 课程表
 #
+from typing import List
 
-# @lc code=start
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-# @lc code=end
-
+        pass

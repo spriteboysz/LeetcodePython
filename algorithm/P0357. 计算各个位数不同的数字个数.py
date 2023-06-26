@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 23:04:52
 LastEditTime: 2022-02-10 23:16:07
-Description: 
+Description:
 FilePath: 357.计算各个位数不同的数字个数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=357 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 22:50:33
 LastEditTime: 2022-01-28 22:59:15
-Description: 
+Description:
 FilePath: 748.最短补全词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=748 lang=python3
 #

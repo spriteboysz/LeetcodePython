@@ -27,9 +27,9 @@ class Solution:
             order.append(matrix[x][y])
             matrix[x][y] = "inf"
             if (
-                0 <= x + dx <= m - 1
-                and 0 <= y + dy <= n - 1
-                and matrix[x + dx][y + dy] != "inf"
+                    0 <= x + dx <= m - 1
+                    and 0 <= y + dy <= n - 1
+                    and matrix[x + dx][y + dy] != "inf"
             ):
                 pass
             else:

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-30 22:40:50
 LastEditTime: 2022-01-30 22:49:35
-Description: 
+Description:
 FilePath: 1694.重新格式化电话号码.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1694 lang=python3
 #

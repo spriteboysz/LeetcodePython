@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-08 15:12:23
 LastEditTime: 2022-01-08 15:37:07
-Description: 
+Description:
 FilePath: 463.岛屿的周长.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=463 lang=python3
 #

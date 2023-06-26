@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-11 23:18:55
 LastEditTime: 2022-02-11 23:31:48
-Description: 
+Description:
 FilePath: 1726.同积元组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1726 lang=python3
 #

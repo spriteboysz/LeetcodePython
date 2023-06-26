@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 23:35:21
 LastEditTime: 2022-01-28 23:53:56
-Description: 
+Description:
 FilePath: 1646.获取生成数组中的最大值.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1646 lang=python3
 #

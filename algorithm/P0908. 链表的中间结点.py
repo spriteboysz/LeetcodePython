@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-08 00:04:27
 LastEditTime: 2022-02-08 00:06:05
-Description: 
+Description:
 FilePath: 908.链表的中间结点.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=944 lang=python3
 #

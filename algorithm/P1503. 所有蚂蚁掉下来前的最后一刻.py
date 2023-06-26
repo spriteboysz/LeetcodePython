@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:15:30
 LastEditTime: 2022-02-10 22:24:44
-Description: 
+Description:
 FilePath: 1503.所有蚂蚁掉下来前的最后一刻.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1503 lang=python3
 #

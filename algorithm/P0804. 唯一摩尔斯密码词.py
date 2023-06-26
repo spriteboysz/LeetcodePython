@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-16 23:34:42
 LastEditTime: 2022-01-16 23:41:13
-Description: 
+Description:
 FilePath: 804.唯一摩尔斯密码词.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=804 lang=python3
 #

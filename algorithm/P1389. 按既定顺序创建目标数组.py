@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:42:38
 LastEditTime: 2022-01-27 23:43:52
-Description: 
+Description:
 FilePath: 1389.按既定顺序创建目标数组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1389 lang=python3
 #

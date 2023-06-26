@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-10 22:33:46
 LastEditTime: 2022-02-10 22:45:23
-Description: 
+Description:
 FilePath: 299.猜数字游戏.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=299 lang=python3
 #

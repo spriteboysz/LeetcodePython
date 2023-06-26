@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 16:17:40
 Description: 将句子排序
 FilePath: 1859.将句子排序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1859 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-06 21:33:25
 LastEditTime: 2022-02-06 21:34:19
-Description: 
+Description:
 FilePath: 215.数组中的第k个最大元素.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=215 lang=python3
 #

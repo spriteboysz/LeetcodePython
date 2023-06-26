@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 23:20:52
 LastEditTime: 2022-01-27 23:27:25
-Description: 
+Description:
 FilePath: 1475.商品折扣后的最终价格.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1475 lang=python3
 #

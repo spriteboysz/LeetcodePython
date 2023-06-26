@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 22:00:12
 LastEditTime: 2022-02-07 22:08:16
-Description: 
+Description:
 FilePath: 2138.将字符串拆分为若干长度为-k-的组.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2138 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-27 00:08:43
 LastEditTime: 2022-01-27 00:10:19
-Description: 
+Description:
 FilePath: 1051.高度检查器.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1051 lang=python3
 #

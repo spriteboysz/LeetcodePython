@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-22 22:17:41
 LastEditTime: 2022-01-22 22:19:54
-Description: 
+Description:
 FilePath: 2006.差的绝对值为-k-的数对数目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2006 lang=python3
 #
@@ -25,8 +25,9 @@ class Solution:
                 if abs(nums[i] - nums[j]) == k:
                     count += 1
         return count
+
+
 # @lc code=end
-s
 
 if __name__ == "__main__":
     s = Solution()

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 16:06:13
 LastEditTime: 2022-02-04 21:43:14
-Description: 
+Description:
 FilePath: 2254.检查是否每一行每一列都包含全部整数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=2254 lang=python3
 #

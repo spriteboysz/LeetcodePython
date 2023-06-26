@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-19 23:49:39
 LastEditTime: 2022-01-20 00:12:00
-Description: 
+Description:
 FilePath: 997.找到小镇的法官.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=997 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-10 23:45:30
 LastEditTime: 2022-01-10 23:51:14
-Description: 
+Description:
 FilePath: 171.excel-表列序号.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=171 lang=python3
 #

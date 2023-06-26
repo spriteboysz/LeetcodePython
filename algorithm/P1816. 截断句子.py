@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2021-10-04 20:10:16
-Description: 
+Description:
 FilePath: 1816.截断句子.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1816 lang=python3
 #

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 23:14:46
 LastEditTime: 2022-01-25 23:16:11
-Description: 
+Description:
 FilePath: 1446.连续字符.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1446 lang=python3
 #

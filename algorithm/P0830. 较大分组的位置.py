@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-28 22:27:08
 LastEditTime: 2022-01-28 22:33:45
-Description: 
+Description:
 FilePath: 830.较大分组的位置.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=830 lang=python3
 #

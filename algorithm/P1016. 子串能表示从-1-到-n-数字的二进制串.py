@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-03-03 23:25:50
 LastEditTime: 2022-03-03 23:27:02
-Description: 
+Description:
 FilePath: 1016.子串能表示从-1-到-n-数字的二进制串.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1016 lang=python3
 #

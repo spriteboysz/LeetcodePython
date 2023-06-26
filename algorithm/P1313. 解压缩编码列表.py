@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-26 23:38:07
 LastEditTime: 2022-01-26 23:41:08
-Description: 
+Description:
 FilePath: 1313.解压缩编码列表.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1313 lang=python3
 #

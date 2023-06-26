@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 12:33:57
 LastEditTime: 2022-02-04 12:41:23
-Description: 
+Description:
 FilePath: 682.棒球比赛.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=682 lang=python3
 #

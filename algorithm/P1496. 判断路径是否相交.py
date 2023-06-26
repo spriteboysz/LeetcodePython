@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-25 22:43:06
 LastEditTime: 2022-01-25 22:49:10
-Description: 
+Description:
 FilePath: 1496.判断路径是否相交.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1496 lang=python3
 #

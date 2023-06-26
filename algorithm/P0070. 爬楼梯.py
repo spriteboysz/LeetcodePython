@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-01-08 13:27:56
 LastEditTime: 2022-01-08 13:41:30
-Description: 
+Description:
 FilePath: 70.爬楼梯.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=70 lang=python3
 #
