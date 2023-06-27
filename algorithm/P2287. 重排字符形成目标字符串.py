@@ -13,24 +13,23 @@ from collections import defaultdict
 
 class Solution:
     def rearrangeCharacters(self, s: str, target: str) -> int:
-        countS, countT = defaultdict(int), defaultdict(int)
+        count1, count2 = defaultdict(int), defaultdict(int)
         for item in s:
-            countS[item] += 1
+            count1[item] += 1
         for item in target:
-            countT[item] += 1
+            count2[item] += 1
 
         count = len(s)
-        for k, v in countT.items():
-            count = min(count, countS[k] // v)
+        for k, v in count2.items():
+            count = min(count, count1[k] // v)
         return count
 
 
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.rearrangeCharacters(
-        s="ilovecodingonleetcode", target="code")
+    ans = solution.rearrangeCharacters(s="ilovecodingonleetcode", target="code")
     print(ans)
-    ans = solution.rearrangeCharacters(s = "abcba", target = "abc")
+    ans = solution.rearrangeCharacters(s="abcba", target="abc")
     print(ans)
-    ans = solution.rearrangeCharacters(s = "abbaccaddaeea", target = "aaaaa")
+    ans = solution.rearrangeCharacters(s="abbaccaddaeea", target="aaaaa")
     print(ans)

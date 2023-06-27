@@ -7,13 +7,8 @@ LastEditTime: 2022-02-26 15:25:04
 Description: 
 FilePath: 32.最长有效括号.py
 """
-#
-# @lc app=leetcode.cn id=32 lang=python3
-#
-# [32] 最长有效括号
-#
 
-# @lc code=start
+
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         stack = [-1]
@@ -29,8 +24,6 @@ class Solution:
                     maximum = max(maximum, i - stack[-1])
         return maximum
 
-
-# @lc code=end
 
 if __name__ == "__main__":
     solution = Solution()

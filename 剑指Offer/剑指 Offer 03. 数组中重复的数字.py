@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 14:29:31
 LastEditTime: 2022-02-04 14:54:04
-Description: 
+Description:
 FilePath: 100275.数组中重复的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100275 lang=python3
 #

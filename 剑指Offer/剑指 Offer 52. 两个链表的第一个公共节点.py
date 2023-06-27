@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-05-20 22:22:07
 LastEditTime: 2022-05-20 22:22:08
-Description: 
+Description:
 FilePath: 剑指 Offer 52. 两个链表的第一个公共节点.py
-'''
+"""
 
 # Definition for singly-linked list.
 class ListNode:

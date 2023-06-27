@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 14:09:11
 LastEditTime: 2022-02-04 14:09:51
-Description: 
+Description:
 FilePath: 100328.翻转单词顺序.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100328 lang=python3
 #

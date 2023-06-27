@@ -7,22 +7,7 @@ LastEditTime: 2022-03-30 23:17:18
 Description: 
 FilePath: 98.验证二叉搜索树.py
 """
-
-
-#
-# @lc app=leetcode.cn id=98 lang=python3
-#
-# [98] 验证二叉搜索树
-#
-
-# @lc code=start
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
@@ -31,15 +16,13 @@ class Solution:
             if not node:
                 return
             dfs(node.left)
-            self.values.append(node.val)
+            values.append(node.val)
             dfs(node.right)
 
-        self.values = []
+        values = []
         dfs(root)
         # print(self.values)
-        for i in range(len(self.values) - 1):
-            if self.values[i] >= self.values[i + 1]:
+        for i in range(len(values) - 1):
+            if values[i] >= values[i + 1]:
                 return False
         return True
-
-# @lc code=end

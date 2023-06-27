@@ -11,12 +11,12 @@ from typing import List
 
 class Solution:
     def maxSum(self, grid: List[List[int]]) -> int:
-        OFFSETS = [[0, 0], [0, 1], [0, 2], [1, 1], [2, 0], [2, 1], [2, 2]]
+        offsets = [[0, 0], [0, 1], [0, 2], [1, 1], [2, 0], [2, 1], [2, 2]]
         maximum = 0
         for i in range(len(grid) - 2):
             for j in range(len(grid[0]) - 2):
                 cur = 0
-                for di, dj in OFFSETS:
+                for di, dj in offsets:
                     cur += grid[i + di][j + dj]
                 maximum = max(maximum, cur)
         return maximum

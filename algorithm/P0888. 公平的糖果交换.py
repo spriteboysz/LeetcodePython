@@ -7,13 +7,7 @@ LastEditTime: 2022-01-19 00:17:46
 Description:
 FilePath: 888.公平的糖果交换.py
 """
-#
-# @lc app=leetcode.cn id=888 lang=python3
-#
-# [888] 公平的糖果交换
-#
 
-# @lc code=start
 from typing import List
 
 
@@ -26,7 +20,6 @@ class Solution:
                 return [a, b]
 
 
-# @lc code=end
 if __name__ == '__main__':
     s = Solution()
     print(s.fairCandySwap([1, 2], [2, 3]))

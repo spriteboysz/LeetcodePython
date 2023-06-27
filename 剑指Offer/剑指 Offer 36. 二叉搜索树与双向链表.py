@@ -18,7 +18,7 @@ class Node:
 
 
 class Solution:
-    def treeToDoublyList(self, root: 'Node') -> 'Node':
+    def treeToDoublyList(self, root: Node) -> Node:
         def dfs(node):
             if not node:
                 return
@@ -29,7 +29,6 @@ class Solution:
                 self.head = node
             self.pre = node
             dfs(node.right)
-
 
         if not root:
             return

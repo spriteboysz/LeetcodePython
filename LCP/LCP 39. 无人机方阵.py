@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:40:56
 LastEditTime: 2022-02-07 23:46:13
-Description: 
+Description:
 FilePath: 1000369.无人机方阵.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1000369 lang=python3
 #

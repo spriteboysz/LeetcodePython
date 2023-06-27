@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer 14- I. 剪绳子
 """
 
+
 class Solution:
     def cuttingRope(self, n: int) -> int:
         dp = [0 for i in range(n + 2)]
@@ -17,6 +18,7 @@ class Solution:
                 cur = max(cur, max(j * (i - j), j * dp[i - j]))
             dp[i] = cur
         return dp[i]
+
 
 if __name__ == '__main__':
     solution = Solution()

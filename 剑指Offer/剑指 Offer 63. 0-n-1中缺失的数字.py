@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 14:05:34
 LastEditTime: 2022-02-04 14:08:13
-Description: 
+Description:
 FilePath: 100331.0-～n-1-中缺失的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100331 lang=python3
 #

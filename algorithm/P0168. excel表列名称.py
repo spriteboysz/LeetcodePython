@@ -7,12 +7,7 @@ LastEditTime: 2022-01-10 23:40:45
 Description:
 FilePath: 168.excel表列名称.py
 """
-#
-# @lc app=leetcode.cn id=168 lang=python3
-#
-# [168] Excel表列名称
-#
-# @lc code=start
+
 from string import ascii_uppercase
 
 
@@ -27,8 +22,6 @@ class Solution:
             column += base[mod]
         return column[::-1]
 
-
-# @lc code=end
 
 if __name__ == '__main__':
     s = Solution()

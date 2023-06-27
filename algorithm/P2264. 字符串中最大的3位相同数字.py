@@ -11,11 +11,11 @@ FilePath: 2264.字符串中最大的3位相同数字.py
 
 class Solution:
     def largestGoodInteger(self, num: str) -> str:
-        goodInteger = set()
+        good = set()
         for i in range(len(num) - 2):
             if num[i] == num[i + 1] == num[i + 2]:
-                goodInteger.add(int(num[i]))
-        return str(max(goodInteger)) * 3 if goodInteger else ""
+                good.add(int(num[i]))
+        return str(max(good)) * 3 if good else ""
 
 
 if __name__ == '__main__':

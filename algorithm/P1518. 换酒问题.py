@@ -7,13 +7,6 @@ LastEditTime: 2022-01-25 22:39:28
 Description:
 FilePath: 1518.换酒问题.py
 """
-#
-# @lc app=leetcode.cn id=1518 lang=python3
-#
-# [1518] 换酒问题
-#
-
-# @lc code=start
 
 
 class Solution:
@@ -24,7 +17,6 @@ class Solution:
             total += numBottles
             numBottles += mod
         return total
-# @lc code=end
 
 
 if __name__ == "__main__":

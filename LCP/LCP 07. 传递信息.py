@@ -8,8 +8,8 @@ Description:
 FilePath: LCP 07. 传递信息.py
 """
 
-from typing import List
 from collections import defaultdict, deque
+from typing import List
 
 
 class Solution:
@@ -27,7 +27,6 @@ class Solution:
             step += 1
 
         return queue.count(n - 1)
-
 
 
 if __name__ == '__main__':

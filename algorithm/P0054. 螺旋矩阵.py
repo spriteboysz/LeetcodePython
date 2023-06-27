@@ -21,7 +21,8 @@ class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         m, n = len(matrix), len(matrix[0])
         direction, order = [(0, 1), (1, 0), (0, -1), (-1, 0)], []
-        x, y, dx, dy = 0, 0, *direction.pop(0)
+        x, y = 0, 0
+        dx, dy = direction.pop(0)
         direction.append((dx, dy))
         while len(order) < m * n:
             order.append(matrix[x][y])

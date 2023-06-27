@@ -16,8 +16,8 @@ class Solution:
         if k == 0 or k == n * n:
             return 1
 
-        def combination(a):
-            return factorial(n) // (factorial(a) * factorial(n - a))
+        def combination(num):
+            return factorial(n) // (factorial(num) * factorial(n - num))
 
         count = 0
         for a in range(n + 1):

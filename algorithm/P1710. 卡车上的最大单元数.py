@@ -7,13 +7,7 @@ LastEditTime: 2022-01-30 22:33:25
 Description:
 FilePath: 1710.卡车上的最大单元数.py
 """
-#
-# @lc app=leetcode.cn id=1710 lang=python3
-#
-# [1710] 卡车上的最大单元数
-#
 
-# @lc code=start
 from typing import List
 
 
@@ -29,7 +23,6 @@ class Solution:
                 count += truckSize * box[1]
                 break
         return count
-# @lc code=end
 
 
 if __name__ == "__main__":

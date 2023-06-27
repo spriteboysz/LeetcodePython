@@ -7,13 +7,7 @@ LastEditTime: 2022-03-14 21:38:52
 Description: 
 FilePath: 1237.找出给定方程的正整数解.py
 """
-#
-# @lc app=leetcode.cn id=1237 lang=python3
-#
-# [1237] 找出给定方程的正整数解
-#
 
-# @lc code=start
 from typing import List
 
 """
@@ -22,12 +16,12 @@ from typing import List
 """
 
 
-# class CustomFunction:
-#     # Returns f(x, y) for any given positive integers x and y.
-#     # Note that f(x, y) is increasing with respect to both x and y.
-#     # i.e. f(x, y) < f(x + 1, y), f(x, y) < f(x, y + 1)
-#     def f(self, x, y):
-#         return x + y
+class CustomFunction:
+    # Returns f(x, y) for any given positive integers x and y.
+    # Note that f(x, y) is increasing with respect to both x and y.
+    # i.e. f(x, y) < f(x + 1, y), f(x, y) < f(x, y + 1)
+    def f(self, x, y):
+        return x + y
 
 
 class Solution:
@@ -40,8 +34,7 @@ class Solution:
         return solution
 
 
-# @lc code=end
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.findSolution(function_id=1, z=5)
+    ans = solution.findSolution(CustomFunction(), 5)
     print(ans)

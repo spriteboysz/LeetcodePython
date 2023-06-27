@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-05-01 21:42:50
 LastEditTime: 2022-05-01 21:45:51
-Description: 
+Description:
 FilePath: 剑指 Offer 53 - I. 在排序数组中查找数字 I.py
-'''
+"""
 
 from bisect import bisect_right, bisect_left
 from typing import List

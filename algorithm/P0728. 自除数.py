@@ -4,18 +4,18 @@
 # [728] 自除数
 #
 from typing import List
-# @lc code=start
+
+
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
-        List = []
+        lst = []
         for i in range(left, right + 1):
             for item in str(i):
                 if int(item) == 0 or i % int(item) != 0:
                     break
             else:
-                List.append(i)
-        return List
-# @lc code=end
+                lst.append(i)
+        return lst
 
 
 if __name__ == '__main__':

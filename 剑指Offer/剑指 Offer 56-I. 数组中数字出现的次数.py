@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-05 22:37:16
 LastEditTime: 2022-02-05 22:49:51
-Description: 
+Description:
 FilePath: 100320.数组中数字出现的次数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100320 lang=python3
 #

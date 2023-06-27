@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-05-16 23:02:53
 LastEditTime: 2022-05-16 23:04:16
-Description: 
+Description:
 FilePath: 剑指 Offer II 027. 回文链表.py
-'''
+"""
 #! /usr/bin/env python
 # coding=utf-8
 """

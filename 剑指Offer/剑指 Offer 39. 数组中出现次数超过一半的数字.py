@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 22:19:10
 LastEditTime: 2022-02-04 22:35:12
-Description: 
+Description:
 FilePath: 100310.数组中出现次数超过一半的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100310 lang=python3
 #

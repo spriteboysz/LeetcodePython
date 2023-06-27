@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-05-15 16:53:52
 LastEditTime: 2022-05-15 16:57:16
-Description: 
+Description:
 FilePath: 剑指 Offer II 003. 前 n 个数字二进制中 1 的个数.py
-'''
+"""
 
 
 from typing import List

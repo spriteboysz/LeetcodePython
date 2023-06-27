@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 22:36:22
 LastEditTime: 2022-02-04 22:38:28
-Description: 
+Description:
 FilePath: 100301.最小的k个数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100301 lang=python3
 #

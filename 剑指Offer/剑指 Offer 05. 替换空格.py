@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 14:26:10
 LastEditTime: 2022-02-04 14:28:33
-Description: 
+Description:
 FilePath: 100280.替换空格.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100280 lang=python3
 #

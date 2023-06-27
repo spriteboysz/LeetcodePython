@@ -5,13 +5,12 @@
 #
 
 from collections import defaultdict
-# @lc code=start
+
 from typing import List
 
+
 class Solution:
-    def fourSumCount(
-        self, nums1: List[int], nums2: List[int], nums3: List[int], nums4: List[int]
-    ) -> int:
+    def fourSumCount(self, nums1: List[int], nums2: List[int], nums3: List[int], nums4: List[int]) -> int:
         countAB = defaultdict(int)
         for a in nums1:
             for b in nums2:
@@ -22,9 +21,6 @@ class Solution:
                 if -c - d in countAB:
                     count += countAB[-c - d]
         return count
-
-
-# @lc code=end
 
 
 if __name__ == "__main__":

@@ -7,15 +7,11 @@ LastEditTime: 2022-03-15 21:40:24
 Description: 
 FilePath: 916.单词子集.py
 """
-#
-# @lc app=leetcode.cn id=916 lang=python3
-#
-# [916] 单词子集
-#
 
 from string import ascii_lowercase
-# @lc code=start
+
 from typing import List
+
 
 class Solution:
     def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:
@@ -40,7 +36,6 @@ class Solution:
         return common
 
 
-# @lc code=end
 
 if __name__ == "__main__":
     solution = Solution()

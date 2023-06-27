@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 21:54:26
 LastEditTime: 2022-02-04 21:54:41
-Description: 
+Description:
 FilePath: 100335.不用加减乘除做加法.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100335 lang=python3
 #

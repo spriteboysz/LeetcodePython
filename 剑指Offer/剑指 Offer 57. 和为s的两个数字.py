@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 14:13:06
 LastEditTime: 2022-02-04 14:14:12
 Description:
 FilePath: 100322.和为s的两个数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100322 lang=python3
 #

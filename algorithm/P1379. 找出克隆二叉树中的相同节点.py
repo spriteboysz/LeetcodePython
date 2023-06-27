@@ -7,42 +7,19 @@ LastEditTime: 2022-03-19 14:24:32
 Description: 
 FilePath: 1379.找出克隆二叉树中的相同节点.py
 """
-
-
-#
-# @lc app=leetcode.cn id=1379 lang=python3
-#
-# [1379] 找出克隆二叉树中的相同节点
-#
-
-# @lc code=start
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x=None):
-        self.val = x
-        self.left = None
-        self.right = None
+from common.TreeNode import TreeNode
 
 
 class Solution:
-    def getTargetCopy(
-            self, original: TreeNode, cloned: TreeNode, target: TreeNode
-    ) -> TreeNode:
+    def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+        dic = dict()
 
-        self.targetcopy = TreeNode()
-
-        def dfs(node):
-            # nonlocal targetcopy
-            if not node:
+        def preorder(cloned):
+            if not cloned:
                 return
-            if node.val == target.val:
-                self.targetcopy = node
-                return
-            else:
-                dfs(node.left)
-                dfs(node.right)
+            dic[cloned.val] = cloned
+            preorder(cloned.left)
+            preorder(cloned.right)
 
-        dfs(cloned)
-        return self.targetcopy
-
-# @lc code=end
+        preorder(cloned)
+        return dic[target.val]

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:58:36
 LastEditTime: 2022-02-08 00:00:33
-Description: 
+Description:
 FilePath: 1000139.速算机器人.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1000139 lang=python3
 #
@@ -29,5 +29,5 @@ class Solution:
 
 
 if __name__ == "__main__":
-    s = Solution()
-    print(s.calculate("AB"))
+    solution = Solution()
+    print(solution.calculate("AB"))

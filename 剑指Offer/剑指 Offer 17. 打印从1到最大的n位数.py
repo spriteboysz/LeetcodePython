@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 22:39:39
 LastEditTime: 2022-02-04 22:42:02
-Description: 
+Description:
 FilePath: 100296.打印从-1-到最大的n位数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100296 lang=python3
 #

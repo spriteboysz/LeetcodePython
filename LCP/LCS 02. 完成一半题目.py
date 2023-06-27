@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:46:49
 LastEditTime: 2022-02-07 23:56:54
-Description: 
+Description:
 FilePath: 1000226.完成一半题目.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1000226 lang=python3
 #

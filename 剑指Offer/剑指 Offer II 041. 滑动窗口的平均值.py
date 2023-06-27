@@ -1,12 +1,12 @@
 #! /usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-05-16 23:12:52
 LastEditTime: 2022-05-16 23:15:23
-Description: 
+Description:
 FilePath: 剑指 Offer II 041. 滑动窗口的平均值.py
-'''
+"""
 #! /usr/bin/env python
 # coding=utf-8
 """

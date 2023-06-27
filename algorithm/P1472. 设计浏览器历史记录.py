@@ -16,7 +16,7 @@ class BrowserHistory:
         self.position = 0
 
     def visit(self, url: str) -> None:
-        while len(self.stack) != self.positon + 1:
+        while len(self.stack) != self.position + 1:
             self.stack.pop()
         self.stack.append(url)
         self.position += 1

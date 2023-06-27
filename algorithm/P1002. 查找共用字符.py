@@ -7,15 +7,10 @@ LastEditTime: 2022-01-20 23:05:28
 Description:
 FilePath: 1002.查找共用字符.py
 """
-#
-# @lc app=leetcode.cn id=1002 lang=python3
-#
-# [1002] 查找共用字符
-#
 
 from functools import reduce
-# @lc code=start
 from typing import List
+
 
 class Solution:
     def commonChars(self, words: List[str]) -> List[str]:
@@ -25,13 +20,10 @@ class Solution:
             for i, letter in enumerate(common):
                 count[i] = min(count[i], word.count(letter))
 
-        commonChars = []
+        common_chars = []
         for letter, c in zip(common, count):
-            commonChars.extend([letter] * c)
-        return commonChars
-
-
-# @lc code=end
+            common_chars.extend([letter] * c)
+        return common_chars
 
 
 if __name__ == '__main__':

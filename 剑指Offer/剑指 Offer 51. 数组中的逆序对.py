@@ -9,12 +9,12 @@ FilePath: 剑指 Offer 51. 数组中的逆序对.py
 """
 
 from typing import List
+
 from sortedcontainers import SortedList
 
 
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
-
         sl, count = SortedList(), 0
         for i in range(len(nums) - 1, -1, -1):  # 反向遍历
             count += sl.bisect_left(nums[i])  # 找到右边比当前值小的元素个数

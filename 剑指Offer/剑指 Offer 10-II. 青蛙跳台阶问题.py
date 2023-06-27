@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 22:45:22
 LastEditTime: 2022-02-04 22:50:42
-Description: 
+Description:
 FilePath: 100277.青蛙跳台阶问题.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100277 lang=python3
 #
