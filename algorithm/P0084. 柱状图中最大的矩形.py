@@ -7,19 +7,24 @@ LastEditTime: 2022-04-10 22:47:33
 Description:
 FilePath: 84.柱状图中最大的矩形.py
 """
-#
-# @lc app=leetcode.cn id=84 lang=python3
-#
-# [84] 柱状图中最大的矩形
-#
 
-# @lc code=start
 from typing import List
 
 
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
-        left, right, area = 0, len(heights) - 1, 0
-        pass
+        heights = [0] + heights + [0]
+        stack = []
+        maximum = 0
+        for index, value in enumerate(heights):
+            while stack and heights[index] < heights[stack[-1]]:
+                area = stack.pop()
+                width = index - stack[-1] - 1
+                maximum = max(maximum, heights[area] * width)
+            stack.append(index)
+        return maximum
 
-# @lc code=end
+
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.largestRectangleArea(heights=[2, 1, 5, 6, 2, 3]))

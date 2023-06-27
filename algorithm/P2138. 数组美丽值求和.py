@@ -8,6 +8,14 @@ from typing import List
 
 class Solution:
     def divideString(self, s: str, k: int, fill: str) -> List[str]:
-        pass
+        if len(s) % k != 0:
+            s += fill * (k - len(s) % k)
+        divide = []
+        for i in range(0, len(s) - k + 1, k):
+            divide.append(s[i:i + k])
+        return divide
 
 
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.divideString(s="abcdefghi", k=3, fill="x"))
