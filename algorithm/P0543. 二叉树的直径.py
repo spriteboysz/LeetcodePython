@@ -7,6 +7,8 @@ LastEditTime: 2022-04-05 20:55:48
 Description: 
 FilePath: 543.二叉树的直径.py
 """
+
+
 #
 # @lc app=leetcode.cn id=543 lang=python3
 #
@@ -37,6 +39,5 @@ class Solution:
 
         dfs(root)
         return diameter - 1
-
 
 # @lc code=end

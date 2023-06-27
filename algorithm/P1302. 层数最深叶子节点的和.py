@@ -7,42 +7,32 @@ LastEditTime: 2022-03-19 14:05:37
 Description: 
 FilePath: 1302.层数最深叶子节点的和.py
 """
-#
-# @lc app=leetcode.cn id=1302 lang=python3
-#
-# [1302] 层数最深叶子节点的和
-#
-
-# @lc code=start
+from collections import deque
 from typing import Optional
 
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
     def deepestLeavesSum(self, root: Optional[TreeNode]) -> int:
-        self.total, self.maxlevel = 0, 0
+        levels = 0
+        if not root:
+            return levels
+        queue = deque()
+        queue.append(root)
+        while len(queue) != 0:
+            levels = 0
+            size = len(queue)
+            for i in range(0, size):
+                node = queue.popleft()
+                levels += node.val
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+        return levels
 
-        def dfs(node, level):
-            if not node:
-                return
-            if node.left or node.right:
-                dfs(node.left, level + 1)
-                dfs(node.right, level + 1)
-            else:
-                if level > self.maxlevel:
-                    self.maxlevel = level
-                    self.total = node.val
-                elif level == self.maxlevel:
-                    self.total += node.val
 
-        dfs(root, 0)
-        return self.total
-
-
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.deepestLeavesSum(TreeNode.create("[1,2,3,4,5,null,6,7,null,null,null,null,8]")))

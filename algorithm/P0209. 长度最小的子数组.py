@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         if not nums:

@@ -7,19 +7,7 @@ LastEditTime: 2022-03-27 22:38:55
 Description: 
 FilePath: 671.二叉树中第二小的节点.py
 """
-#
-# @lc app=leetcode.cn id=671 lang=python3
-#
-# [671] 二叉树中第二小的节点
-#
-
-# @lc code=start
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
@@ -27,16 +15,18 @@ class Solution:
         def dfs(node):
             if not node:
                 return
-            self.values.add(node.val)
+            values.add(node.val)
             dfs(node.left)
             dfs(node.right)
 
-        self.values = set()
+        values = set()
         dfs(root)
-        if len(self.values) == 1:
+        if len(values) == 1:
             return -1
         else:
-            return sorted(list(self.values))[1]
+            return sorted(list(values))[1]
 
 
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.findSecondMinimumValue(TreeNode.create("[2,2,5,null,null,5,7]")))

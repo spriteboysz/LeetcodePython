@@ -11,6 +11,7 @@ FilePath: 1814.统计一个数组中好对子的数目.py
 from collections import Counter
 from typing import List
 
+
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:
         count, temp = 0, []

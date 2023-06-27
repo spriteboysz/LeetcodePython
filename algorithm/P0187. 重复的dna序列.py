@@ -17,12 +17,15 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
         counts = defaultdict(int)
         for i in range(len(s) - 9):
-            counts[s[i:i+10]] += 1
+            counts[s[i:i + 10]] += 1
         return [key for key, value in counts.items() if value >= 2]
+
+
 # @lc code=end
 
 

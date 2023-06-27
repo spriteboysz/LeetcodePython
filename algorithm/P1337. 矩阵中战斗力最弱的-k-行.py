@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
         effective = []
@@ -29,6 +30,8 @@ class Solution:
             if len(weakest) == k:
                 break
         return weakest
+
+
 # @lc code=end
 
 

@@ -16,6 +16,7 @@ FilePath: 690.员工的重要性.py
 # @lc code=start
 from typing import List
 
+
 # # Definition for Employee.
 class Employee:
     def __init__(self, id: int, importance: int, subordinates: List[int]):

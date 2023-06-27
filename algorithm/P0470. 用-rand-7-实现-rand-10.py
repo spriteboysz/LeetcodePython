@@ -7,6 +7,8 @@ LastEditTime: 2022-03-19 13:48:59
 Description:
 FilePath: 470.用-rand-7-实现-rand-10.py
 """
+
+
 #
 # @lc app=leetcode.cn id=470 lang=python3
 #
@@ -24,6 +26,5 @@ class Solution:
         :rtype: int
         """
         pass
-        
-# @lc code=end
 
+# @lc code=end

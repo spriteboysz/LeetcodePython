@@ -8,6 +8,7 @@ Description:
 FilePath: 面试题 05.02. 二进制数转字符串.py
 """
 
+
 class Solution:
     def printBin(self, num: float) -> str:
         s = ["0", "."]
@@ -21,6 +22,7 @@ class Solution:
             if len(s) >= 32 and num:
                 return "ERROR"
         return "".join(s)
+
 
 if __name__ == '__main__':
     solution = Solution()

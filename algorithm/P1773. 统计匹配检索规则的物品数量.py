@@ -14,7 +14,9 @@ FilePath: 1773.统计匹配检索规则的物品数量.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
         key = ["type", "color", "name"]
@@ -24,4 +26,3 @@ class Solution:
                 count += 1
         return count
 # @lc code=end
-

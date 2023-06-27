@@ -10,6 +10,7 @@ FilePath: 1980.找出不同的二进制字符串.py
 
 from typing import List
 
+
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:
         n = len(nums[0])
@@ -19,9 +20,8 @@ class Solution:
                 return cur
         return -1
 
-    
+
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.findDifferentBinaryString(nums = ["111","011","001"])
+    ans = solution.findDifferentBinaryString(nums=["111", "011", "001"])
     print(ans)
-    

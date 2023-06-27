@@ -7,6 +7,8 @@ LastEditTime: 2022-03-03 23:35:45
 Description: 
 FilePath: 1017.负二进制转换.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1017 lang=python3
 #

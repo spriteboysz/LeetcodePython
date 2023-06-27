@@ -7,6 +7,8 @@ LastEditTime: 2022-03-14 00:07:57
 Description: 
 FilePath: 1910.删除一个字符串中所有出现的给定子字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1910 lang=python3
 #

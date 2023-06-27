@@ -10,13 +10,13 @@ FilePath: 907.子数组的最小值之和.py
 
 from typing import List
 
+
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
         pass
-    
-    
+
+
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.sumSubarrayMins(arr = [3,1,2,4])
+    ans = solution.sumSubarrayMins(arr=[3, 1, 2, 4])
     print(ans)
-    

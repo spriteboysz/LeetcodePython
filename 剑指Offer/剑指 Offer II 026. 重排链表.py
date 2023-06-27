@@ -7,15 +7,14 @@ LastEditTime: 2022-05-18 22:40:21
 Description: 
 FilePath: 剑指 Offer II 026. 重排链表.py
 """
+from math import ceil
+
 
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-
-
-from math import ceil
 
 
 class Solution:

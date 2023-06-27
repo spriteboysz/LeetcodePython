@@ -7,6 +7,8 @@ LastEditTime: 2022-02-25 22:21:56
 Description:
 FilePath: 921.使括号有效的最少添加.py
 """
+
+
 #
 # @lc app=leetcode.cn id=921 lang=python3
 #
@@ -27,6 +29,8 @@ class Solution:
             else:
                 stack.append(item)
         return len(stack)
+
+
 # @lc code=end
 
 if __name__ == "__main__":

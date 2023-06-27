@@ -11,6 +11,7 @@ FilePath: 1785.构成特定和需要添加的最少元素.py
 from math import ceil
 from typing import List
 
+
 class Solution:
     def minElements(self, nums: List[int], limit: int, goal: int) -> int:
         return ceil(abs(goal - sum(nums)) / limit)

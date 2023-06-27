@@ -26,6 +26,8 @@ class Solution:
             if abs(key[i] - key[i + 1]) == 1:
                 maximum = max(maximum, dic[key[i]] + dic[key[i + 1]])
         return maximum
+
+
 # @lc code=end
 
 if __name__ == '__main__':

@@ -16,6 +16,7 @@ FilePath: 817.链表组件.py
 # @lc code=start
 from typing import List, Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -32,6 +33,5 @@ class Solution:
                     count += 1
             head = head.next
         return count
-
 
 # @lc code=end

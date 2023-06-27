@@ -7,6 +7,8 @@ LastEditTime: 2022-01-15 21:50:02
 Description:
 FilePath: 292.nim-游戏.py
 """
+
+
 #
 # @lc app=leetcode.cn id=292 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def canWinNim(self, n: int) -> bool:
         return True if n % 4 else False
 # @lc code=end
-

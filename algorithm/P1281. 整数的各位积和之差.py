@@ -6,6 +6,8 @@ Date: 2021-10-05 13:53:40
 Description:
 FilePath: 1281.整数的各位积和之差.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1281 lang=python3
 #

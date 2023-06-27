@@ -16,6 +16,7 @@ FilePath: 2074.反转偶数长度组的节点.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -36,7 +37,7 @@ class Solution:
         while i < n:
             # cur = nodes[i : min(i + cur_len, n)]
             if min(cur_len, n - i) % 2 == 0:
-                nodes[i : min(i + cur_len, n)] = nodes[i : min(i + cur_len, n)][::-1]
+                nodes[i: min(i + cur_len, n)] = nodes[i: min(i + cur_len, n)][::-1]
             i += cur_len
             cur_len += 1
 
@@ -44,6 +45,5 @@ class Solution:
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

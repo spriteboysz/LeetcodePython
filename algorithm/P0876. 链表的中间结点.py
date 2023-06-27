@@ -7,6 +7,8 @@ LastEditTime: 2022-03-02 22:31:33
 Description: 
 FilePath: 876.链表的中间结点.py
 """
+
+
 #
 # @lc app=leetcode.cn id=876 lang=python3
 #
@@ -34,6 +36,5 @@ class Solution:
             length -= 1
             node = node.next
         return node
-
 
 # @lc code=end

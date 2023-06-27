@@ -11,6 +11,7 @@ FilePath: 剑指 Offer II 008. 和大于等于 target 的最短子数组.py
 from typing import List
 from math import inf
 
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         left, total, minimum = 0, 0, inf
@@ -21,6 +22,7 @@ class Solution:
                 total -= nums[left]
                 left += 1
         return 0 if minimum > len(nums) else minimum
+
 
 if __name__ == '__main__':
     solution = Solution()

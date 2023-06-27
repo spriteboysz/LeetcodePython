@@ -7,22 +7,11 @@ LastEditTime: 2022-03-30 00:00:16
 Description: 
 FilePath: 1022.从根到叶的二进制数之和.py
 """
-#
-# @lc app=leetcode.cn id=1022 lang=python3
-#
-# [1022] 从根到叶的二进制数之和
-#
 
 from collections import deque
-# @lc code=start
 from typing import Optional
 
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
@@ -43,4 +32,6 @@ class Solution:
         return sum(map(lambda el: int(el, 2), paths))
 
 
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.sumRootToLeaf(TreeNode.create("[1,0,1,0,1,0,1]")))

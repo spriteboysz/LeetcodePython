@@ -16,8 +16,8 @@ FilePath: 2195.向数组中追加-k-个整数.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def minimalKSum(self, nums: List[int], k: int) -> int:
         pass
 # @lc code=end
-

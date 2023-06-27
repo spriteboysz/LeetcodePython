@@ -7,6 +7,8 @@ LastEditTime: 2022-04-15 23:22:30
 Description: 
 FilePath: 1806.还原排列的最少操作步数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1806 lang=python3
 #

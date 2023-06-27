@@ -7,6 +7,8 @@ LastEditTime: 2022-02-15 22:43:34
 Description:
 FilePath: 1689.十-二进制数的最少数目.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1689 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def minPartitions(self, n: str) -> int:
         return max(map(int, n))
 # @lc code=end
-

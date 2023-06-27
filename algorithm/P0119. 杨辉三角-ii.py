@@ -26,6 +26,8 @@ class Solution:
                 row += [triangle[-1][j - 1] + triangle[-1][j]]
             triangle.append([1] + row + [1])
         return triangle[-1]
+
+
 # @lc code=end
 
 

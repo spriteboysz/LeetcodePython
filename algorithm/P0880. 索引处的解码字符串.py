@@ -7,6 +7,8 @@ LastEditTime: 2022-03-15 20:21:50
 Description: 
 FilePath: 880.索引处的解码字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=880 lang=python3
 #

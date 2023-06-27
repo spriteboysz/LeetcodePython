@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer 13. 机器人的运动范围.py
 """
 
+
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def stat(num):
@@ -20,6 +21,7 @@ class Solution:
                                                in res or (i, j - 1) in res):
                     res.add((i, j))
         return len(res)
+
 
 if __name__ == '__main__':
     solution = Solution()

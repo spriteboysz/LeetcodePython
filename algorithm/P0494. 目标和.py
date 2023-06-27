@@ -10,6 +10,7 @@ FilePath: 494.目标和.py
 from functools import lru_cache
 from typing import List
 
+
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
         @lru_cache
@@ -19,6 +20,7 @@ class Solution:
             return dfs(index - 1, cur - nums[index]) + dfs(index - 1, cur + nums[index])
 
         return dfs(len(nums) - 1, target)
+
 
 if __name__ == '__main__':
     solution = Solution()

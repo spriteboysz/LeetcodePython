@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         nums = [-inf] + nums + [-inf]

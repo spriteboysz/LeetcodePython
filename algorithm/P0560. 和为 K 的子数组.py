@@ -11,6 +11,7 @@ FilePath: 560.和为 K 的子数组.py
 from collections import defaultdict
 from typing import List
 
+
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         prefix_sum_dict = defaultdict(int)

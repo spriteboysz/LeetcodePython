@@ -15,6 +15,7 @@ FilePath: 819.最常见的单词.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
         for item in ["!", "?", "'", ",", ";", "."]:

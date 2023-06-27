@@ -17,6 +17,7 @@ from random import randint
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -33,7 +34,6 @@ class Solution:
 
     def getRandom(self) -> int:
         return self.values[randint(0, len(self.values) - 1)]
-
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(head)

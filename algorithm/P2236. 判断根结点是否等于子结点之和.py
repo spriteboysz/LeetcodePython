@@ -16,6 +16,7 @@ FilePath: 2236.判断根结点是否等于子结点之和.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -27,6 +28,5 @@ class TreeNode:
 class Solution:
     def checkTree(self, root: Optional[TreeNode]) -> bool:
         return root.val == root.left.val + root.right.val
-
 
 # @lc code=end

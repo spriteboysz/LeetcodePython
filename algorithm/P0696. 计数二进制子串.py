@@ -7,6 +7,8 @@ LastEditTime: 2022-04-25 23:41:25
 Description: 
 FilePath: 696.计数二进制子串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=696 lang=python3
 #

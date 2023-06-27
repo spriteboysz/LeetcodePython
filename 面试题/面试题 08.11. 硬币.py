@@ -8,6 +8,7 @@ Description:
 FilePath: 面试题 08.11. 硬币.py
 """
 
+
 class Solution:
     def waysToChange(self, n: int) -> int:
         coins = [1, 5, 10, 25]
@@ -17,6 +18,7 @@ class Solution:
                 dp[i] += dp[i - coin]
         # print(dp)
         return dp[n] % 1000000007
+
 
 if __name__ == '__main__':
     solution = Solution()

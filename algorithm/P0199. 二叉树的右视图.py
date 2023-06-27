@@ -16,6 +16,7 @@ FilePath: 199.二叉树的右视图.py
 # @lc code=start
 from typing import List
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -40,6 +41,5 @@ class Solution:
                     curlevel.append(node.right)
             queue = curlevel
         return res
-
 
 # @lc code=end

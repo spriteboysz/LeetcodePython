@@ -17,14 +17,15 @@ from collections import deque
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a Node.
 class Node:
     def __init__(
-        self,
-        val: int = 0,
-        left: "Node" = None,
-        right: "Node" = None,
-        next: "Node" = None,
+            self,
+            val: int = 0,
+            left: "Node" = None,
+            right: "Node" = None,
+            next: "Node" = None,
     ):
         self.val = val
         self.left = left
@@ -50,6 +51,5 @@ class Solution:
                 if node.right:
                     queue.append(node.right)
         return root
-
 
 # @lc code=end

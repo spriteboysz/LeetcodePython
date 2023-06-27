@@ -29,7 +29,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.findDifference([1,2,3],[2,4,6])
+    ans = solution.findDifference([1, 2, 3], [2, 4, 6])
     print(ans)
-    ans = solution.findDifference([1,2,3,3],[1,1,2,2])
+    ans = solution.findDifference([1, 2, 3, 3], [1, 1, 2, 2])
     print(ans)

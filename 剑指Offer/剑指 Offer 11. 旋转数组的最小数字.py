@@ -15,8 +15,9 @@ FilePath: 100278.旋转数组的最小数字.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
         return min(numbers)
 # @lc code=end
-

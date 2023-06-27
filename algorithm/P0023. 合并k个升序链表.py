@@ -16,6 +16,7 @@ FilePath: 23.合并k个升序链表.py
 # @lc code=start
 from typing import List, Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -37,6 +38,5 @@ class Solution:
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

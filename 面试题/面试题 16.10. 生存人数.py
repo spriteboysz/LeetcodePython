@@ -19,6 +19,7 @@ class Solution:
                 alive[year] += 1
         return alive.index(max(alive)) + 1900
 
+
 if __name__ == '__main__':
     solution = Solution()
     ans = solution.maxAliveYear(

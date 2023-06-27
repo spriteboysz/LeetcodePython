@@ -14,11 +14,12 @@ class Solution:
 
         if num == 1:
             return False
-        else:        
+        else:
             return num == 1 + sum(lst)
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
     print(s.checkPerfectNumber(6))
-    

@@ -7,6 +7,8 @@ LastEditTime: 2022-04-05 20:49:58
 Description: 
 FilePath: 1038.从二叉搜索树到更大和树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1038 lang=python3
 #
@@ -40,6 +42,5 @@ class Solution:
 
         dfs(root)
         return root
-
 
 # @lc code=end

@@ -17,6 +17,7 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[int]) -> str:
         shifted = ""

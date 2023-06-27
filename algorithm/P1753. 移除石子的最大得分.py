@@ -7,6 +7,8 @@ LastEditTime: 2022-04-18 23:33:13
 Description: 
 FilePath: 1753.移除石子的最大得分.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1753 lang=python3
 #
@@ -21,6 +23,5 @@ class Solution:
             return a + b
         else:
             return (a + b + c) // 2
-
 
 # @lc code=end

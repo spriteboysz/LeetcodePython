@@ -28,5 +28,5 @@ if __name__ == '__main__':
     solution = Solution()
     ans = solution.stoneGameVI([1, 3], [2, 1])
     print(ans)
-    ans = solution.stoneGameVI([2,4,3], [1,6,7])
+    ans = solution.stoneGameVI([2, 4, 3], [1, 6, 7])
     print(ans)

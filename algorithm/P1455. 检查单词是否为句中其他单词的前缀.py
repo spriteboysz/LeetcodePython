@@ -7,6 +7,8 @@ LastEditTime: 2022-01-25 23:13:54
 Description:
 FilePath: 1455.检查单词是否为句中其他单词的前缀.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1455 lang=python3
 #

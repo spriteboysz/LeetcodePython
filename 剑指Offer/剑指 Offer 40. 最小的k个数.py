@@ -15,8 +15,9 @@ FilePath: 100301.最小的k个数.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         return sorted(arr)[:k]
 # @lc code=end
-

@@ -16,8 +16,8 @@ FilePath: 153.寻找旋转排序数组中的最小值.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         return min(nums)
 # @lc code=end
-

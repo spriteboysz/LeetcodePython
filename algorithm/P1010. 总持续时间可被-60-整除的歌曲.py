@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
         remainder = defaultdict(int)

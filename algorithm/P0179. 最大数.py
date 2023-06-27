@@ -17,11 +17,14 @@ from functools import cmp_to_key
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         nums = list(map(str, nums))
         nums.sort(key=cmp_to_key(lambda x, y: 1 if x + y < y + x else -1))
         return "".join(nums) if nums[0] != "0" else "0"
+
+
 # @lc code=end
 
 

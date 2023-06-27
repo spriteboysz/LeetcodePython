@@ -10,6 +10,7 @@ FilePath: 面试题 16.21. 交换和.py
 
 from typing import List
 
+
 class Solution:
     def findSwapValues(
             self,
@@ -25,6 +26,7 @@ class Solution:
             if num + delta in set2:
                 return [num, num + delta]
         return []
+
 
 if __name__ == '__main__':
     solution = Solution()

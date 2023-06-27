@@ -36,5 +36,5 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.numTeams([2,5,3,4,1])
+    ans = solution.numTeams([2, 5, 3, 4, 1])
     print(ans)

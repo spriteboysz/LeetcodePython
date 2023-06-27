@@ -7,6 +7,8 @@ LastEditTime: 2022-02-28 23:18:18
 Description: 
 FilePath: 1318.或运算的最小翻转次数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1318 lang=python3
 #
@@ -24,6 +26,5 @@ class Solution:
             else:
                 count += int(bit_a + bit_b == 0)
         return count
-
 
 # @lc code=end

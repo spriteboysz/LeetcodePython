@@ -7,6 +7,8 @@ LastEditTime: 2022-04-20 22:14:55
 Description: 
 FilePath: 2243.计算字符串的数字和.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2243 lang=python3
 #
@@ -19,7 +21,7 @@ class Solution:
         while len(s) > k:
             cur = ""
             for i in range(0, len(s), k):
-                cur += str(sum(map(int, list(s[i : i + k]))))
+                cur += str(sum(map(int, list(s[i: i + k]))))
             s = cur
         return s
 
@@ -30,5 +32,5 @@ if __name__ == "__main__":
     solution = Solution()
     ans = solution.digitSum(s="11111222223", k=3)
     print(ans)
-    ans = solution.digitSum(s = "00000000", k = 3)
+    ans = solution.digitSum(s="00000000", k=3)
     print(ans)

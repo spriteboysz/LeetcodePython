@@ -7,6 +7,8 @@ LastEditTime: 2022-04-22 22:44:13
 Description: 
 FilePath: 1352.最后-k-个数的乘积.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1352 lang=python3
 #
@@ -30,7 +32,6 @@ class ProductOfNumbers:
             return 0
         else:
             return self.nums[-1] // self.nums[-k - 1]
-
 
 # Your ProductOfNumbers object will be instantiated and called as such:
 # obj = ProductOfNumbers()

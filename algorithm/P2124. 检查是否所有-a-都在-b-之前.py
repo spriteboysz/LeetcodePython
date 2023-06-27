@@ -7,6 +7,8 @@ LastEditTime: 2022-01-21 22:00:00
 Description:
 FilePath: 2124.检查是否所有-a-都在-b-之前.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2124 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def checkString(self, s: str) -> bool:
         return "ba" not in s
 # @lc code=end
-

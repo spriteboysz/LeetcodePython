@@ -11,6 +11,7 @@ FilePath: 974.和可被 K 整除的子数组.py
 from collections import defaultdict
 from typing import List
 
+
 class Solution:
     def subarraysDivByK(self, nums: List[int], k: int) -> int:
         prefix_sum_dict = defaultdict(int)

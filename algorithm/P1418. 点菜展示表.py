@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def displayTable(self, orders: List[List[str]]) -> List[List[str]]:
         row = defaultdict(lambda: defaultdict(int))

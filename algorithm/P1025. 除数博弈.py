@@ -7,6 +7,8 @@ LastEditTime: 2022-01-29 23:35:31
 Description:
 FilePath: 1025.除数博弈.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1025 lang=python3
 #
@@ -19,4 +21,3 @@ class Solution:
         return False if n % 2 else True
 
 # @lc code=end
-

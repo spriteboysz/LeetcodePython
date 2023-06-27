@@ -18,12 +18,10 @@ from typing import List
 
 
 class Solution:
-    def checkArithmeticSubarrays(
-        self, nums: List[int], l: List[int], r: List[int]
-    ) -> List[bool]:
+    def checkArithmeticSubarrays(self, nums: List[int], left: List[int], right: List[int]) -> List[bool]:
         answer = []
-        for start, end in zip(l, r):
-            cur = sorted(nums[start : end + 1])
+        for start, end in zip(left, right):
+            cur = sorted(nums[start: end + 1])
             for i in range(2, len(cur)):
                 if cur[i] - cur[i - 1] != cur[i - 1] - cur[i - 2]:
                     answer.append(False)
@@ -31,6 +29,5 @@ class Solution:
             else:
                 answer.append(True)
         return answer
-
 
 # @lc code=end

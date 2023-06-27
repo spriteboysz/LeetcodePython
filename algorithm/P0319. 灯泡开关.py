@@ -7,6 +7,8 @@ LastEditTime: 2022-02-10 22:05:56
 Description:
 FilePath: 319.灯泡开关.py
 """
+
+
 #
 # @lc app=leetcode.cn id=319 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def bulbSwitch(self, n: int) -> int:
         return int(n ** 0.5)
 # @lc code=end
-

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-10 23:16:07
 Description:
 FilePath: 357.计算各个位数不同的数字个数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=357 lang=python3
 #
@@ -27,6 +29,7 @@ class Solution:
                 k -= 1
                 count += cur
             return count
+
 
 # @lc code=end
 

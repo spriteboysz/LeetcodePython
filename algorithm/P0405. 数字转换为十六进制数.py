@@ -17,6 +17,7 @@ from string import ascii_lowercase
 # @lc code=start
 from string import digits
 
+
 class Solution:
     def toHex(self, num: int) -> str:
         if num == 0:
@@ -24,7 +25,7 @@ class Solution:
         else:
             base = digits + ascii_lowercase[:6]
             if num < 0:
-                num = 2 ** 32 - abs(num) 
+                num = 2 ** 32 - abs(num)
             hexadecimal = ""
             while num > 0:
                 num, mod = divmod(num, 16)

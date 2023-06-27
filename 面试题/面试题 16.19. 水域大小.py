@@ -26,6 +26,7 @@ class Solution:
         return sorted([dfs(i, j) for i in range(n)
                        for j in range(m) if not land[i][j]])
 
+
 if __name__ == '__main__':
     solution = Solution()
     ans = solution.pondSizes([

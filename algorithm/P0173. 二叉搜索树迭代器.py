@@ -16,6 +16,7 @@ FilePath: 173.二叉搜索树迭代器.py
 # @lc code=start
 from collections import deque
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -42,7 +43,6 @@ class BSTIterator:
 
     def hasNext(self) -> bool:
         return True if self.queue else False
-
 
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)

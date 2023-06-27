@@ -28,5 +28,4 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    l = s.mergeTwoLists(ListNode.create("[4, 5, 6]"), ListNode.create("[1, 2, 3, 4]"))
-    print(l)
+    print(s.mergeTwoLists(ListNode.create("[4, 5, 6]"), ListNode.create("[1, 2, 3, 4]")))

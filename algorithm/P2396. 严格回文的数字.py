@@ -10,6 +10,8 @@ Description:
 
 class Solution:
     def isStrictlyPalindromic(self, n: int) -> bool:
+        if n < 0:
+            return False
         return False
 
 

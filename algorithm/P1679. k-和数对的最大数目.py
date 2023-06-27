@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
         counts = defaultdict(int)
@@ -28,6 +29,8 @@ class Solution:
             if k - i in counts:
                 count += min(counts[i], counts[k - i])
         return count // 2
+
+
 # @lc code=end
 
 

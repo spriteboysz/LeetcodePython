@@ -16,8 +16,10 @@ class Solution:
                 for item in [subsets[i] + [num]]:
                     if sorted(item) not in subsets:
                         subsets.append(list(sorted(item)))
-                #subsets.append(subsets[i] + [num])
+                # subsets.append(subsets[i] + [num])
         return subsets
+
+
 # @lc code=end
 
 

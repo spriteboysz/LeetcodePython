@@ -7,7 +7,7 @@ LastEditTime: 2022-05-16 23:15:23
 Description:
 FilePath: 剑指 Offer II 041. 滑动窗口的平均值.py
 """
-#! /usr/bin/env python
+# ! /usr/bin/env python
 # coding=utf-8
 """
 Author: Deean
@@ -36,7 +36,6 @@ class MovingAverage:
         if len(self.queue) > self.size:
             self.total -= self.queue.popleft()
         return self.total / len(self.queue)
-
 
 # Your MovingAverage object will be instantiated and called as such:
 # obj = MovingAverage(size)

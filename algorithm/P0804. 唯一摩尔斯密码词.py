@@ -17,6 +17,7 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
         morse = [".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
@@ -28,6 +29,8 @@ class Solution:
                 s += morse[ascii_lowercase.index(letter)]
             code.append(s)
         return len(set(code))
+
+
 # @lc code=end
 
 

@@ -16,8 +16,8 @@ FilePath: 1053.交换一次的先前排列.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def prevPermOpt1(self, arr: List[int]) -> List[int]:
         pass
 # @lc code=end
-

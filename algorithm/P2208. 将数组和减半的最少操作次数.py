@@ -17,6 +17,7 @@ from heapq import heappop, heappush
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def halveArray(self, nums: List[int]) -> int:
         heap, sum_ = [], 0

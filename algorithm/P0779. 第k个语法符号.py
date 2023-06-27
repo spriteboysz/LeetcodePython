@@ -7,6 +7,8 @@ LastEditTime: 2022-04-21 23:30:37
 Description: 
 FilePath: 779.第k个语法符号.py
 """
+
+
 #
 # @lc app=leetcode.cn id=779 lang=python3
 #
@@ -22,6 +24,5 @@ class Solution:
             return self.kthGrammar(n - 1, (k + 1) / 2)
         else:
             return abs(self.kthGrammar(n - 1, k / 2) - 1)
-
 
 # @lc code=end

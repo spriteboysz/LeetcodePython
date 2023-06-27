@@ -7,6 +7,8 @@ LastEditTime: 2022-04-10 13:56:21
 Description: 
 FilePath: 337.打家劫舍-iii.py
 """
+
+
 #
 # @lc app=leetcode.cn id=337 lang=python3
 #
@@ -34,6 +36,5 @@ class Solution:
             return value1, value2
 
         return max(dfs(root))
-
 
 # @lc code=end

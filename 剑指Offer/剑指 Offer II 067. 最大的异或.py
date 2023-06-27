@@ -10,9 +10,11 @@ FilePath: 剑指 Offer II 067. 最大的异或.py
 
 from typing import List
 
+
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         pass
+
 
 if __name__ == '__main__':
     solution = Solution()

@@ -7,6 +7,8 @@ LastEditTime: 2022-01-29 22:34:08
 Description:
 FilePath: 1523.在区间范围内统计奇数数目.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1523 lang=python3
 #
@@ -19,4 +21,3 @@ class Solution:
         high += high % 2
         return (high - low + 1) // 2
 # @lc code=end
-

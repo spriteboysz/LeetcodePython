@@ -32,9 +32,9 @@ class Solution:
         for i in range(0, 9, 3):
             for j in range(0, 9, 3):
                 block = (
-                    board[i][j : j + 3]
-                    + board[i + 1][j : j + 3]
-                    + board[i + 2][j : j + 3]
+                        board[i][j: j + 3]
+                        + board[i + 1][j: j + 3]
+                        + board[i + 2][j: j + 3]
                 )
                 if not check(block):
                     return False

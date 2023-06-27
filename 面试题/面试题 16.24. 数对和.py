@@ -10,6 +10,7 @@ FilePath: 面试题 16.24. 数对和.py
 
 from typing import List
 
+
 class Solution:
     def pairSums(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -24,6 +25,7 @@ class Solution:
             else:
                 j -= 1
         return pair
+
 
 if __name__ == '__main__':
     solution = Solution()

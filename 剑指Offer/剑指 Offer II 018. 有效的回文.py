@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer II 018. 有效的回文.py
 """
 
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         t = ""
@@ -17,6 +18,7 @@ class Solution:
             elif ch.isalpha():
                 t += ch.lower()
         return t == t[::-1]
+
 
 if __name__ == "__main__":
     solution = Solution()

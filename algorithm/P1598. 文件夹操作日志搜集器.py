@@ -15,6 +15,8 @@ FilePath: 1598.文件夹操作日志搜集器.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
         depth = 0
@@ -26,4 +28,3 @@ class Solution:
                 depth += 1
         return depth
 # @lc code=end
-

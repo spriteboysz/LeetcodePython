@@ -7,6 +7,8 @@ LastEditTime: 2022-01-28 23:59:33
 Description:
 FilePath: 476.数字的补数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=476 lang=python3
 #
@@ -22,4 +24,3 @@ class Solution:
             binary = bin(num).replace("0b", "").lstrip("0")
             return 2 ** (len(binary)) - 1 - num
 # @lc code=end
-

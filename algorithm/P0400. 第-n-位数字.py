@@ -7,6 +7,8 @@ LastEditTime: 2022-03-18 23:30:19
 Description: 
 FilePath: 400.第-n-位数字.py
 """
+
+
 #
 # @lc app=leetcode.cn id=400 lang=python3
 #

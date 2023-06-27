@@ -14,13 +14,17 @@ FilePath: 744.寻找比目标字母大的最小字母.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         for letter in letters:
             if ord(target) < ord(letter):
                 return letter
         return letters[0]
+
+
 # @lc code=end
 
 if __name__ == "__main__":

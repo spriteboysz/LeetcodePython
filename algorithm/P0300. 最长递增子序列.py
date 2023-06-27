@@ -33,5 +33,5 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.lengthOfLIS([10,9,2,5,3,7,101,18])
+    ans = solution.lengthOfLIS([10, 9, 2, 5, 3, 7, 101, 18])
     print(ans)

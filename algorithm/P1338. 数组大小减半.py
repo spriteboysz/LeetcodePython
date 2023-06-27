@@ -18,6 +18,7 @@ FilePath: 1338.数组大小减半.py
 from collections import defaultdict
 from typing import List
 
+
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
         numcount = defaultdict(int)

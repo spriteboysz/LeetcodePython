@@ -17,6 +17,7 @@ from math import log
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         if bound < 2:
@@ -32,6 +33,8 @@ class Solution:
                     break
                 powerful.add(cur)
         return list(powerful)
+
+
 # @lc code=end
 
 if __name__ == "__main__":
@@ -40,4 +43,3 @@ if __name__ == "__main__":
     print(ans)
     ans = solution.powerfulIntegers(2, 3, 0)
     print(ans)
-

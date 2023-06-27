@@ -16,6 +16,7 @@ FilePath: 998.最大二叉树-ii.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -26,7 +27,7 @@ class TreeNode:
 
 class Solution:
     def insertIntoMaxTree(
-        self, root: Optional[TreeNode], val: int
+            self, root: Optional[TreeNode], val: int
     ) -> Optional[TreeNode]:
         values = []
 
@@ -48,11 +49,10 @@ class Solution:
             index = values.index(value)
             node = TreeNode(value)
             node.left = maketree(values[:index])
-            node.right = maketree(values[index + 1 :])
+            node.right = maketree(values[index + 1:])
             return node
 
         root = maketree(values)
         return root
-
 
 # @lc code=end

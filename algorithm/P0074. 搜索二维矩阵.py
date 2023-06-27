@@ -14,6 +14,7 @@ FilePath: 74.搜索二维矩阵.py
 #
 from typing import List
 
+
 # @lc code=start
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:

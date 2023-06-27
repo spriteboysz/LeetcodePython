@@ -14,7 +14,9 @@ FilePath: 997.找到小镇的法官.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
         judge = {}
@@ -33,13 +35,12 @@ class Solution:
         for item in la:
             if item not in lb:
                 return item
-        
+
         return 1 if n == 1 else -1
- 
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.findJudge(3, [[1,2],[2,3]]))
-    
-
+    print(s.findJudge(3, [[1, 2], [2, 3]]))

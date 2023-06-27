@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def threeSumMulti(self, arr: List[int], target: int) -> int:
         numcount = defaultdict(int)
@@ -33,7 +34,7 @@ class Solution:
                 if k >= j and k in numcount:
                     if i == j == k:
                         count += (
-                            numcount[i] * (numcount[i] - 1) * (numcount[i] - 2) // 6
+                                numcount[i] * (numcount[i] - 1) * (numcount[i] - 2) // 6
                         )
                     elif i == j != k:
                         count += numcount[i] * (numcount[i] - 1) // 2 * numcount[k]

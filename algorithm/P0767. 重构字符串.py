@@ -31,7 +31,7 @@ class Solution:
 
         reorganize[::2], reorganize[1::2] = (
             reorganize[: (n + 1) // 2],
-            reorganize[(n + 1) // 2 :],
+            reorganize[(n + 1) // 2:],
         )
         return "".join(reorganize)
 

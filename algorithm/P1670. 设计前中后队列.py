@@ -7,6 +7,8 @@ LastEditTime: 2022-04-19 22:50:32
 Description: 
 FilePath: 1670.设计前中后队列.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1670 lang=python3
 #
@@ -35,7 +37,6 @@ class FrontMiddleBackQueue:
 
     def popBack(self) -> int:
         return self.queue.pop() if self.queue else -1
-
 
 # Your FrontMiddleBackQueue object will be instantiated and called as such:
 # obj = FrontMiddleBackQueue()

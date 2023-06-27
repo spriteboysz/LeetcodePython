@@ -6,6 +6,8 @@ Date: 2021-10-05 21:46:42
 Description: 宝石与石头
 FilePath: 771.宝石与石头.py
 """
+
+
 #
 # @lc app=leetcode.cn id=771 lang=python3
 #
@@ -21,4 +23,3 @@ class Solution:
 
         return count
 # @lc code=end
-

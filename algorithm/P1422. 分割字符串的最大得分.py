@@ -7,6 +7,8 @@ LastEditTime: 2022-01-25 23:35:25
 Description:
 FilePath: 1422.分割字符串的最大得分.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1422 lang=python3
 #
@@ -23,4 +25,3 @@ class Solution:
                 maximum = cur
         return maximum
 # @lc code=end
-

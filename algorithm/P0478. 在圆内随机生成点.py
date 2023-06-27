@@ -18,6 +18,7 @@ from math import sin, cos, sqrt, pi
 from random import uniform
 from typing import List
 
+
 class Solution:
     def __init__(self, radius: float, x_center: float, y_center: float):
         self.radius = radius
@@ -26,7 +27,6 @@ class Solution:
     def randPoint(self) -> List[float]:
         r, theta = sqrt(uniform(0, 1)) * self.radius, uniform(0, 2 * pi)
         return [self.x + r * sin(theta), self.y + r * cos(theta)]
-
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(radius, x_center, y_center)

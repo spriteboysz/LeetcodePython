@@ -17,6 +17,7 @@ from collections import deque
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -42,6 +43,5 @@ class Solution:
             if node.right:
                 queue.append((node.right, pathsum + node.right.val))
         return False
-
 
 # @lc code=end

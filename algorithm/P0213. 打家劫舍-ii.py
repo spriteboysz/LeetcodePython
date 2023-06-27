@@ -36,7 +36,6 @@ class Solution:
         if n == 1:
             return nums[0]
 
-        return max(robI(nums[0 : n - 1]), robI(nums[1:n]))
-
+        return max(robI(nums[0: n - 1]), robI(nums[1:n]))
 
 # @lc code=end

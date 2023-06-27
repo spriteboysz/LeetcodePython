@@ -7,6 +7,8 @@ LastEditTime: 2022-02-18 22:42:56
 Description: 
 FilePath: 2166.设计位集.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2166 lang=python3
 #
@@ -35,7 +37,7 @@ class Bitset:
     def flip(self) -> None:
         self.bitset, self.backup = self.backup, self.bitset
         self.cnt = self.size - self.cnt
-        
+
     def all(self) -> bool:
         return self.cnt == self.size
 
@@ -47,7 +49,6 @@ class Bitset:
 
     def toString(self) -> str:
         return "".join(map(str, self.bitset))
-
 
 # Your Bitset object will be instantiated and called as such:
 # obj = Bitset(size)

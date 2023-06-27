@@ -10,6 +10,7 @@ FilePath: 剑指 Offer 04. 二维数组中的查找.py
 
 from typing import List
 
+
 class Solution:
     def findNumberIn2DArray(self,
                             matrix: List[List[int]],
@@ -25,6 +26,7 @@ class Solution:
             else:
                 return True
         return False
+
 
 if __name__ == '__main__':
     solution = Solution()

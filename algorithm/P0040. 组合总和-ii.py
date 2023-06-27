@@ -17,6 +17,7 @@ from itertools import combinations
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         combination = set()

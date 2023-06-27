@@ -6,6 +6,8 @@ Date: 2021-09-26 23:38:27
 Description: 有效的完全平方数
 FilePath: 367.有效的完全平方数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=367 lang=python3
 #
@@ -21,6 +23,7 @@ class Solution:
             elif i ** 2 > num:
                 return False
         return False
+
 
 # @lc code=end
 

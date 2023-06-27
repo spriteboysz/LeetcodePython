@@ -7,6 +7,8 @@ LastEditTime: 2022-01-11 00:04:47
 Description:
 FilePath: 165.比较版本号.py
 """
+
+
 #
 # @lc app=leetcode.cn id=165 lang=python3
 #
@@ -29,10 +31,9 @@ class Solution:
         else:
             return 0
 
-            
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
     print(s.compareVersion("7.5.2.4", "7.5.3"))
-    

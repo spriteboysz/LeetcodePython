@@ -26,8 +26,6 @@ class Solution:
             self.sums = max(self.sums, left + right + node.val)
             return max(0, node.val, node.val + left, node.val + right)
 
-
-
         self.sums = root.val
         dfs(root)
         return self.sums

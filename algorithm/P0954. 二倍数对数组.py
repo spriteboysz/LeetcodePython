@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def canReorderDoubled(self, arr: List[int]) -> bool:
         count = defaultdict(int)

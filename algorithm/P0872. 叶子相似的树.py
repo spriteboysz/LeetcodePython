@@ -16,6 +16,7 @@ FilePath: 872.叶子相似的树.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -40,6 +41,5 @@ class Solution:
         dfs(root2, leaf2)
         # print(leaf1, leaf2)
         return leaf1 == leaf2
-
 
 # @lc code=end

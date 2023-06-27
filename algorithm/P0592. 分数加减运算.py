@@ -17,13 +17,16 @@ from functools import reduce
 # @lc code=start
 from math import gcd
 
+
 class Solution:
     def fractionAddition(self, expression: str) -> str:
         expression = expression.replace("-", "+-").lstrip("+").split("+")
         expression = map(lambda el: list(map(int, el.split("/"))), expression)
         fraction = reduce(lambda a, b: [a[0] * b[1] + b[0]
                                         * a[1], a[1] * b[1]], expression)
-        return "/".join(map(lambda el: str(el//gcd(*fraction)), fraction))
+        return "/".join(map(lambda el: str(el // gcd(*fraction)), fraction))
+
+
 # @lc code=end
 
 

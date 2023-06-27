@@ -14,7 +14,9 @@ FilePath: 1512.好数对的数目.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         count = 0
@@ -24,4 +26,3 @@ class Solution:
                     count += 1
         return count
 # @lc code=end
-

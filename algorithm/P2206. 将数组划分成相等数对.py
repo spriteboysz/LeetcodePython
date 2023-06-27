@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
         numcount = defaultdict(int)

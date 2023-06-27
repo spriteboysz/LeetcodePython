@@ -7,6 +7,8 @@ LastEditTime: 2022-04-12 23:29:28
 Description:
 FilePath: 2224.转化时间需要的最少操作数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2224 lang=python3
 #

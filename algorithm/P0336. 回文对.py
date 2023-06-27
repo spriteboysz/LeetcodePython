@@ -24,7 +24,7 @@ class Solution:
             for j, word2 in enumerate(words):
                 word = word1 + word2
                 if word1 != word2 and word == word[::-1]:
-                        pairs.append([i, j])
+                    pairs.append([i, j])
         return pairs
 
 

@@ -7,13 +7,6 @@ LastEditTime: 2022-01-25 23:48:32
 Description:
 FilePath: 1417.重新格式化字符串.py
 """
-#
-# @lc app=leetcode.cn id=1417 lang=python3
-#
-# [1417] 重新格式化字符串
-#
-
-# @lc code=start
 
 
 class Solution:
@@ -29,19 +22,17 @@ class Solution:
             return s
         else:
             if len(num) > len(letter):
-                for n, l in zip(num, letter):
-                    s += n + l
+                for n, c in zip(num, letter):
+                    s += n + c
                 s += num[-1]
             elif len(letter) > len(num):
-                for l, n in zip(letter, num):
-                    s += l + n
+                for c, n in zip(letter, num):
+                    s += c + n
                 s += letter[-1]
             else:
-                for l, n in zip(letter, num):
-                    s += l + n
+                for c, n in zip(letter, num):
+                    s += c + n
             return s
-
-# @lc code=end
 
 
 if __name__ == "__main__":

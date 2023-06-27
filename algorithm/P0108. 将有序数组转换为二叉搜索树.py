@@ -35,7 +35,7 @@ class Solution:
             index = (len(nums) - 1) // 2
             node = TreeNode(nums[index])
             node.left = create(nums[:index])
-            node.right = create(nums[index + 1 :])
+            node.right = create(nums[index + 1:])
             return node
 
         root = create(nums)
@@ -50,11 +50,13 @@ if __name__ == "__main__":
     root = solution.sortedArrayToBST([-10, -3, 0, 5, 9])
     print(root)
 
+
     def dfs(node):
         if not node:
             return
         dfs(node.left)
         print(node.val)
         dfs(node.right)
+
 
     dfs(root)

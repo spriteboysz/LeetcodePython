@@ -8,8 +8,9 @@ Description:
 FilePath: LCP 18. 早餐组合.py
 """
 
-from typing import List
 from bisect import bisect_right
+from typing import List
+
 
 class Solution:
     def breakfastNumber(self, staple: List[int], drinks: List[int], x: int) -> int:
@@ -20,6 +21,7 @@ class Solution:
             index = bisect_right(drinks, x - price)
             count += index
         return count % (10 ** 9 + 7)
+
 
 if __name__ == '__main__':
     solution = Solution()

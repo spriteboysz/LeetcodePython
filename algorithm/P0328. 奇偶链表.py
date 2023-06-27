@@ -10,22 +10,21 @@ FilePath: 328.奇偶链表.py
 from common.ListNode import ListNode
 
 
-#
-# @lc app=leetcode.cn id=328 lang=python3
-#
-# [328] 奇偶链表
-#
-
-
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
-        if not head:
+        if not head or not head.next:
             return head
-        even = evencur = head
-        odd = oddcur = head.next
-        while evencur.next and oddcur.next:
-            evencur.next = evencur.next.next
-            oddcur.next = oddcur.next.next
-            evencur, oddcur = evencur.next, oddcur.next
-        evencur.next = odd
-        return head
+        nodes = []
+        while head:
+            nodes.append(head)
+            head = head.next
+        nodes = nodes[::2] + nodes[1::2]
+        for i in range(len(nodes) - 1):
+            nodes[i].next = nodes[i + 1]
+        nodes[-1].next = None
+        return nodes[0]
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.oddEvenList(ListNode.create("[2,1,3,5,6,4,7]")))

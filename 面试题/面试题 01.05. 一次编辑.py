@@ -11,9 +11,9 @@ class Solution:
         for i, (x, y) in enumerate(zip(first, second)):
             if x != y:
                 return (
-                    first[i + 1 :] == second[i + 1 :]
+                    first[i + 1:] == second[i + 1:]
                     if m == n
-                    else first[i + 1 :] == second[i:]
+                    else first[i + 1:] == second[i:]
                 )
         return True
 

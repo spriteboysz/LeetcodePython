@@ -10,6 +10,7 @@ FilePath: 剑指 Offer 12. 矩阵中的路径.py
 
 from typing import List
 
+
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         def dfs(i, j, k):
@@ -27,6 +28,7 @@ class Solution:
                 if dfs(i, j, 0):
                     return True
         return False
+
 
 if __name__ == '__main__':
     solution = Solution()

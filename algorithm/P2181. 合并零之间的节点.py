@@ -16,6 +16,7 @@ FilePath: 2181.合并零之间的节点.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -38,6 +39,5 @@ class Solution:
             nodes[i].next = nodes[i + 1]
         nodes[-2].next = None
         return head
-
 
 # @lc code=end

@@ -7,6 +7,8 @@ LastEditTime: 2022-04-04 23:54:30
 Description: 
 FilePath: 92.反转链表-ii.py
 """
+
+
 #
 # @lc app=leetcode.cn id=92 lang=python3
 #
@@ -28,11 +30,10 @@ class Solution:
             nodes.append(cur)
             cur = cur.next
 
-        nodes = nodes[: left - 1] + nodes[left - 1 : right][::-1] + nodes[right:]
+        nodes = nodes[: left - 1] + nodes[left - 1: right][::-1] + nodes[right:]
         for i in range(len(nodes) - 1):
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

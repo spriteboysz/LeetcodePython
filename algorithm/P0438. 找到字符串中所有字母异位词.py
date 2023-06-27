@@ -17,6 +17,7 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         if len(s) < len(p):

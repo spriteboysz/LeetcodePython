@@ -8,6 +8,7 @@ Description:
 FilePath: 623.在二叉树中增加一行.py
 """
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

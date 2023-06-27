@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def tupleSameProduct(self, nums: List[int]) -> int:
         product = defaultdict(int)

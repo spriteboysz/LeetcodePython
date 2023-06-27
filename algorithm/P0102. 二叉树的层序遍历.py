@@ -16,6 +16,7 @@ FilePath: 102.二叉树的层序遍历.py
 # @lc code=start
 from typing import List
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -41,6 +42,5 @@ class Solution:
                     curlevel.append(node.right)
             queue = curlevel  # 把queue更新成下一层的结点
         return res
-
 
 # @lc code=end

@@ -7,6 +7,8 @@ LastEditTime: 2022-04-24 23:22:52
 Description: 
 FilePath: 2240.买钢笔和铅笔的方案数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2240 lang=python3
 #

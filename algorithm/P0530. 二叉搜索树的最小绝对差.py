@@ -7,21 +7,10 @@ LastEditTime: 2022-03-28 23:40:06
 Description: 
 FilePath: 530.二叉搜索树的最小绝对差.py
 """
-#
-# @lc app=leetcode.cn id=530 lang=python3
-#
-# [530] 二叉搜索树的最小绝对差
-#
 
-# @lc code=start
 from math import inf
 
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
@@ -30,17 +19,18 @@ class Solution:
             if not node:
                 return
             dfs(node.left)
-            self.values.append(node.val)
+            values.append(node.val)
             dfs(node.right)
 
-        self.values = []
+        values = []
         dfs(root)
-        print(self.values)
 
         minimum = inf
-        for i in range(1, len(self.values)):
-            minimum = min(self.values[i] - self.values[i - 1], minimum)
+        for i in range(1, len(values)):
+            minimum = min(values[i] - values[i - 1], minimum)
         return minimum
 
 
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.getMinimumDifference(TreeNode.create("[4,2,6,1,3]")))

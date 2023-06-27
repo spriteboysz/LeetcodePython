@@ -17,6 +17,7 @@ from collections import Counter
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def numTriplets(self, nums1: List[int], nums2: List[int]) -> int:
         dic1 = Counter([num ** 2 for num in nums1])

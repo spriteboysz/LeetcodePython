@@ -8,6 +8,7 @@ Description:
 FilePath: 100295.数值的整数次方.py
 """
 
+
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if x == 0:
@@ -21,6 +22,7 @@ class Solution:
             x *= x
             n //= 2
         return power
+
 
 if __name__ == "__main__":
     s = Solution()

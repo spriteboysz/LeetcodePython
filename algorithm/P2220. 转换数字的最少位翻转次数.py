@@ -7,6 +7,8 @@ LastEditTime: 2022-04-12 23:21:42
 Description: 
 FilePath: 2220.转换数字的最少位翻转次数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2220 lang=python3
 #

@@ -7,6 +7,8 @@ LastEditTime: 2022-04-07 22:55:16
 Description: 
 FilePath: 1387.将整数按权重排序.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1387 lang=python3
 #

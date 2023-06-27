@@ -10,6 +10,7 @@ FilePath: 剑指 Offer 34. 二叉树中和为某一值的路径.py
 
 from typing import List
 
+
 # Definition for a binary tree node.
 
 
@@ -18,6 +19,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
 
 class Solution:
     def pathSum(self, root: TreeNode, target: int) -> List[List[int]]:

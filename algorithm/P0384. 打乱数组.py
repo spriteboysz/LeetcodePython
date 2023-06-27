@@ -18,6 +18,7 @@ from copy import copy
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def __init__(self, nums: List[int]):
         self.nums = nums
@@ -29,7 +30,6 @@ class Solution:
         # temp = copy(self.nums)
         random.shuffle(temp := copy(self.nums))
         return temp
-
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)

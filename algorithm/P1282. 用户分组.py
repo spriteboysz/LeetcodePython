@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
         groupindex = defaultdict(list)
@@ -25,8 +26,9 @@ class Solution:
         groups = []
         for k, v in groupindex.items():
             for i in range(0, len(v), k):
-                groups.append(v[i:i+k])
+                groups.append(v[i:i + k])
         return groups
+
 
 # @lc code=end
 

@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer II 001. 整数除法.py
 """
 
+
 class Solution:
     def divide(self, a: int, b: int) -> int:
         flag = False if (a > 0 and b > 0) or (a < 0 and b < 0) else True
@@ -26,6 +27,7 @@ class Solution:
             a -= val
         ret = -ret if flag else ret
         return ret - 1 if ret >= 2 ** 31 else ret
+
 
 if __name__ == '__main__':
     solution = Solution()

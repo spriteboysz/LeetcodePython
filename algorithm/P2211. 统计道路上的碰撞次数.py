@@ -7,6 +7,8 @@ LastEditTime: 2022-04-13 22:07:15
 Description: 
 FilePath: 2211.统计道路上的碰撞次数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2211 lang=python3
 #

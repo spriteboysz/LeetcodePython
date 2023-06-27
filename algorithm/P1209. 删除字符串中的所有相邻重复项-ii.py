@@ -7,6 +7,8 @@ LastEditTime: 2022-03-04 23:22:33
 Description: 
 FilePath: 1209.删除字符串中的所有相邻重复项-ii.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1209 lang=python3
 #

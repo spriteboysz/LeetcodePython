@@ -17,6 +17,7 @@ from itertools import permutations
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         return list(map(lambda el: list(el), permutations(nums, len(nums))))

@@ -9,6 +9,7 @@ class Solution:
             a, b, c = (a + b + c) % 1000000007, a, b
         return a
 
+
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.waysToStep(5)

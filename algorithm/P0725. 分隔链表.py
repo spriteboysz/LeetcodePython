@@ -16,6 +16,7 @@ FilePath: 725.分隔链表.py
 # @lc code=start
 from typing import List
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -40,6 +41,5 @@ class Solution:
             index += 1
             last.next = None
         return parts
-
 
 # @lc code=end

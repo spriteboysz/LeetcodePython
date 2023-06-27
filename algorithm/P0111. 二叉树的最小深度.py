@@ -16,6 +16,7 @@ FilePath: 111.二叉树的最小深度.py
 # @lc code=start
 from math import inf
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -38,6 +39,5 @@ class Solution:
             mindepth = min(mindepth, self.minDepth(root.right))
 
         return mindepth + 1
-
 
 # @lc code=end

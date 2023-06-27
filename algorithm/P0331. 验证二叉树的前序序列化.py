@@ -7,6 +7,8 @@ LastEditTime: 2022-04-10 13:42:19
 Description: 
 FilePath: 331.验证二叉树的前序序列化.py
 """
+
+
 #
 # @lc app=leetcode.cn id=331 lang=python3
 #
@@ -20,7 +22,7 @@ class Solution:
         for item in preorder.split(","):
             stack.append(item)
             while (
-                len(stack) >= 3 and stack[-1] == stack[-2] == "#" and stack[-3] != "#"
+                    len(stack) >= 3 and stack[-1] == stack[-2] == "#" and stack[-3] != "#"
             ):
                 stack = stack[:-3]
                 stack.append("#")

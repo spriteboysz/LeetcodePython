@@ -16,6 +16,7 @@ FilePath: 113.路径总和-ii.py
 # @lc code=start
 from typing import List, Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -38,6 +39,5 @@ class Solution:
         res = []
         dfs(root, targetSum, res, [])
         return res
-
 
 # @lc code=end

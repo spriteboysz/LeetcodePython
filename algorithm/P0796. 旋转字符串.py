@@ -7,6 +7,8 @@ LastEditTime: 2022-01-16 23:30:02
 Description:
 FilePath: 796.旋转字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=796 lang=python3
 #
@@ -21,9 +23,9 @@ class Solution:
                 return True
         return False
 
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
     print(s.rotateString("abcde", "abced"))
-    

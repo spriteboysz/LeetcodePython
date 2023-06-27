@@ -7,6 +7,8 @@ LastEditTime: 2022-04-15 22:17:01
 Description: 
 FilePath: 1638.统计只差一个字符的子串数目.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1638 lang=python3
 #

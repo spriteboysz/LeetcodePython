@@ -7,6 +7,7 @@
 # @lc code=start
 from typing import List
 
+
 # Definition for a Node.
 class Node:
     def __init__(self, val=None, children=None):
@@ -27,6 +28,5 @@ class Solution:
 
         dfs(root)
         return value
-
 
 # @lc code=end

@@ -21,7 +21,7 @@ class Solution:
     def canBeIncreasing(self, nums: List[int]) -> bool:
         n = len(nums)
         for i in range(len(nums)):
-            temp = nums[:i] + nums[i + 1 :]
+            temp = nums[:i] + nums[i + 1:]
             if sorted(temp) == temp and len(set(temp)) == n - 1:
                 return True
         return False

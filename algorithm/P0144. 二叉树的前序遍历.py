@@ -17,6 +17,7 @@ from typing import List
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -31,10 +32,9 @@ class Solution:
             return []
         else:
             return (
-                [root.val]
-                + self.preorderTraversal(root.left)
-                + self.preorderTraversal(root.right)
+                    [root.val]
+                    + self.preorderTraversal(root.left)
+                    + self.preorderTraversal(root.right)
             )
-
 
 # @lc code=end

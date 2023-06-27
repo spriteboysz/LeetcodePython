@@ -16,6 +16,7 @@ FilePath: 559.n-叉树的最大深度.py
 # @lc code=start
 from collections import deque
 
+
 # Definition for a Node.
 class Node:
     def __init__(self, val=None, children=None):
@@ -38,6 +39,5 @@ class Solution:
                     queue.append(child)
             level += 1
         return level
-
 
 # @lc code=end

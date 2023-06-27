@@ -7,13 +7,6 @@ LastEditTime: 2022-02-16 22:40:36
 Description: 
 FilePath: 877.石子游戏.py
 """
-#
-# @lc app=leetcode.cn id=877 lang=python3
-#
-# [877] 石子游戏
-#
-
-# @lc code=start
 
 from typing import List
 
@@ -23,4 +16,6 @@ class Solution:
         return True
 
 
-# @lc code=end
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.stoneGame([1, 2, 3, 4]))

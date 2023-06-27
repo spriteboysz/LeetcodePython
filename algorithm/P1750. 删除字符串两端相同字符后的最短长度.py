@@ -7,6 +7,8 @@ LastEditTime: 2022-04-18 23:50:39
 Description: 
 FilePath: 1750.删除字符串两端相同字符后的最短长度.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1750 lang=python3
 #

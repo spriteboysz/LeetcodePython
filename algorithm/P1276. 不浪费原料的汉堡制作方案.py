@@ -23,11 +23,10 @@ class Solution:
         # 2 * x + y = cheeseSlices
         if tomatoSlices % 2 == 1:
             return []
-        x = tomatoSlices // 2 -  cheeseSlices
+        x = tomatoSlices // 2 - cheeseSlices
         y = 2 * cheeseSlices - tomatoSlices // 2
         if x < 0 or y < 0:
             return []
         return [x, y]
-
 
 # @lc code=end

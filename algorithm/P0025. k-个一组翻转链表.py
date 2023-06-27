@@ -16,6 +16,7 @@ FilePath: 25.k-个一组翻转链表.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -35,11 +36,10 @@ class Solution:
         for i in range(0, len(nodes), k):
             if i + k > len(nodes):
                 break
-            nodes[i : i + k] = nodes[i : i + k][::-1]
+            nodes[i: i + k] = nodes[i: i + k][::-1]
         for i in range(len(nodes) - 1):
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

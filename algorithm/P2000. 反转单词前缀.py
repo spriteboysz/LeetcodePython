@@ -7,6 +7,8 @@ LastEditTime: 2022-01-22 22:24:19
 Description:
 FilePath: 2000.反转单词前缀.py
 """
+
+
 #
 # @lc app=leetcode.cn id=2000 lang=python3
 #
@@ -21,6 +23,8 @@ class Solution:
             return word[:index][::-1] + word[index:]
         else:
             return word
+
+
 # @lc code=end
 
 

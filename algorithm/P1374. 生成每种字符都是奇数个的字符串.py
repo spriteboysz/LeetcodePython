@@ -7,6 +7,8 @@ LastEditTime: 2022-01-27 23:46:39
 Description:
 FilePath: 1374.生成每种字符都是奇数个的字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1374 lang=python3
 #

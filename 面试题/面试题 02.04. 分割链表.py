@@ -4,10 +4,11 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         if not head:
-            return 
+            return
         nodes = []
         while head:
             nodes.append(head)

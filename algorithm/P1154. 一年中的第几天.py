@@ -6,6 +6,8 @@ Date: 2021-10-04 15:00:33
 Description: 一年中的第几天
 FilePath: 1154.一年中的第几天.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1154 lang=python3
 #
@@ -21,7 +23,7 @@ class Solution:
             return True
         else:
             return False
-   
+
     def dayOfYear(self, date: str) -> int:
         year, month, day = map(int, date.split("-"))
         mm = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
@@ -33,11 +35,10 @@ class Solution:
             count += mm[i]
 
         return count + day
-        
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
     print(s.dayOfYear("2100-03-01"))
-    
-

@@ -7,6 +7,8 @@ LastEditTime: 2022-03-01 22:48:59
 Description: 
 FilePath: 234.回文链表.py
 """
+
+
 #
 # @lc app=leetcode.cn id=234 lang=python3
 #
@@ -30,6 +32,5 @@ class Solution:
             cur = cur.next
 
         return nums == nums[::-1]
-
 
 # @lc code=end

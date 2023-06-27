@@ -7,6 +7,8 @@ LastEditTime: 2022-01-23 22:41:06
 Description:
 FilePath: 1678.设计-goal-解析器.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1678 lang=python3
 #

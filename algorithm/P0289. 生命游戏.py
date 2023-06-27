@@ -26,10 +26,10 @@ class Solution:
 
         def neighbor(i, j):
             res = []
-            for l in range(i - 1, i + 2):
+            for k in range(i - 1, i + 2):
                 for r in range(j - 1, j + 2):
-                    if 0 <= l < m and 0 <= r < n and (l != i or j != r):
-                        res.append([l, r])
+                    if 0 <= k < m and 0 <= r < n and (k != i or j != r):
+                        res.append([k, r])
             return res
 
         for i in range(m):
@@ -43,6 +43,5 @@ class Solution:
                     board[i][j] = 1
                 else:
                     board[i][j] = 0
-
 
 # @lc code=end

@@ -10,6 +10,7 @@ FilePath: 1314.矩阵区域和.py
 
 from typing import List
 
+
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]:
         n, m = len(mat), len(mat[0])

@@ -11,6 +11,7 @@ FilePath: 1801.积压订单中的订单总数.py
 from heapq import heappop, heappush
 from typing import List
 
+
 class Solution:
     def getNumberOfBacklogOrders(self, orders: List[List[int]]) -> int:
         buy, sell = [], []
@@ -34,8 +35,8 @@ class Solution:
                 if amount > 0:
                     heappush(sell, (price, amount))
 
-        return (sum(list(map(lambda el: el[1],buy))) +
-                sum(list(map(lambda el: el[1],sell)))) % (10 ** 9 + 7)
+        return (sum(list(map(lambda el: el[1], buy))) +
+                sum(list(map(lambda el: el[1], sell)))) % (10 ** 9 + 7)
 
 
 if __name__ == '__main__':

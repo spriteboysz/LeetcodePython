@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         minprice = inf
@@ -25,6 +26,7 @@ class Solution:
             minprice = min(minprice, price)
             dp[i] = max(dp[i], price - minprice)
         return max(dp)
+
 
 # @lc code=end
 

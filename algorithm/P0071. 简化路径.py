@@ -7,6 +7,8 @@ LastEditTime: 2022-02-26 15:47:25
 Description: 
 FilePath: 71.简化路径.py
 """
+
+
 #
 # @lc app=leetcode.cn id=71 lang=python3
 #

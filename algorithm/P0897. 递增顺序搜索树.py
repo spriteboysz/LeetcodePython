@@ -7,6 +7,8 @@ LastEditTime: 2022-04-05 16:29:59
 Description: 
 FilePath: 897.递增顺序搜索树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=897 lang=python3
 #
@@ -43,6 +45,5 @@ class Solution:
         nodes[-1].left = None
         nodes[-1].right = None
         return nodes[0]
-
 
 # @lc code=end

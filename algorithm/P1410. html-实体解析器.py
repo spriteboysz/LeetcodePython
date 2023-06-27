@@ -7,6 +7,8 @@ LastEditTime: 2022-04-22 23:14:34
 Description:
 FilePath: 1410.html-实体解析器.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1410 lang=python3
 #
@@ -35,5 +37,5 @@ if __name__ == "__main__":
     solution = Solution()
     ans = solution.entityParser(text="&amp; is an HTML entity but &ambassador; is not.")
     print(ans)
-    ans = solution.entityParser(text = "and I quote: &quot;...&quot;")
+    ans = solution.entityParser(text="and I quote: &quot;...&quot;")
     print(ans)

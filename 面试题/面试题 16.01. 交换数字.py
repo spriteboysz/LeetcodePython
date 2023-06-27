@@ -15,8 +15,9 @@ FilePath: 100258.交换数字.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def swapNumbers(self, numbers: List[int]) -> List[int]:
         return numbers[::-1]
 # @lc code=end
-

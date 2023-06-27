@@ -8,6 +8,7 @@
 
 from typing import List
 
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         for i in range(len(nums)):
@@ -16,10 +17,11 @@ class Solution:
                     del nums[j]
 
         return len(nums)
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
-    ret = s.removeDuplicates([1,1,2])
+    ret = s.removeDuplicates([1, 1, 2])
     print(ret)
-    

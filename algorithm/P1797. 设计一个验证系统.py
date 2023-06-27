@@ -8,6 +8,7 @@ Description:
 FilePath: 1797.设计一个验证系统.py
 """
 
+
 class AuthenticationManager:
 
     def __init__(self, timeToLive: int):

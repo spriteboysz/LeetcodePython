@@ -14,7 +14,8 @@ FilePath: 674.最长连续递增序列.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
 
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
@@ -23,11 +24,10 @@ class Solution:
             if nums[i] > nums[i - 1]:
                 increase[i] = increase[i - 1] + 1
         return max(increase)
-    
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.findLengthOfLCIS([2,2,2,2,2]))
-    
-
+    print(s.findLengthOfLCIS([2, 2, 2, 2, 2]))

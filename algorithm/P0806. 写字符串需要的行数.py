@@ -17,6 +17,7 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def numberOfLines(self, widths: List[int], s: str) -> List[int]:
         line, cur = 1, 0
@@ -28,10 +29,12 @@ class Solution:
             else:
                 cur += width
         return [line, cur]
+
+
 # @lc code=end
 
 
 if __name__ == '__main__':
     s = Solution()
     print(s.numberOfLines([4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
-          10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "bbbcccdddaaa"))
+                           10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10], "bbbcccdddaaa"))

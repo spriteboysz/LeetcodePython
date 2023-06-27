@@ -16,6 +16,7 @@ FilePath: 1305.两棵二叉搜索树中的所有元素.py
 # @lc code=start
 from typing import List
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -50,6 +51,5 @@ class Solution:
                 else:
                     values.append(stack2.pop())
         return values
-
 
 # @lc code=end

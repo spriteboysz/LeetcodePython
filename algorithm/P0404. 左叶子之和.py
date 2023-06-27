@@ -7,6 +7,8 @@ LastEditTime: 2022-03-07 23:36:08
 Description: 
 FilePath: 404.左叶子之和.py
 """
+
+
 #
 # @lc app=leetcode.cn id=404 lang=python3
 #
@@ -31,6 +33,5 @@ class Solution:
         if root.left and not root.left.left and not root.left.right:
             sum += root.left.val
         return sum + self.sumOfLeftLeaves(root.left) + self.sumOfLeftLeaves(root.right)
-
 
 # @lc code=end

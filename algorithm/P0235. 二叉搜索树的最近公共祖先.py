@@ -7,6 +7,8 @@ LastEditTime: 2022-04-11 23:00:12
 Description: 
 FilePath: 235.二叉搜索树的最近公共祖先.py
 """
+
+
 #
 # @lc app=leetcode.cn id=235 lang=python3
 #
@@ -24,7 +26,7 @@ class TreeNode:
 
 class Solution:
     def lowestCommonAncestor(
-        self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
+            self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
     ) -> "TreeNode":
         def dfs(node):
             if node.val < min(p.val, q.val):
@@ -35,6 +37,5 @@ class Solution:
                 return node
 
         return dfs(root)
-
 
 # @lc code=end

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-18 23:23:52
 Description: 
 FilePath: 50.pow-x-n.py
 """
+
+
 #
 # @lc app=leetcode.cn id=50 lang=python3
 #

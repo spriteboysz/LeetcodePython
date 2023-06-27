@@ -7,6 +7,8 @@ LastEditTime: 2022-04-27 22:23:33
 Description: 
 FilePath: 583.两个字符串的删除操作.py
 """
+
+
 #
 # @lc app=leetcode.cn id=583 lang=python3
 #

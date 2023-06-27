@@ -16,6 +16,7 @@ FilePath: 814.二叉树剪枝.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -37,6 +38,5 @@ class Solution:
         if not root:
             return root
         return None if dfs(root) else root
-
 
 # @lc code=end

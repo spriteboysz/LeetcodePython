@@ -16,6 +16,7 @@ FilePath: 563.二叉树的坡度.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -37,6 +38,5 @@ class Solution:
             )
 
         return dfs(root)[0]
-
 
 # @lc code=end

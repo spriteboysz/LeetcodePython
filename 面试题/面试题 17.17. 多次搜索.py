@@ -10,6 +10,7 @@ FilePath: 面试题 17.17. 多次搜索.py
 
 from typing import List
 
+
 class Solution:
     def multiSearch(self, big: str, smalls: List[str]) -> List[List[int]]:
         dictionary = {small: [] for small in smalls if small}
@@ -24,6 +25,7 @@ class Solution:
                 if window in dictionary:
                     dictionary[window].append(i)
         return list(dictionary.values())
+
 
 if __name__ == '__main__':
     solution = Solution()

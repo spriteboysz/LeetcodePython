@@ -18,9 +18,9 @@ class NumMatrix:
         self.presum = [[0 for _ in range(m + 1)] for _ in range(n + 1)]
         for x in range(n):
             for y in range(m):
-                self.presum[x + 1][y + 1] = self.presum[x + 1][y] + \
-                    self.presum[x][y + 1] - self.presum[x][y] + matrix[x][y]
+                self.presum[x + 1][y + 1] = self.presum[x + 1][y] + self.presum[x][y + 1] - self.presum[x][y] + \
+                                            matrix[x][y]
 
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
-        return self.presum[row2 + 1][col2 + 1] - self.presum[row2 + \
-            1][col1] - self.presum[row1][col2 + 1] + self.presum[row1][col1]
+        return self.presum[row2 + 1][col2 + 1] - self.presum[row2 + 1][col1] - self.presum[row1][col2 + 1] + \
+            self.presum[row1][col1]

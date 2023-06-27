@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
         r1, r2 = inf, inf

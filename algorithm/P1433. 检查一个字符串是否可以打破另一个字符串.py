@@ -7,6 +7,8 @@ LastEditTime: 2022-03-01 22:45:11
 Description:
 FilePath: 1433.检查一个字符串是否可以打破另一个字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1433 lang=python3
 #
@@ -23,7 +25,7 @@ class Solution:
             interval2.append(l1 <= l2)
         return all(interval1) or all(interval2)
 
-        
+
 # @lc code=end
 
 if __name__ == "__main__":
@@ -33,4 +35,3 @@ if __name__ == "__main__":
     ans = solution.checkIfCanBreak("abe", "acd")
     print(ans)
     print(solution.checkIfCanBreak("leetcodee", "interview"))
-

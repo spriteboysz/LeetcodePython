@@ -16,6 +16,7 @@ FilePath: 1367.二叉树中的列表.py
 # @lc code=start
 from collections import deque
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -52,6 +53,5 @@ class Solution:
             if node.right:
                 queue.append((node.right, path + str(node.right.val)))
         return False
-
 
 # @lc code=end

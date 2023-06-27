@@ -16,7 +16,8 @@ class Solution:
             alphabet[c] += 1
         alphabet = sorted(alphabet.values())
 
-        return len(alphabet) == 1 or (alphabet[0] == 1 and alphabet[1] == alphabet[-1]) or alphabet[0] == alphabet[-2] == alphabet[-1] - 1
+        return len(alphabet) == 1 or (alphabet[0] == 1 and alphabet[1] == alphabet[-1]) or alphabet[0] == alphabet[
+            -2] == alphabet[-1] - 1
 
 
 if __name__ == '__main__':

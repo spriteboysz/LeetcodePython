@@ -7,6 +7,8 @@ LastEditTime: 2022-03-08 23:07:58
 Description: 
 FilePath: 700.二叉搜索树中的搜索.py
 """
+
+
 #
 # @lc app=leetcode.cn id=700 lang=python3
 #
@@ -30,6 +32,5 @@ class Solution:
             elif root.val < val:
                 return self.searchBST(root.right, val)
         return root
-
 
 # @lc code=end

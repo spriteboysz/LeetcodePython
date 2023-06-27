@@ -17,10 +17,13 @@ from functools import reduce
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
         return arr == reduce(lambda a, b: a + b, sorted(pieces,
                                                         key=lambda el: arr.index(el[0]) if el[0] in arr else -1))
+
+
 # @lc code=end
 
 

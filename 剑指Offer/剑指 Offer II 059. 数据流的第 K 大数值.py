@@ -11,6 +11,7 @@ FilePath: 剑指 Offer II 059. 数据流的第 K 大数值.py
 from heapq import heappush, heappop
 from typing import List
 
+
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):

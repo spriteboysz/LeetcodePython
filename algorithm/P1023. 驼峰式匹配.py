@@ -23,7 +23,7 @@ class Solution:
                     break
                 if j == len(pattern):
                     # match.append(len(list(filter(lambda el: el.isupper(), query[i + 1 :]))) == 0)
-                    match.append(not query[i + 1 :] or query[i + 1 :].islower())
+                    match.append(not query[i + 1:] or query[i + 1:].islower())
                     break
             else:
                 match.append(False)

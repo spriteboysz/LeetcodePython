@@ -7,6 +7,8 @@ LastEditTime: 2022-02-28 23:59:37
 Description: 
 FilePath: 1451.重新排列句子中的单词.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1451 lang=python3
 #

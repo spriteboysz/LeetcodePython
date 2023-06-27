@@ -16,6 +16,7 @@ FilePath: 1448.统计二叉树中好节点的数目.py
 # @lc code=start
 from math import inf
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -39,6 +40,5 @@ class Solution:
         paths = []
         dfs(root, -inf)
         return len(paths)
-
 
 # @lc code=end

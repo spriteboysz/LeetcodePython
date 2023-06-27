@@ -7,6 +7,8 @@ LastEditTime: 2022-01-07 22:39:35
 Description:
 FilePath: 58.最后一个单词的长度.py
 """
+
+
 #
 # @lc app=leetcode.cn id=58 lang=python3
 #

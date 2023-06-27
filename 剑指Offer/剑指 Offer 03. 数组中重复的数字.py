@@ -15,6 +15,8 @@ FilePath: 100275.数组中重复的数字.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         number = set()
@@ -25,4 +27,3 @@ class Solution:
                 number.add(num)
         return -1
 # @lc code=end
-

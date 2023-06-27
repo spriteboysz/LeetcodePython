@@ -9,11 +9,14 @@ FilePath: 1690.石子游戏 VII.py
 """
 
 from typing import List
+
+
 class Solution:
     def stoneGameVII(self, stones: List[int]) -> int:
         pass
 
+
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.stoneGameVII(stones = [5,3,1,4,2])
+    ans = solution.stoneGameVII(stones=[5, 3, 1, 4, 2])
     print(ans)

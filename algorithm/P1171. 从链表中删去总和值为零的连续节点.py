@@ -7,6 +7,8 @@ LastEditTime: 2022-04-15 22:01:45
 Description: 
 FilePath: 1171.从链表中删去总和值为零的连续节点.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1171 lang=python3
 #
@@ -39,6 +41,5 @@ class Solution:
             head.next = seen[prefix].next
             head = head.next
         return dummy.next
-
 
 # @lc code=end

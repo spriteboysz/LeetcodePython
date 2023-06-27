@@ -7,6 +7,8 @@ LastEditTime: 2022-02-20 23:13:07
 Description: 
 FilePath: 100350.运算.py
 """
+
+
 #
 # @lc app=leetcode.cn id=100350 lang=python3
 #
@@ -26,7 +28,6 @@ class Operations:
 
     def divide(self, a: int, b: int) -> int:
         return int(a / b)
-
 
 # Your Operations object will be instantiated and called as such:
 # obj = Operations()

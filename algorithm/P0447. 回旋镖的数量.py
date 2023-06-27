@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
         def distance2(point1, point2):

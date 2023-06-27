@@ -7,6 +7,8 @@ LastEditTime: 2022-01-11 23:11:41
 Description:
 FilePath: 557.反转字符串中的单词-iii.py
 """
+
+
 #
 # @lc app=leetcode.cn id=557 lang=python3
 #
@@ -20,6 +22,8 @@ class Solution:
         for item in s.split():
             lst.append(item[::-1])
         return " ".join(lst)
+
+
 # @lc code=end
 
 

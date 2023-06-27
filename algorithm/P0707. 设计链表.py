@@ -7,6 +7,8 @@ LastEditTime: 2022-04-10 23:07:44
 Description: 
 FilePath: 707.设计链表.py
 """
+
+
 #
 # @lc app=leetcode.cn id=707 lang=python3
 #
@@ -39,7 +41,6 @@ class MyLinkedList:
     def deleteAtIndex(self, index: int) -> None:
         if 0 <= index < len(self.nodes):
             del self.nodes[index]
-
 
 # Your MyLinkedList object will be instantiated and called as such:
 # obj = MyLinkedList()

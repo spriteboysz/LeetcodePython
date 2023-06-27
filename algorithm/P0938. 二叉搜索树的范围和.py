@@ -7,6 +7,8 @@ LastEditTime: 2022-03-08 23:49:44
 Description: 
 FilePath: 938.二叉搜索树的范围和.py
 """
+
+
 #
 # @lc app=leetcode.cn id=938 lang=python3
 #
@@ -36,6 +38,5 @@ class Solution:
 
         dfs(root)
         return sum(value)
-
 
 # @lc code=end

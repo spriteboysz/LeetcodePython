@@ -17,6 +17,7 @@ FilePath: 145.二叉树的后序遍历.py
 from typing import List
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -31,10 +32,9 @@ class Solution:
             return []
         else:
             return (
-                self.postorderTraversal(root.left)
-                + self.postorderTraversal(root.right)
-                + [root.val]
+                    self.postorderTraversal(root.left)
+                    + self.postorderTraversal(root.right)
+                    + [root.val]
             )
-
 
 # @lc code=end

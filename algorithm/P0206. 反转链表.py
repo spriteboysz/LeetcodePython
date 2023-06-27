@@ -7,6 +7,8 @@ LastEditTime: 2022-03-26 22:18:51
 Description: 
 FilePath: 206.反转链表.py
 """
+
+
 #
 # @lc app=leetcode.cn id=206 lang=python3
 #
@@ -36,6 +38,5 @@ class Solution:
             h.next = node
             h = h.next
         return reverse.next
-
 
 # @lc code=end

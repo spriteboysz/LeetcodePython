@@ -10,6 +10,7 @@ FilePath: 面试题 08.09. 括号.py
 
 from typing import List
 
+
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
 
@@ -26,6 +27,7 @@ class Solution:
         brackets = []
         dfs(n, n, "")
         return brackets
+
 
 if __name__ == '__main__':
     solution = Solution()

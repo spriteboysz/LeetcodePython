@@ -16,6 +16,7 @@ FilePath: 1721.交换链表中的节点.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -34,6 +35,5 @@ class Solution:
             nodes[i].next = nodes[i + 1]
         nodes[-1].next = None
         return nodes[0]
-
 
 # @lc code=end

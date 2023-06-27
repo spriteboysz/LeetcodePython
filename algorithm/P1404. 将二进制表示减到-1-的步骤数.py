@@ -7,6 +7,8 @@ LastEditTime: 2022-04-07 23:49:34
 Description: 
 FilePath: 1404.将二进制表示减到-1-的步骤数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1404 lang=python3
 #

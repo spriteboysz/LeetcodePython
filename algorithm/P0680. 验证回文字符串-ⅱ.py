@@ -7,6 +7,8 @@ LastEditTime: 2022-02-23 22:18:07
 Description: 
 FilePath: 680.验证回文字符串-ⅱ.py
 """
+
+
 #
 # @lc app=leetcode.cn id=680 lang=python3
 #
@@ -21,8 +23,8 @@ class Solution:
         for i in range(len(s) // 2):
             j = len(s) - 1 - i
             if s[i] != s[j]:
-                cur1 = s[:i] + s[i + 1 :]
-                cur2 = s[:j] + s[j + 1 :]
+                cur1 = s[:i] + s[i + 1:]
+                cur2 = s[:j] + s[j + 1:]
                 if cur1 == cur1[::-1] or cur2 == cur2[::-1]:
                     return True
                 else:

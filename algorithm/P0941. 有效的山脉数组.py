@@ -24,11 +24,10 @@ class Solution:
 
         flag = True
         for i in range(2, len(arr)):
-            if flag == True and arr[i - 1] >= arr[i]:
+            if flag and arr[i - 1] >= arr[i]:
                 flag = False
-            if flag == False and arr[i - 1] <= arr[i]:
+            if not flag and arr[i - 1] <= arr[i]:
                 return False
         return not flag
-
 
 # @lc code=end

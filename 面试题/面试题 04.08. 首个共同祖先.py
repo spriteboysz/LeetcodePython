@@ -8,6 +8,7 @@ Description:
 FilePath: 面试题 04.08. 首个共同祖先.py
 """
 
+
 # Definition for a binary tree node.
 
 
@@ -16,6 +17,7 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
+
 
 class Solution:
     def lowestCommonAncestor(

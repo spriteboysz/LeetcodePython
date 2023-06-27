@@ -7,6 +7,8 @@ LastEditTime: 2022-01-23 16:26:15
 Description:
 FilePath: 1876.长度为三且各字符不同的子字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1876 lang=python3
 #
@@ -21,6 +23,8 @@ class Solution:
             if s[i] != s[i + 1] != s[i + 2] != s[i]:
                 count += 1
         return count
+
+
 # @lc code=end
 
 if __name__ == "__main__":

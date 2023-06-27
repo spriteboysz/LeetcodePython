@@ -8,9 +8,10 @@ from string import ascii_lowercase
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def maxScoreWords(
-        self, words: List[str], letters: List[str], score: List[int]
+            self, words: List[str], letters: List[str], score: List[int]
     ) -> int:
         lettercount = [0] * 26
         for letter in letters:
@@ -22,15 +23,15 @@ class Solution:
             for letter in word:
                 wordcount[ascii_lowercase.index(letter)] += 1
             if (
-                len(
-                    list(
-                        filter(
-                            lambda el: el < 0,
-                            map(lambda l, w: l - w, lettercount, wordcount),
+                    len(
+                        list(
+                            filter(
+                                lambda el: el < 0,
+                                map(lambda l, w: l - w, lettercount, wordcount),
+                            )
                         )
                     )
-                )
-                == 0
+                    == 0
             ):
                 points += sum(map(lambda w, s: w * s, wordcount, score))
         return points

@@ -10,6 +10,7 @@ FilePath: 剑指 Offer II 105. 岛屿的最大面积.py
 
 from typing import List
 
+
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -28,6 +29,7 @@ class Solution:
                 if grid[i][j]:
                     maximum = max(maximum, dfs(i, j))
         return maximum
+
 
 if __name__ == '__main__':
     solution = Solution()

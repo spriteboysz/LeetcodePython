@@ -7,6 +7,8 @@ LastEditTime: 2022-01-26 23:35:06
 Description:
 FilePath: 1323.6-和-9-组成的最大数字.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1323 lang=python3
 #
@@ -25,6 +27,7 @@ class Solution:
             else:
                 num2 += item
         return int(num2)
+
 
 # @lc code=end
 

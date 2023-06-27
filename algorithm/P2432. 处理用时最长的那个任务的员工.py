@@ -11,6 +11,8 @@ from typing import List
 
 class Solution:
     def hardestWorker(self, n: int, logs: List[List[int]]) -> int:
+        if n < len(logs):
+            return 0
         worker = []
         cur = 0
         for index, end in logs:

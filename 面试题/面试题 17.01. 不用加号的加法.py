@@ -7,6 +7,8 @@ LastEditTime: 2022-02-04 15:20:08
 Description: 
 FilePath: 1000025.不用加号的加法.py
 '''
+
+
 #
 # @lc app=leetcode.cn id=1000025 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def add(self, a: int, b: int) -> int:
         return sum([a, b])
 # @lc code=end
-

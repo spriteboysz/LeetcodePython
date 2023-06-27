@@ -7,6 +7,8 @@ LastEditTime: 2022-03-09 22:30:46
 Description: 
 FilePath: 901.股票价格跨度.py
 """
+
+
 #
 # @lc app=leetcode.cn id=901 lang=python3
 #
@@ -24,7 +26,6 @@ class StockSpanner:
             day += self.stack.pop()[1]
         self.stack.append((price, day))
         return day
-
 
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()

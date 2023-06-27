@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def alertNames(self, keyName: List[str], keyTime: List[str]) -> List[str]:
         records = defaultdict(list)
@@ -31,16 +32,18 @@ class Solution:
                     alertnames.append(name)
                     break
         return sorted(alertnames)
+
+
 # @lc code=end
 
 
 if __name__ == "__main__":
     s = Solution()
     print(s.alertNames(keyName=["daniel", "daniel", "daniel", "luis", "luis", "luis", "luis"], keyTime=[
-          "10:00", "10:40", "11:00", "09:00", "11:00", "13:00", "15:00"]))
+        "10:00", "10:40", "11:00", "09:00", "11:00", "13:00", "15:00"]))
     print(s.alertNames(keyName=["alice", "alice", "alice", "bob", "bob", "bob", "bob"], keyTime=[
-          "12:01", "12:00", "18:00", "21:00", "21:20", "21:30", "23:00"]))
+        "12:01", "12:00", "18:00", "21:00", "21:20", "21:30", "23:00"]))
     print(s.alertNames(keyName=["john", "john", "john"], keyTime=[
-          "23:58", "23:59", "00:01"]))
+        "23:58", "23:59", "00:01"]))
     print(s.alertNames(keyName=["leslie", "leslie", "leslie", "clare", "clare", "clare", "clare"], keyTime=[
-          "13:00", "13:20", "14:00", "18:00", "18:51", "19:30", "19:49"]))
+        "13:00", "13:20", "14:00", "18:00", "18:51", "19:30", "19:49"]))

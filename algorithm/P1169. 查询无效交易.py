@@ -29,9 +29,9 @@ class Solution:
                 if i != j:
                     name2, time2, _, city2 = transaction2.split(",")
                     if (
-                        name == name2
-                        and city != city2
-                        and abs(int(time) - int(time2)) <= 60
+                            name == name2
+                            and city != city2
+                            and abs(int(time) - int(time2)) <= 60
                     ):
                         invalid.append(transaction)
                         break
@@ -46,5 +46,5 @@ if __name__ == "__main__":
     print(ans)
     ans = solution.invalidTransactions(["alice,20,800,mtv", "alice,50,1200,mtv"])
     print(ans)
-    ans = solution.invalidTransactions(["alice,20,800,mtv","alice,50,100,mtv","alice,51,100,frankfurt"])
+    ans = solution.invalidTransactions(["alice,20,800,mtv", "alice,50,100,mtv", "alice,51,100,frankfurt"])
     print(ans)

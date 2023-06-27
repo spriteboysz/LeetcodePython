@@ -11,6 +11,7 @@ FilePath: 面试题 17.11. 单词距离.py
 from math import inf
 from typing import List
 
+
 class Solution:
     def findClosest(self, words: List[str], word1: str, word2: str) -> int:
         minimum, index1, index2 = len(words), inf, inf
@@ -23,6 +24,7 @@ class Solution:
             if minimum == 1:
                 return minimum
         return minimum
+
 
 if __name__ == '__main__':
     solution = Solution()

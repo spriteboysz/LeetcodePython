@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
         domaincounts = defaultdict(int)

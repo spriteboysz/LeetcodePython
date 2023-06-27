@@ -25,6 +25,7 @@ class Solution:
                 index.append(s.index(letter))
         return " " if len(index) == 0 else s[min(index)]
 
+
 # @lc code=end
 
 

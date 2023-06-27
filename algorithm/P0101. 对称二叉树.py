@@ -7,6 +7,8 @@ LastEditTime: 2022-03-07 23:14:18
 Description: 
 FilePath: 101.对称二叉树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=101 lang=python3
 #
@@ -35,6 +37,5 @@ class Solution:
                 return dfs(p.left, q.right) and dfs(p.right, q.left)
 
         return dfs(root.left, root.right)
-
 
 # @lc code=end

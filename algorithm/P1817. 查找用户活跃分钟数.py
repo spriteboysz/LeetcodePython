@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:
         users = defaultdict(set)
@@ -27,6 +28,8 @@ class Solution:
         for v in users.values():
             answer[len(v) - 1] += 1
         return answer
+
+
 # @lc code=end
 
 

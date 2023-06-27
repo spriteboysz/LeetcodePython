@@ -11,6 +11,7 @@ FilePath: 2248.多个数组求交集.py
 from functools import reduce
 from typing import List
 
+
 class Solution:
     def intersection(self, nums: List[List[int]]) -> List[int]:
         return sorted(reduce(lambda a, b: set(a) & set(b), nums))

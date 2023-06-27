@@ -16,6 +16,7 @@ FilePath: 2095.删除链表的中间节点.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -34,6 +35,5 @@ class Solution:
             slow = slow.next
         cur.next = cur.next.next
         return head
-
 
 # @lc code=end

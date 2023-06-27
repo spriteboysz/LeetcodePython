@@ -22,14 +22,14 @@ class Solution:
         lst = []
         for i in range(len(s) - 1):
             for j in range(i + 1, len(s)):
-                cur = s[i : j + 1]
+                cur = s[i: j + 1]
                 lower, upper = [False] * 26, [False] * 26
                 for letter in cur:
                     if letter.islower():
                         lower[ascii_lowercase.index(letter)] = True
                     else:
                         upper[ascii_uppercase.index(letter)] = True
-                if not any([l ^ u for l, u in zip(lower, upper)]):
+                if not any([a ^ b for a, b in zip(lower, upper)]):
                     lst.append(cur)
         return "" if not lst else sorted(lst, key=len, reverse=True)[0]
 

@@ -7,7 +7,7 @@ LastEditTime: 2022-05-16 23:04:16
 Description:
 FilePath: 剑指 Offer II 027. 回文链表.py
 """
-#! /usr/bin/env python
+# ! /usr/bin/env python
 # coding=utf-8
 """
 Author: Deean
@@ -16,6 +16,7 @@ LastEditTime: 2022-05-16 23:02:54
 Description: 
 FilePath: 剑指 Offer II 027. 回文链表.py
 """
+
 
 # Definition for singly-linked list.
 class ListNode:

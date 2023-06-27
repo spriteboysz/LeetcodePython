@@ -46,5 +46,5 @@ if __name__ == "__main__":
     solution = Solution()
     ans = solution.minFallingPathSum(matrix=[[2, 1, 3], [6, 5, 4], [7, 8, 9]])
     print(ans)
-    ans = solution.minFallingPathSum(matrix = [[-19,57],[-40,-5]])
+    ans = solution.minFallingPathSum(matrix=[[-19, 57], [-40, -5]])
     print(ans)

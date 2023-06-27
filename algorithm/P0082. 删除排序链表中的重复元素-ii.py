@@ -17,6 +17,7 @@ FilePath: 82.删除排序链表中的重复元素-ii.py
 # Definition for singly-linked list.
 from collections import defaultdict
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -49,6 +50,5 @@ class Solution:
             stack[i].next = stack[i + 1]
         stack[-1].next = None
         return head
-
 
 # @lc code=end

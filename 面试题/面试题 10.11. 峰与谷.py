@@ -10,6 +10,7 @@ FilePath: 面试题 10.11. 峰与谷.py
 
 from typing import List
 
+
 class Solution:
     def wiggleSort(self, nums: List[int]) -> None:
         """
@@ -19,6 +20,7 @@ class Solution:
         for i in range(0, len(nums), 2):
             if i <= len(nums) - 2:
                 nums[i], nums[i + 1] = nums[i + 1], nums[i]
+
 
 if __name__ == '__main__':
     solution = Solution()

@@ -7,6 +7,8 @@ LastEditTime: 2022-01-29 00:06:32
 Description:
 FilePath: 482.密钥格式化.py
 """
+
+
 #
 # @lc app=leetcode.cn id=482 lang=python3
 #
@@ -24,6 +26,8 @@ class Solution:
                 key += "-"
             key += item
         return key.lstrip("-")
+
+
 # @lc code=end
 
 

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-06 21:25:52
 Description:
 FilePath: 225.用队列实现栈.py
 """
+
+
 #
 # @lc app=leetcode.cn id=225 lang=python3
 #
@@ -30,7 +32,6 @@ class MyStack:
 
     def empty(self) -> bool:
         return self.stack == []
-
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()

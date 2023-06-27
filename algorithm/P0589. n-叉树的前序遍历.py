@@ -27,6 +27,7 @@ class Node:
 class Solution:
     def preorder(self, root: "Node") -> List[int]:
         value = []
+
         def dfs(node):
             if node is None:
                 return
@@ -36,6 +37,5 @@ class Solution:
 
         dfs(root)
         return value
-
 
 # @lc code=end

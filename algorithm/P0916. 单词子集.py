@@ -36,7 +36,6 @@ class Solution:
         return common
 
 
-
 if __name__ == "__main__":
     solution = Solution()
     ans = solution.wordSubsets(

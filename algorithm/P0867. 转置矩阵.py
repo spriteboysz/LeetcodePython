@@ -14,16 +14,16 @@ FilePath: 867.转置矩阵.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
 
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
         return list(zip(*matrix))
-    
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.transpose([[1,2,3],[4,5,6]]))
-    
-
+    print(s.transpose([[1, 2, 3], [4, 5, 6]]))

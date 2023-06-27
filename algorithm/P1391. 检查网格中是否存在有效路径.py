@@ -17,15 +17,14 @@ class Solution:
                      4: {(0, 1), (1, 0)}, 5: {(0, -1), (-1, 0)}, 6: {(0, 1), (-1, 0)}}
         # 每个数字对应的方向先列出
         n, m = len(grid), len(grid[0])
-        flag = [[0] * m for i in range(n)]
+        flag = [[0] * m for _ in range(n)]
 
         def dfs(x, y):
             flag[x][y] = 1
             if x == n - 1 and y == m - 1:
                 return True
             for dx, dy in direction[grid[x][y]]:
-                if n > x + dx >= 0 == flag[x + dx][dy + y] and 0 <= y + dy < m and (-dx, -dy) in direction[
-                    grid[x + dx][y + dy]]:
+                if n > x + dx >= 0 == flag[x + dx][dy + y] and 0 <= y + dy < m and (-dx, -dy) in direction[grid[x + dx][y + dy]]:
                     if dfs(x + dx, y + dy):
                         return True
             return False

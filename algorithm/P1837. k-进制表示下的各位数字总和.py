@@ -7,6 +7,8 @@ LastEditTime: 2022-01-30 22:12:32
 Description:
 FilePath: 1837.k-进制表示下的各位数字总和.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1837 lang=python3
 #
@@ -21,6 +23,5 @@ class Solution:
             n, mod = divmod(n, k)
             count += mod
         return count
-            
-# @lc code=end
 
+# @lc code=end

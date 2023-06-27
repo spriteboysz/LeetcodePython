@@ -16,6 +16,7 @@ FilePath: 1026.节点与其祖先之间的最大差值.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 
 
@@ -30,7 +31,7 @@ class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
 
         def dfs(node, maximum, minimum):
-            nonlocal  maxvalue
+            nonlocal maxvalue
             if not node:
                 maxvalue = max(maximum - minimum, maxvalue)
             else:
@@ -41,6 +42,5 @@ class Solution:
         maxvalue = 0
         dfs(root, 0, 100001)
         return maxvalue
-
 
 # @lc code=end

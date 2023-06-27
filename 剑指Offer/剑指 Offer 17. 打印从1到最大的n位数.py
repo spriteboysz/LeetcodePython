@@ -15,13 +15,16 @@ FilePath: 100296.打印从-1-到最大的n位数.py
 
 # @lc code=start
 from typing import List
+
+
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
         return [i for i in range(1, 10 ** n)]
+
+
 # @lc code=end
 
 
 if __name__ == "__main__":
     s = Solution()
     print(s.printNumbers(2))
-

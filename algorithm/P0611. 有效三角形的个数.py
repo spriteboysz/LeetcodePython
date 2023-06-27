@@ -11,6 +11,7 @@ FilePath: 611.有效三角形的个数.py
 from bisect import bisect_left
 from typing import List
 
+
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         nums.sort()

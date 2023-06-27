@@ -24,8 +24,10 @@ class Solution:
             if nums[i] < nums[i + 1] + nums[i + 2]:
                 return nums[i] + nums[i + 1] + nums[i + 2]
         return 0
+
+
 # @lc code=end
 
 if __name__ == "__main__":
     s = Solution()
-    print(s.largestPerimeter([1,2,1]))
+    print(s.largestPerimeter([1, 2, 1]))

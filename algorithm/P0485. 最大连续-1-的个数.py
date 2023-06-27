@@ -20,12 +20,11 @@ class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
         lst = "".join(list(map(str, nums))).split("0")
         return max(list(map(len, lst)))
-    
+
+
 # @lc code=end
 
 if __name__ == '__main__':
     s = Solution()
-    r = s.findMaxConsecutiveOnes([1,1,0,1,1,1])
+    r = s.findMaxConsecutiveOnes([1, 1, 0, 1, 1, 1])
     print(r)
-    
-

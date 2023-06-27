@@ -7,6 +7,8 @@ LastEditTime: 2022-03-04 22:50:15
 Description: 
 FilePath: 1190.反转每对括号间的子串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1190 lang=python3
 #

@@ -16,6 +16,7 @@ FilePath: 606.根据二叉树创建字符串.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -39,6 +40,5 @@ class Solution:
         if rv:
             s += "(" + rv + ")"
         return s
-
 
 # @lc code=end

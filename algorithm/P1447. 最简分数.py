@@ -17,6 +17,7 @@ from math import gcd
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def simplifiedFractions(self, n: int) -> List[str]:
         fractions = []
@@ -25,6 +26,8 @@ class Solution:
                 if gcd(i, j) == 1:
                     fractions.append(str(j) + "/" + str(i))
         return fractions
+
+
 # @lc code=end
 
 

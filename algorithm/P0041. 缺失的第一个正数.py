@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         minimum = inf
@@ -24,4 +25,3 @@ class Solution:
             minimum = min(minimum, num)
         return minimum - 1
 # @lc code=end
-

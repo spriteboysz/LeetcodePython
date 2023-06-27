@@ -16,6 +16,7 @@ FilePath: 141.环形链表.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -34,6 +35,5 @@ class Solution:
             if fast == slow:
                 return True
         return False
-
 
 # @lc code=end

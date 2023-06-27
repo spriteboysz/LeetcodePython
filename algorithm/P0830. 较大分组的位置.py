@@ -29,6 +29,8 @@ class Solution:
             if num >= 3:
                 position.append([i - num + 1, i])
         return position
+
+
 # @lc code=end
 
 

@@ -7,6 +7,8 @@ LastEditTime: 2022-03-05 00:21:21
 Description: 
 FilePath: 1249.移除无效的括号.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1249 lang=python3
 #

@@ -14,6 +14,7 @@ class Solution:
         factor = s.replace(" ", "").replace("-", "+-").split("+")
         print(factor)
 
+
 if __name__ == '__main__':
     solution = Solution()
     ans = solution.calculate("3+2*2")

@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer II 047. 二叉树剪枝.py
 """
 
+
 # Definition for a binary tree node.
 
 
@@ -16,6 +17,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
 
 class Solution:
     def pruneTree(self, root: TreeNode) -> TreeNode:

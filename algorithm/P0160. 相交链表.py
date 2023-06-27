@@ -7,6 +7,8 @@ LastEditTime: 2022-04-11 22:55:42
 Description: 
 FilePath: 160.相交链表.py
 """
+
+
 #
 # @lc app=leetcode.cn id=160 lang=python3
 #
@@ -28,6 +30,5 @@ class Solution:
             a = a.next if a else headB
             b = b.next if b else headA
         return a
-
 
 # @lc code=end

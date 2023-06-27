@@ -7,6 +7,8 @@ LastEditTime: 2022-03-02 22:15:53
 Description:
 FilePath: 237.删除链表中的节点.py
 """
+
+
 #
 # @lc app=leetcode.cn id=237 lang=python3
 #
@@ -20,6 +22,7 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     def deleteNode(self, node):
         """
@@ -29,4 +32,3 @@ class Solution:
         node.val = node.next.val
         node.next = node.next.next
 # @lc code=end
-

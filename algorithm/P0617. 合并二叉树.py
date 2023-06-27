@@ -7,6 +7,8 @@ LastEditTime: 2022-03-30 22:42:26
 Description: 
 FilePath: 617.合并二叉树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=617 lang=python3
 #
@@ -30,6 +32,5 @@ class Solution:
         root1.left = self.mergeTrees(root1.left, root2.left)
         root1.right = self.mergeTrees(root1.right, root2.right)
         return root1
-
 
 # @lc code=end

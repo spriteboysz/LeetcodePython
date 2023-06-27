@@ -7,6 +7,8 @@ LastEditTime: 2022-02-03 23:38:50
 Description:
 FilePath: 521.最长特殊序列-ⅰ.py
 """
+
+
 #
 # @lc app=leetcode.cn id=521 lang=python3
 #
@@ -24,4 +26,3 @@ class Solution:
             else:
                 return len(a)
 # @lc code=end
-

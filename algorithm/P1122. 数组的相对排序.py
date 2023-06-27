@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         return list(sorted(arr1, key=lambda el: (arr2.index(el) if el in arr2 else inf, el)))

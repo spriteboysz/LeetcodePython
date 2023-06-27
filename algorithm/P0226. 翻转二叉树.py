@@ -7,6 +7,8 @@ LastEditTime: 2022-03-27 23:12:51
 Description: 
 FilePath: 226.翻转二叉树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=226 lang=python3
 #
@@ -31,6 +33,5 @@ class Solution:
         self.invertTree(root.right)
 
         return root
-
 
 # @lc code=end

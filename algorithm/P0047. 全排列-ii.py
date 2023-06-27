@@ -17,9 +17,9 @@ from itertools import permutations
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         return list(map(lambda el: list(el), set(permutations(nums, len(nums)))))
-
 
 # @lc code=end

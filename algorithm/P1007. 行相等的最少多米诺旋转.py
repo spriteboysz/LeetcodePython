@@ -16,6 +16,7 @@ FilePath: 1007.行相等的最少多米诺旋转.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
         if tops[0] in [tops[1], bottoms[1]]:
@@ -24,7 +25,7 @@ class Solution:
             common = tops[1]
         else:
             return -1
-            
+
         top_common, bottom_common = 0, 0
         for a, b in zip(tops, bottoms):
             if a != common and b != common:

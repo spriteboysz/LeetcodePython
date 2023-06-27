@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer II 021. 删除链表的倒数第 n 个结点.py
 """
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):

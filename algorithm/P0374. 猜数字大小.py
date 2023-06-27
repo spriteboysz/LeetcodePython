@@ -28,9 +28,9 @@ class Solution:
         left, right = 1, n
         while left < right:
             mid = (left + right) // 2
-            if guess(mid) == -1:
+            if self.guess(mid) == -1:
                 right = mid
-            elif guess(mid) == 1:
+            elif self.guess(mid) == 1:
                 left = mid + 1
             else:
                 return mid

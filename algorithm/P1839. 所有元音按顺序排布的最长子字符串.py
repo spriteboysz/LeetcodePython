@@ -7,6 +7,8 @@ LastEditTime: 2022-02-09 22:41:19
 Description:
 FilePath: 1839.所有元音按顺序排布的最长子字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1839 lang=python3
 #
@@ -28,9 +30,11 @@ class Solution:
                 zipword.append(word[i])
         maximum = 0
         for i in range(len(zipword) - 4):
-            if zipword[i:i+5] == ["a", "e", "i", "o", "u"]:
-                maximum = max(maximum, sum(zipcount[i:i+5]))
+            if zipword[i:i + 5] == ["a", "e", "i", "o", "u"]:
+                maximum = max(maximum, sum(zipcount[i:i + 5]))
         return maximum
+
+
 # @lc code=end
 
 

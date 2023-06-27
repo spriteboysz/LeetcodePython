@@ -8,6 +8,7 @@ Description:
 FilePath: 剑指 Offer II 050. 向下的路径节点之和.py
 """
 
+
 # Definition for a binary tree node.
 
 
@@ -29,7 +30,6 @@ class Solution:
             count += path(node.left, targetSum - node.val)
             count += path(node.right, targetSum - node.val)
             return count
-
 
         if not root:
             return 0

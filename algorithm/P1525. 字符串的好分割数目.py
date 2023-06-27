@@ -16,6 +16,7 @@ FilePath: 1525.字符串的好分割数目.py
 # @lc code=start
 from string import ascii_lowercase
 
+
 class Solution:
     def numSplits(self, s: str) -> int:
         left, right = [0] * 26, [0] * 26
@@ -30,6 +31,7 @@ class Solution:
                 count += 1
         return count
 
+
 # @lc code=end
 
 if __name__ == "__main__":
@@ -42,4 +44,3 @@ if __name__ == "__main__":
     print(ans)
     ans = solution.numSplits("acbadbaada")
     print(ans)
-

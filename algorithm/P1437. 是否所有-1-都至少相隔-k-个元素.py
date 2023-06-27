@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
         position = []
@@ -27,6 +28,8 @@ class Solution:
                 if len(position) >= 2 and minimum > position[-1] - position[-2]:
                     minimum = position[-1] - position[-2]
         return minimum - 1 >= k
+
+
 # @lc code=end
 
 

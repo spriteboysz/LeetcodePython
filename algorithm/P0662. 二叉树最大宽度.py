@@ -17,6 +17,7 @@ from collections import deque
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -57,6 +58,5 @@ class Solution:
             while item and item[-1] == "null":
                 level[i].pop()
         return len(max(level, key=len))
-
 
 # @lc code=end

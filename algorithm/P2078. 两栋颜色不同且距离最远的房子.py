@@ -14,7 +14,9 @@ FilePath: 2078.两栋颜色不同且距离最远的房子.py
 #
 
 # @lc code=start
-from typing import List 
+from typing import List
+
+
 class Solution:
     def maxDistance(self, colors: List[int]) -> int:
         distance = 0
@@ -24,6 +26,5 @@ class Solution:
                     if abs(i - j) > distance:
                         distance = abs(i - j)
         return distance
-    
-# @lc code=end
 
+# @lc code=end

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-12 23:11:37
 Description:
 FilePath: 306.累加数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=306 lang=python3
 #
@@ -18,4 +20,3 @@ class Solution:
     def isAdditiveNumber(self, num: str) -> bool:
         pass
 # @lc code=end
-

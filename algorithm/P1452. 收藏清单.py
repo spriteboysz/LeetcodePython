@@ -16,9 +16,9 @@ FilePath: 1452.收藏清单.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:
         pass
-    
-# @lc code=end
 
+# @lc code=end

@@ -8,9 +8,9 @@ Description:
 FilePath: 1339.分裂二叉树的最大乘积.py
 """
 
-
 from math import inf
 from typing import Optional
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

@@ -26,5 +26,5 @@ if __name__ == '__main__':
     solution = Solution()
     ans = solution.beautySum("aabcb")
     print(ans)
-    ans = solution.beautySum(s = "aabcbaa")
+    ans = solution.beautySum(s="aabcbaa")
     print(ans)

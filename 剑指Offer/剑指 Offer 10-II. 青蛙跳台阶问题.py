@@ -7,6 +7,8 @@ LastEditTime: 2022-02-04 22:50:42
 Description:
 FilePath: 100277.青蛙跳台阶问题.py
 """
+
+
 #
 # @lc app=leetcode.cn id=100277 lang=python3
 #
@@ -23,6 +25,8 @@ class Solution:
             for _ in range(2, n + 1):
                 a, b = a + b, a
             return a % (10 ** 9 + 7)
+
+
 # @lc code=end
 
 

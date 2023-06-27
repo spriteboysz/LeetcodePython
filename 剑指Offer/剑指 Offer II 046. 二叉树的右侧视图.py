@@ -11,6 +11,7 @@ FilePath: 剑指 Offer II 046. 二叉树的右侧视图.py
 from typing import List
 from collections import deque
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

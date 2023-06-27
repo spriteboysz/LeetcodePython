@@ -7,6 +7,8 @@ LastEditTime: 2022-02-19 22:53:02
 Description:
 FilePath: 151.翻转字符串里的单词.py
 """
+
+
 #
 # @lc app=leetcode.cn id=151 lang=python3
 #
@@ -19,4 +21,3 @@ class Solution:
         words = s.strip().split()
         return " ".join(words[::-1])
 # @lc code=end
-

@@ -16,6 +16,7 @@ FilePath: 1325.删除给定值的叶子节点.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -26,7 +27,7 @@ class TreeNode:
 
 class Solution:
     def removeLeafNodes(
-        self, root: Optional[TreeNode], target: int
+            self, root: Optional[TreeNode], target: int
     ) -> Optional[TreeNode]:
         def dfs(node):
             if node.left and dfs(node.left):
@@ -39,6 +40,5 @@ class Solution:
         if not root:
             return root
         return None if dfs(root) else root
-
 
 # @lc code=end

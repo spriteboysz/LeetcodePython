@@ -34,7 +34,6 @@ class Codec:
                 serial.append("#")
         return "[" + ",".join(serial) + "]"
 
-
     def deserialize(self, data):
         if data == "[]":
             return

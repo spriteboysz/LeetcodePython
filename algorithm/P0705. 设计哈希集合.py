@@ -7,6 +7,8 @@ LastEditTime: 2022-02-06 16:29:40
 Description:
 FilePath: 705.设计哈希集合.py
 """
+
+
 #
 # @lc app=leetcode.cn id=705 lang=python3
 #
@@ -28,7 +30,6 @@ class MyHashSet:
 
     def contains(self, key: int) -> bool:
         return key in self.lst
-
 
 # Your MyHashSet object will be instantiated and called as such:
 # obj = MyHashSet()

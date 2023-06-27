@@ -7,6 +7,8 @@ LastEditTime: 2022-03-12 21:48:12
 Description: 
 FilePath: 1823.找出游戏的获胜者.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1823 lang=python3
 #

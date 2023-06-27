@@ -7,6 +7,8 @@ LastEditTime: 2022-03-16 22:06:38
 Description: 
 FilePath: 1954.收集足够苹果的最小花园周长.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1954 lang=python3
 #
@@ -21,6 +23,5 @@ class Solution:
             i += 2
             total += i * i * 3
         return i * 4
-
 
 # @lc code=end

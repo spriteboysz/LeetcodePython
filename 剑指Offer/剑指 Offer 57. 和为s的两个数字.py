@@ -16,6 +16,7 @@ FilePath: 100322.和为s的两个数字.py
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         i, j = 0, len(nums) - 1
@@ -28,6 +29,7 @@ class Solution:
             else:
                 return [nums[i], nums[j]]
         return []
+
 
 if __name__ == '__main__':
     solution = Solution()

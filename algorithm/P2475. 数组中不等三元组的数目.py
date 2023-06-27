@@ -14,7 +14,8 @@ class Solution:
         cnt, n = 0, len(nums)
         for i in range(n):
             for j in range(i + 1, n):
-                if nums[i] == nums[j]: continue
+                if nums[i] == nums[j]:
+                    continue
                 for k in range(j + 1, n):
                     if nums[i] != nums[k] and nums[j] != nums[k]:
                         cnt += 1

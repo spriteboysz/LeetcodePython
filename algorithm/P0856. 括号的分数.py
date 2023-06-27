@@ -7,6 +7,8 @@ LastEditTime: 2022-03-13 23:11:38
 Description: 
 FilePath: 856.括号的分数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=856 lang=python3
 #

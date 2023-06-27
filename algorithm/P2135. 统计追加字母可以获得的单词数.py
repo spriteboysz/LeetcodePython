@@ -25,7 +25,7 @@ class Solution:
         count = 0
         for target in targetWords:
             for j in range(len(target)):
-                cursorted = "".join(sorted(target[:j] + target[j + 1 :]))
+                cursorted = "".join(sorted(target[:j] + target[j + 1:]))
                 if cursorted in startcounts:
                     count += 1
                     break

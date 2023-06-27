@@ -7,6 +7,8 @@ LastEditTime: 2022-01-25 23:16:11
 Description:
 FilePath: 1446.连续字符.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1446 lang=python3
 #

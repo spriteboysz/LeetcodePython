@@ -7,6 +7,8 @@ LastEditTime: 2022-01-23 22:35:10
 Description:
 FilePath: 1688.比赛中的配对次数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1688 lang=python3
 #
@@ -27,6 +29,8 @@ class Solution:
                 n = n // 2 + 1
                 count += n - 1
         return count
+
+
 # @lc code=end
 
 if __name__ == "__main__":

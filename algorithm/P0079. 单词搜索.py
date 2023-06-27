@@ -14,6 +14,7 @@ FilePath: 79.单词搜索.py
 #
 from typing import List
 
+
 # @lc code=start
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
@@ -36,6 +37,5 @@ class Solution:
                 if dfs(i, j, 0):
                     return True
         return False
-
 
 # @lc code=end

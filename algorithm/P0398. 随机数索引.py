@@ -18,6 +18,7 @@ from random import choice
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def __init__(self, nums: List[int]):
         self.numindex = defaultdict(list)
@@ -26,7 +27,6 @@ class Solution:
 
     def pick(self, target: int) -> int:
         return choice(self.numindex[target])
-
 
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(nums)

@@ -11,6 +11,7 @@ FilePath: 930.和相同的二元子数组.py
 from collections import defaultdict
 from typing import List
 
+
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
         perfix_sum_dict = defaultdict(int)

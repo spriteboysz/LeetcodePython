@@ -10,6 +10,7 @@ FilePath: 剑指 Offer II 091. 粉刷房子.py
 
 from typing import List
 
+
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         n, m = len(costs), len(costs[0])
@@ -21,6 +22,7 @@ class Solution:
             dp[i][1] = min(dp[i - 1][0], dp[i - 1][2]) + costs[i][1]
             dp[i][2] = min(dp[i - 1][0], dp[i - 1][1]) + costs[i][2]
         return min(dp[n - 1][j] for j in range(m))
+
 
 if __name__ == '__main__':
     solution = Solution()

@@ -7,6 +7,8 @@ LastEditTime: 2022-04-13 22:24:17
 Description: 
 FilePath: 6035.选择建筑的方案数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=6035 lang=python3
 #

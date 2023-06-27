@@ -7,6 +7,8 @@ LastEditTime: 2022-02-16 23:15:25
 Description: 
 FilePath: 965.单值二叉树.py
 """
+
+
 #
 # @lc app=leetcode.cn id=965 lang=python3
 #
@@ -34,6 +36,5 @@ class Solution:
                 return False
             else:
                 return self.isUnivalTree(root.left) and self.isUnivalTree(root.right)
-
 
 # @lc code=end

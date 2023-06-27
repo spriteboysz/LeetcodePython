@@ -26,11 +26,11 @@ class Solution:
                 lst.append("e")
 
         return "".join(lst).count("eee") != 0
-    
+
+
 # @lc code=end
 
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.threeConsecutiveOdds([1,2,34,3,4,5,7,23,12]))
-    
+    print(s.threeConsecutiveOdds([1, 2, 34, 3, 4, 5, 7, 23, 12]))

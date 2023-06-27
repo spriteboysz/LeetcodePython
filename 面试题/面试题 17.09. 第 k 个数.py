@@ -10,6 +10,7 @@ FilePath: 面试题 17.09. 第 k 个数.py
 
 from heapq import heappop, heappush
 
+
 class Solution:
     def getKthMagicNumber(self, k: int) -> int:
         heap = [1]
@@ -21,6 +22,7 @@ class Solution:
             heappush(heap, num * 5)
             heappush(heap, num * 7)
         return num
+
 
 if __name__ == '__main__':
     solution = Solution()

@@ -4,12 +4,13 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     def kthToLast(self, head: ListNode, k: int) -> int:
         slow, fast = head, head
         for _ in range(k):
             fast = fast.next
-        
+
         while fast:
             slow, fast = slow.next, fast.next
         return slow.val

@@ -7,6 +7,8 @@ LastEditTime: 2022-02-09 21:37:16
 Description:
 FilePath: 1881.插入后的最大值.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1881 lang=python3
 #
@@ -31,6 +33,8 @@ class Solution:
             else:
                 position = len(n)
         return n[:position] + str(x) + n[position:]
+
+
 # @lc code=end
 
 

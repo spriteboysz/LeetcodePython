@@ -7,6 +7,8 @@ LastEditTime: 2022-02-10 22:14:18
 Description:
 FilePath: 1227.飞机座位分配概率.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1227 lang=python3
 #
@@ -21,4 +23,3 @@ class Solution:
         else:
             return 0.5 / 1.0
 # @lc code=end
-

@@ -11,6 +11,7 @@ FilePath: 面试题 17.08. 马戏团人塔.py
 from bisect import bisect_left
 from typing import List
 
+
 class Solution:
     def bestSeqAtIndex(self, height: List[int], weight: List[int]) -> int:
         dp = []
@@ -20,6 +21,7 @@ class Solution:
             dp[position:position + 1] = [w]
             # print(dp)
         return len(dp)
+
 
 if __name__ == '__main__':
     solution = Solution()

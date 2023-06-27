@@ -17,6 +17,7 @@ from math import inf
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def minAreaRect(self, points: List[List[int]]) -> int:
         st = set([tuple(point) for point in points])

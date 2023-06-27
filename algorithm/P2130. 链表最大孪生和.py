@@ -16,6 +16,7 @@ FilePath: 2130.链表最大孪生和.py
 # @lc code=start
 from typing import Optional
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -32,7 +33,6 @@ class Solution:
             cur = cur.next
         n = len(nums)
         # print(nums[: n // 2], nums[n // 2 :][::-1])
-        return max(map(lambda a, b: a + b, nums[: n // 2], nums[n // 2 :][::-1]))
-
+        return max(map(lambda a, b: a + b, nums[: n // 2], nums[n // 2:][::-1]))
 
 # @lc code=end

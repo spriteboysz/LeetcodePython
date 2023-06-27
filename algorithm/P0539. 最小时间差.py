@@ -41,5 +41,5 @@ if __name__ == "__main__":
     solution = Solution()
     ans = solution.findMinDifference(timePoints=["23:59", "00:00"])
     print(ans)
-    ans = solution.findMinDifference(["05:31","22:08","00:35"])
+    ans = solution.findMinDifference(["05:31", "22:08", "00:35"])
     print(ans)

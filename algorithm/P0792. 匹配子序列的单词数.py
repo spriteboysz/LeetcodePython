@@ -17,6 +17,7 @@ from collections import defaultdict
 # @lc code=start
 from typing import List
 
+
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
         wordcount = defaultdict(int)

@@ -7,6 +7,8 @@ LastEditTime: 2022-03-05 16:41:46
 Description: 
 FilePath: 1344.时钟指针的夹角.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1344 lang=python3
 #

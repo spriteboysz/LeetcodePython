@@ -21,10 +21,10 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        l = []
+        lst = []
         for item in s:
-            l.append(item)
+            lst.append(item)
 
         for i in range(0, len(s)):
-            s[i] = l[len(s) - 1 - i]
+            s[i] = lst[len(s) - 1 - i]
 # @lc code=end

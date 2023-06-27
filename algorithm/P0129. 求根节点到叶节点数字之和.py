@@ -7,6 +7,8 @@ LastEditTime: 2022-03-22 23:33:16
 Description: 
 FilePath: 129.求根节点到叶节点数字之和.py
 """
+
+
 #
 # @lc app=leetcode.cn id=129 lang=python3
 #
@@ -36,6 +38,5 @@ class Solution:
             return left + right
 
         return dfs(root, "")
-
 
 # @lc code=end

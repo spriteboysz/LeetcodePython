@@ -7,6 +7,8 @@ LastEditTime: 2022-02-15 22:22:45
 Description:
 FilePath: 1551.使数组中所有元素相等的最小操作数.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1551 lang=python3
 #

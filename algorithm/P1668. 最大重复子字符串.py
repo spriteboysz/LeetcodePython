@@ -7,6 +7,8 @@ LastEditTime: 2022-04-21 22:54:18
 Description: 
 FilePath: 1668.最大重复子字符串.py
 """
+
+
 #
 # @lc app=leetcode.cn id=1668 lang=python3
 #
@@ -27,7 +29,7 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
     print(s.maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba", "aaaba"))
-    ans = s.maxRepeating(sequence = "ababc", word = "ab")
+    ans = s.maxRepeating(sequence="ababc", word="ab")
     print(ans)
-    ans = s.maxRepeating(sequence = "ababc", word = "ac")
+    ans = s.maxRepeating(sequence="ababc", word="ac")
     print(ans)
