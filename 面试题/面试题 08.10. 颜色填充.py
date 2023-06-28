@@ -32,9 +32,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.floodFill(
-        image=[[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, newColor=2
-    )
+    ans = solution.floodFill(image=[[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, newColor=2)
     print(ans)
     ans = solution.floodFill([[0, 0, 0], [0, 1, 1]], 1, 1, 1)
-print(ans)
+    print(ans)

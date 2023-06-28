@@ -14,6 +14,7 @@ from heapq import heappop, heappush
 class Solution:
     def getKthMagicNumber(self, k: int) -> int:
         heap = [1]
+        num = 0
         for _ in range(k):
             num = heappop(heap)
             while heap and num == heap[0]:

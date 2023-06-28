@@ -1,6 +1,3 @@
-from string import ascii_lowercase as lowercase
-
-
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         m, n = len(first), len(second)

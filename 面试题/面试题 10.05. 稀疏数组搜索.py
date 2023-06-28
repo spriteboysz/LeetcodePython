@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 22:57:24
 LastEditTime: 2022-02-04 22:58:40
-Description: 
+Description:
 FilePath: 100242.稀疏数组搜索.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100242 lang=python3
 #

@@ -8,7 +8,7 @@ class ListNode:
 class Solution:
     def removeDuplicateNodes(self, head: ListNode) -> ListNode:
         if not head:
-            return
+            return head
         nodes, values = [], []
         while head:
             if head.val not in values:

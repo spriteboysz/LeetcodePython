@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:38:25
 LastEditTime: 2022-02-07 23:40:04
-Description: 
+Description:
 FilePath: 100170.化栈为队.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100170 lang=python3
 #

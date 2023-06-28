@@ -21,5 +21,4 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.merge(A=[1, 2, 3, 0, 0, 0], m=3, B=[2, 5, 6], n=3)
-    print(ans)
+    solution.merge(A=[1, 2, 3, 0, 0, 0], m=3, B=[2, 5, 6], n=3)

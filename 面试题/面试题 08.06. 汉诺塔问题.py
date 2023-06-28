@@ -32,5 +32,5 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.hanota(A=[2, 1, 0], B=[], C=[])
+    solution.hanota(A=[2, 1, 0], B=[], C=[])
     # print(ans)

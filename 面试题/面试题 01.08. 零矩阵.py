@@ -37,8 +37,5 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    ans = solution.setZeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]])
-    print(ans)
-
-    ans = solution.setZeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]])
-    print(ans)
+    solution.setZeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]])
+    solution.setZeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]])

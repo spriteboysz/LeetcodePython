@@ -24,5 +24,4 @@ class Solution:
 
 if __name__ == '__main__':
     solution = Solution()
-    ans = solution.wiggleSort([5, 3, 1, 2, 3])
-    print(ans)
+    solution.wiggleSort([5, 3, 1, 2, 3])

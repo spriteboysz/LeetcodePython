@@ -13,7 +13,7 @@ from typing import List
 
 class Solution:
     def maxAliveYear(self, birth: List[int], death: List[int]) -> int:
-        alive = [0 for year in range(1900, 2001)]
+        alive = [0 for _ in range(1900, 2001)]
         for b, d in zip(birth, death):
             for year in range(b - 1900, d - 1900 + 1):
                 alive[year] += 1

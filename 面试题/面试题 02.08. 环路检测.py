@@ -25,4 +25,3 @@ class Solution:
                 return head
             nodes.add(head)
             head = head.next
-        return

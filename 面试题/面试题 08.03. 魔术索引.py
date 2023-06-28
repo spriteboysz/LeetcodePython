@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 23:00:13
 LastEditTime: 2022-02-04 23:01:07
-Description: 
+Description:
 FilePath: 100240.魔术索引.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100240 lang=python3
 #

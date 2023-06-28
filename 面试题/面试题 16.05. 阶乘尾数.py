@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-07 23:35:52
 LastEditTime: 2022-02-07 23:36:43
-Description: 
+Description:
 FilePath: 1000017.阶乘尾数.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1000017 lang=python3
 #

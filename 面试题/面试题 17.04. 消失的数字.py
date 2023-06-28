@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 15:12:59
 LastEditTime: 2022-02-04 15:13:55
-Description: 
+Description:
 FilePath: 1000032.消失的数字.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=1000032 lang=python3
 #

@@ -21,7 +21,7 @@ class TreeNode:
 class Solution:
     def convertBiNode(self, root: TreeNode) -> TreeNode:
         if not root:
-            return
+            return root
 
         def dfs(node):
             if not node:

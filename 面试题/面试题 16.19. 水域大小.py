@@ -18,7 +18,7 @@ class Solution:
             count, land[x][y] = 1, 1
             for i, j in [(x + dx, y + dy) for dx in [-1, 0, 1]
                          for dy in [-1, 0, 1]]:
-                if 0 <= i < n and 0 <= j < m and land[i][j] == 0:
+                if n > i >= 0 == land[i][j] and 0 <= j < m:
                     count += dfs(i, j)
             return count
 

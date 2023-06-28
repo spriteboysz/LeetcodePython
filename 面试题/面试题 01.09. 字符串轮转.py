@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-'''
+"""
 Author: Deean
 Date: 2022-02-04 23:06:10
 LastEditTime: 2022-02-04 23:14:18
-Description: 
+Description:
 FilePath: 100162.字符串轮转.py
-'''
+"""
 #
 # @lc app=leetcode.cn id=100162 lang=python3
 #
