@@ -14,7 +14,7 @@ class Solution:
         def stat(num):
             return sum(map(int, list(str(num))))
 
-        res = set([(0, 0)])
+        res = {(0, 0)}
         for i in range(m):
             for j in range(n):
                 if stat(i) + stat(j) <= k and (((i - 1), j)
