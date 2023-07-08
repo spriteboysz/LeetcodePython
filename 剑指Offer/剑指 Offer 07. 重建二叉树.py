@@ -21,9 +21,9 @@ class TreeNode:
 
 
 class Solution:
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode | None:
         if not preorder:
-            return
+            return None
         root = TreeNode(preorder[0])
         index = inorder.index(root.val)
         root.left = self.buildTree(preorder[1: index + 1], inorder[0: index])

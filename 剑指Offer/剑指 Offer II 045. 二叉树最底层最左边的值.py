@@ -22,7 +22,7 @@ class TreeNode:
 class Solution:
     def findBottomLeftValue(self, root: TreeNode) -> int:
         if not root:
-            return
+            return 0
 
         values, queue = [], deque([root])
         while queue:

@@ -19,7 +19,7 @@ class ListNode:
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if not head:
-            return
+            return head
         nodes = []
         while head:
             nodes.append(head)

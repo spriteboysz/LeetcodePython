@@ -20,7 +20,7 @@ class Solution:
         fast, slow = head, head
         while True:
             if not fast or not fast.next:
-                return
+                return fast
             fast, slow = fast.next.next, slow.next
             if fast == slow:
                 break

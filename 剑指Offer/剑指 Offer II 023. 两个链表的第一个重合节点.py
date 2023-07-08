@@ -7,6 +7,7 @@ LastEditTime: 2022-05-18 22:33:48
 Description: 
 FilePath: abc.py
 """
+from typing import Any
 
 
 # Definition for singly-linked list.
@@ -17,9 +18,9 @@ class ListNode:
 
 
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode | None | Any:
         if headA is None or headB is None:
-            return None
+            return headA
         pointA, pointB = headA, headB
         while pointA != pointB:
             pointA = pointA.next if pointA else headB

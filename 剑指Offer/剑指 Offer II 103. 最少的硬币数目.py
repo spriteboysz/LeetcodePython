@@ -20,7 +20,7 @@ class Solution:
         if coins[0] > amount:
             return -1
 
-        dp = [0] + [inf] * amount
+        dp = [0] + [int(inf)] * amount
         for coin in coins:
             for i in range(coin, amount + 1):
                 dp[i] = min(dp[i], dp[i - coin] + 1)

@@ -31,7 +31,7 @@ class Solution:
             dfs(node.right)
 
         if not root:
-            return
+            return root
         self.pre = None
         dfs(root)
         self.head.left, self.pre.right = self.pre, self.head

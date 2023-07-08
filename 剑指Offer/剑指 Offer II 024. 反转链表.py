@@ -7,15 +7,6 @@ LastEditTime: 2022-05-16 23:02:05
 Description:
 FilePath: 剑指 Offer II 024. 反转链表.py
 """
-# ! /usr/bin/env python
-# coding=utf-8
-"""
-Author: Deean
-Date: 2022-05-16 22:59:02
-LastEditTime: 2022-05-16 22:59:03
-Description: 
-FilePath: 剑指 Offer II 024. 反转链表.py
-"""
 
 
 # Definition for singly-linked list.
@@ -28,7 +19,7 @@ class ListNode:
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         if not head:
-            return
+            return head
 
         nodes = []
         while head:

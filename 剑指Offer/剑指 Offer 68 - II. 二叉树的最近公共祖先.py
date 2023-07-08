@@ -36,4 +36,4 @@ class Solution:
         elif not left and right:
             return right
         else:
-            return
+            return None

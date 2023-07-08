@@ -13,9 +13,7 @@ from itertools import combinations_with_replacement
 
 
 class Solution:
-    def combinationSum(self,
-                       candidates: List[int],
-                       target: int) -> List[List[int]]:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         lst = []
         for i in range(1, target // min(candidates) + 1):
             for combination in combinations_with_replacement(candidates, i):
