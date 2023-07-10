@@ -7,6 +7,7 @@ LastEditTime: 2022-04-04 23:14:28
 Description: 
 FilePath: 19.删除链表的倒数第-n-个结点.py
 """
+from typing import Any
 
 
 #
@@ -24,7 +25,7 @@ class ListNode:
 
 
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> Any | None:
         nodes, cur = [], head
         while cur:
             nodes.append(cur)

@@ -15,6 +15,7 @@ FilePath: 54.螺旋矩阵.py
 
 # @lc code=start
 from typing import List
+from math import inf
 
 
 class Solution:
@@ -26,11 +27,11 @@ class Solution:
         direction.append((dx, dy))
         while len(order) < m * n:
             order.append(matrix[x][y])
-            matrix[x][y] = "inf"
+            matrix[x][y] = inf
             if (
                     0 <= x + dx <= m - 1
                     and 0 <= y + dy <= n - 1
-                    and matrix[x + dx][y + dy] != "inf"
+                    and matrix[x + dx][y + dy] != inf
             ):
                 pass
             else:
