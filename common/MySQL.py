@@ -13,7 +13,7 @@ from sqlalchemy import create_engine
 __HOST__ = 'localhost'
 __PORT__ = '3306'
 __USER__ = 'root'
-__PWD__ = '123456'
+__PWD__ = 'www.huawei.com'
 
 
 def get_engine(db='p1757'):

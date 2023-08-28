@@ -19,6 +19,5 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
 
 if __name__ == '__main__':
     products = get_sql_table('p1757', 'products')
-    common.MySQL.
     print(products)
     print(find_products(products))
