@@ -20,3 +20,4 @@ if __name__ == '__main__':
     person = get_sql_table('P0175', 'person')
     address = get_sql_table('P0175', 'address')
     print(combine_two_tables(person, address))
+    print()
