@@ -30,4 +30,3 @@ class Solution:
             cur.next = ListNode(cur.val // 10)
             cur.val = cur.val % 10
         return head
-

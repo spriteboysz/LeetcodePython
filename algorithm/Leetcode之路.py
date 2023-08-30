@@ -13,7 +13,7 @@ from collections import defaultdict
 
 import xlwings as xw
 
-language = ["java", "py", "rb", "cpp", "c", "go", "js", "cs", "rs", "kt"]
+language = ["java", "py", "rb", "cpp", "c", "go", "js", "cs", "rs", "kt", "sql"]
 path = r'D:\02_CODE'
 
 
