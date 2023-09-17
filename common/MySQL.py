@@ -13,16 +13,16 @@ from sqlalchemy import create_engine
 __HOST__ = 'localhost'
 __PORT__ = '3306'
 __USER__ = 'root'
-__PWD__ = 'www.huawei.com'
+__PASSWORD__ = 'www.huawei.com'
 
 
-def get_engine(db='p1757'):
+def get_engine(db='P1757'):
     url = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(
-        __USER__, __PWD__, __HOST__, __PORT__, db)
+        __USER__, __PASSWORD__, __HOST__, __PORT__, db)
     return create_engine(url, echo=True)
 
 
-def get_sql_table(db='p1757', table='products'):
+def get_sql_table(db='P1757', table='Products'):
     engine = get_engine(db)
     with engine.connect() as conn:
         sql = 'select * from ' + table
@@ -31,5 +31,5 @@ def get_sql_table(db='p1757', table='products'):
 
 
 if __name__ == '__main__':
-    df = get_sql_table('p1757', 'products')
+    df = get_sql_table('P1757', 'Products')
     print(df)
