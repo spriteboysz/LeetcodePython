@@ -37,18 +37,18 @@ class TreeNode:
     def create(cls, data=""):
         if not data:
             return []
-        values = data[1:-1].split(',')
-        root = TreeNode(int(values[0]))
+        values = data[1:-1].replace(" ", "").split(',')
+        root = TreeNode(int(values[0].strip()))
         queue = deque([root])
         i = 1
         while queue:
             node = queue.popleft()
             if i < len(values) and values[i] != 'null':
-                node.left = TreeNode(int(values[i]))
+                node.left = TreeNode(int(values[i].strip()))
                 queue.append(node.left)
             i += 1
             if i < len(values) and values[i] != 'null':
-                node.right = TreeNode(int(values[i]))
+                node.right = TreeNode(int(values[i].strip()))
                 queue.append(node.right)
             i += 1
         return root
