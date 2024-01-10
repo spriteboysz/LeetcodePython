@@ -18,7 +18,7 @@ def ss_to_pd(ss):
         if len(col) == 0:
             col = parts
         else:
-            grid.append(parts)
+            grid.append(list(map(lambda el: int(el) if el.isdigit() else el, parts)))
     return pd.DataFrame(grid, columns=col)
 
 
