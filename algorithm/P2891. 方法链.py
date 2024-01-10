@@ -8,7 +8,7 @@ Description:P2891. 方法链.py
 """
 
 import pandas as pd
-from common.leetcode import ss_to_pd
+from common.utils import ss_to_pd
 
 
 def findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:
