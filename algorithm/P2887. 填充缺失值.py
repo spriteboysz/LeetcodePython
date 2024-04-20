@@ -13,6 +13,10 @@ from common.utils import ss_to_pd
 
 
 def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
+    def add(a, b):
+        return a + b
+
+    print(add(1, 2))
     products['quantity'].fillna(0, inplace=True)
     return products
 
@@ -28,4 +32,5 @@ if __name__ == '__main__':
 | Printer         | 849      | 3051  |
 +-----------------+----------+-------+    
     """)
+    print(fillMissingValues(product))
     print(fillMissingValues(product))
