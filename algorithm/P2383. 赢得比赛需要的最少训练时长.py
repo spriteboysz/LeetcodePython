@@ -12,7 +12,15 @@ from typing import List
 class Solution:
     def minNumberOfHours(self, initialEnergy: int, initialExperience: int, energy: List[int],
                          experience: List[int]) -> int:
-        pass
+        cnt, total = 0, sum(energy)
+        if initialEnergy <= total:
+            cnt += (total - initialEnergy + 1)
+        for exp in experience:
+            if initialExperience <= exp:
+                cnt += (exp - initialExperience + 1)
+                initialExperience = exp + 1
+            initialExperience += exp
+        return cnt
 
 
 if __name__ == '__main__':
