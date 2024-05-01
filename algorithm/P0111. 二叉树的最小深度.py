@@ -32,12 +32,12 @@ class Solution:
         if not root.left and not root.right:
             return 1
 
-        mindepth = inf
+        minimum = inf
         if root.left:
-            mindepth = min(mindepth, self.minDepth(root.left))
+            minimum = min(minimum, self.minDepth(root.left))
         if root.right:
-            mindepth = min(mindepth, self.minDepth(root.right))
+            minimum = min(minimum, self.minDepth(root.right))
 
-        return mindepth + 1
+        return int(minimum + 1)
 
 # @lc code=end
