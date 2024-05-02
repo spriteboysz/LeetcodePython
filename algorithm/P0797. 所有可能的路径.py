@@ -12,6 +12,7 @@ from typing import List
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         def dfs(i, path):
+            nonlocal graph
             if i == len(graph) - 1:
                 paths.append(path)
             for j in graph[i]:
