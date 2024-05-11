@@ -11,7 +11,11 @@ from typing import List
 
 class Solution:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
-        pass
+        ans = []
+        for index in sorted(range(len(people)), key=lambda i: (-people[i][0], people[i][1])):
+            p = people[index]
+            ans[p[1]:p[1]] = [p]
+        return ans
 
 
 if __name__ == '__main__':
