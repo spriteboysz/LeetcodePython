@@ -6,7 +6,6 @@ Date: 2024-05-10 23:03
 FileName: algorithm
 Description:P2641. 二叉树的堂兄弟节点 II.py 
 """
-from collections import defaultdict
 from typing import Optional
 
 from common.TreeNode import TreeNode
