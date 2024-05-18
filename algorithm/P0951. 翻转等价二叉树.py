@@ -27,3 +27,4 @@ if __name__ == '__main__':
     root1 = TreeNode.create('[1,2,3,4,5,6,null,null,null,7,8]')
     root2 = TreeNode.create('[1,3,2,null,6,4,5,null,null,null,null,8,7]')
     print(Solution().flipEquiv(root1, root2))
+
