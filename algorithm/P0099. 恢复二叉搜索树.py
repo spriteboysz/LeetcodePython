@@ -7,22 +7,10 @@ LastEditTime: 2022-04-13 23:09:29
 Description:
 FilePath: 99.恢复二叉搜索树.py
 """
-#
-# @lc app=leetcode.cn id=99 lang=python3
-#
-# [99] 恢复二叉搜索树
-#
 
-# @lc code=start
 from typing import Optional
 
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+from common.TreeNode import TreeNode
 
 
 class Solution:
@@ -30,6 +18,24 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        pass
 
-# @lc code=end
+        def dfs(node):
+            if not node:
+                return
+            dfs(node.left)
+            nodes1.append(node)
+            dfs(node.right)
+
+        nodes1 = []
+        dfs(root)
+        nodes2 = sorted(nodes1, key=lambda node: node.val)
+        for node1, node2 in zip(nodes1, nodes2):
+            if node1.val != node2.val:
+                node1.val, node2.val = node2.val, node1.val
+                return
+        print(root)
+
+
+if __name__ == '__main__':
+    root = TreeNode.create('[1,3,null,null,2]')
+    Solution().recoverTree(root)
