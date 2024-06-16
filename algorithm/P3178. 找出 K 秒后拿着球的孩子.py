@@ -17,3 +17,4 @@ class Solution:
 
 if __name__ == '__main__':
     print(Solution().numberOfChild(n=3, k=5))
+    print(Solution().numberOfChild(n=3, k=6))
