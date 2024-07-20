@@ -11,7 +11,13 @@ from typing import List
 
 class Solution:
     def validStrings(self, n: int) -> List[str]:
-        pass
+        ans = []
+        mask = (1 << n) - 1
+        for i in range(1 << n):
+            x = mask ^ i
+            if (x >> 1) & x == 0:
+                ans.append(f"{i:0{n}b}")
+        return ans
 
 
 if __name__ == '__main__':
